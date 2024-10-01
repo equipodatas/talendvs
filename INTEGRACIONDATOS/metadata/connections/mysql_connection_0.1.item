@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_9hPD8FWlEe-a7_fdZKdpLw" name="mysql_connection" id="_f5PEUFWlEe-a7_fdZKdpLw" label="mysql_connection" dataPackage="_-78HYFWlEe-a7_fdZKdpLw" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://149.130.174.115:3306/casino?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="vsjuanp" Password="enc:system.encryption.key.v1:amwwRJxo2/blXrUPO6GHKGoawSJ9DFnzGcCOr1T929KRuEsdSIo0TMpw3zM=" ServerName="149.130.174.115" DatasourceName="" FileFieldName="" SID="casino" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
-    <taggedValue xmi:id="_9hPrAFWlEe-a7_fdZKdpLw" tag="Is Conn Need Reload" value="false"/>
+  <TalendMetadata:DatabaseConnection xmi:id="_9hPD8FWlEe-a7_fdZKdpLw" name="mysql_connection" id="_f5PEUFWlEe-a7_fdZKdpLw" label="mysql_connection" dataPackage="_-78HYFWlEe-a7_fdZKdpLw" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://132.145.165.114:3306/casino?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="vsjuanp" Password="enc:system.encryption.key.v1:amwwRJxo2/blXrUPO6GHKGoawSJ9DFnzGcCOr1T929KRuEsdSIo0TMpw3zM=" ServerName="132.145.165.114" DatasourceName="" FileFieldName="" SID="casino" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_9hPrAFWlEe-a7_fdZKdpLw" tag="Is Conn Need Reload" value="true"/>
     <taggedValue xmi:id="_9h3WEFWlEe-a7_fdZKdpLw" tag="package filter" value=""/>
     <taggedValue xmi:id="_9iC8QFWlEe-a7_fdZKdpLw" tag="Status" value=""/>
     <taggedValue xmi:id="_9iC8QVWlEe-a7_fdZKdpLw" tag="Version" value="0.1"/>
@@ -10,9 +10,10 @@
     <taggedValue xmi:id="_9iC8RFWlEe-a7_fdZKdpLw" tag="Author" value=""/>
     <taggedValue xmi:id="_9iC8RVWlEe-a7_fdZKdpLw" tag="otherParameter"/>
     <taggedValue xmi:id="_9_KWEFWlEe-a7_fdZKdpLw" tag="DB ProductName" value="MySQL"/>
-    <taggedValue xmi:id="_9_KWEVWlEe-a7_fdZKdpLw" tag="DB ProductVersion" value="8.4.0-u2-cloud"/>
+    <taggedValue xmi:id="_9_KWEVWlEe-a7_fdZKdpLw" tag="DB ProductVersion" value="8.4.0-u3-cloud"/>
     <taggedValue xmi:id="_9_KWElWlEe-a7_fdZKdpLw" tag="DB IdentifierQuoteString" value="`"/>
     <parameters xmi:id="_9hPrAVWlEe-a7_fdZKdpLw" key="CONN_PARA_KEY_USERNAME" value="vsjuanp"/>
+    <parameters xmi:id="_XdyLAIAjEe-lvsTg4qxV_Q" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_-78HYFWlEe-a7_fdZKdpLw" name="casino" dataManager="_9hPD8FWlEe-a7_fdZKdpLw">
     <ownedElement xsi:type="relational:TdTable" xmi:id="_pAJ6oFWnEe-QjtVkLmVPSw" name="usuario_perfil" id="_pAJTkFWnEe-QjtVkLmVPSw" label="usuario_perfil" tableType="TABLE">
