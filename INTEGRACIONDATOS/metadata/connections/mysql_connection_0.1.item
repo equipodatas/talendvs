@@ -3649,17 +3649,17 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_QY1-bV8CEe-n7NcGbrUC9Q" name="estado" label="estado" length="1" precision="-1" sourceType="VARCHAR" talendType="id_String" nullable="false">
         <taggedValue xmi:id="_QY1-bl8CEe-n7NcGbrUC9Q" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_QY1-b18CEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_QY1-b18CEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_QY1-cF8CEe-n7NcGbrUC9Q" name="ENUM" numericPrecisionRadix="10" javaDataType="1"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_QY1-cV8CEe-n7NcGbrUC9Q" name="verifica" label="verifica" length="1" precision="-1" sourceType="VARCHAR" talendType="id_String" nullable="false">
         <taggedValue xmi:id="_QY1-cl8CEe-n7NcGbrUC9Q" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_QY1-c18CEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_QY1-c18CEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_QY1-dF8CEe-n7NcGbrUC9Q" name="ENUM" numericPrecisionRadix="10" javaDataType="1"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_QY1-dV8CEe-n7NcGbrUC9Q" name="filtro_pais" label="filtro_pais" length="1" precision="-1" sourceType="VARCHAR" talendType="id_String" nullable="false">
         <taggedValue xmi:id="_QY1-dl8CEe-n7NcGbrUC9Q" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_QY1-d18CEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_QY1-d18CEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_QY1-eF8CEe-n7NcGbrUC9Q" name="ENUM" numericPrecisionRadix="10" javaDataType="1"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_QY1-eV8CEe-n7NcGbrUC9Q" name="max" label="max" length="22" sourceType="DOUBLE" talendType="id_Double">
@@ -3674,12 +3674,12 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_QY1-gV8CEe-n7NcGbrUC9Q" name="tiempo_procesamiento" label="tiempo_procesamiento" length="255" precision="-1" sourceType="VARCHAR" talendType="id_String">
         <taggedValue xmi:id="_QY1-gl8CEe-n7NcGbrUC9Q" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_QY1-g18CEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_QY1-g18CEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_QY1-hF8CEe-n7NcGbrUC9Q" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_QY1-hV8CEe-n7NcGbrUC9Q" name="fecha_crea" comment="Fecha de creacion" label="fecha_crea" length="19" sourceType="TIMESTAMP" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;">
         <taggedValue xmi:id="_QY1-hl8CEe-n7NcGbrUC9Q" tag="Comment" value="Fecha de creacion"/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_QY1-h18CEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_QY1-h18CEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_QY1-iF8CEe-n7NcGbrUC9Q" name="TIMESTAMP" numericPrecisionRadix="10" javaDataType="93"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_QY1-iV8CEe-n7NcGbrUC9Q" name="usucrea_id" comment="Id Usuario de Creacion" label="usucrea_id" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
@@ -3689,7 +3689,7 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_QY1-jV8CEe-n7NcGbrUC9Q" name="fecha_modif" comment="Fecha de modificación." label="fecha_modif" length="19" precision="-1" sourceType="TIMESTAMP" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;">
         <taggedValue xmi:id="_QY1-jl8CEe-n7NcGbrUC9Q" tag="Comment" value="Fecha de modificación."/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_QY1-j18CEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_QY1-j18CEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_QY1-kF8CEe-n7NcGbrUC9Q" name="TIMESTAMP" numericPrecisionRadix="10" javaDataType="93"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_QY1-kV8CEe-n7NcGbrUC9Q" name="usumodif_id" comment="Id Usuario de Modificación" label="usumodif_id" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
@@ -3744,7 +3744,7 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_QY1-uV8CEe-n7NcGbrUC9Q" name="habilitacion" label="habilitacion" length="1" precision="-1" sourceType="VARCHAR" talendType="id_String">
         <taggedValue xmi:id="_QY1-ul8CEe-n7NcGbrUC9Q" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_QY1-u18CEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_QY1-u18CEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_QY1-vF8CEe-n7NcGbrUC9Q" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_QY1-vV8CEe-n7NcGbrUC9Q" name="codigo_minsetur" label="codigo_minsetur" length="225" precision="-1" sourceType="VARCHAR" talendType="id_String">
