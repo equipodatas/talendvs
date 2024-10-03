@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_MqvuEIEGEe-g-KCc-OKfsQ" confirmationNeeded="false" hide="true" name="Default">
+    <contextParameter xmi:id="_MqvuEYEGEe-g-KCc-OKfsQ" comment="database de snowflake utilizada" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_jKt7EIEGEe-g-KCc-OKfsQ" comment="schema de test" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_eUHJwIEMEe-g-KCc-OKfsQ" comment="usuario de etl" name="user" prompt="user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_eUHJwYEMEe-g-KCc-OKfsQ" comment="pass" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_eUHJwoEMEe-g-KCc-OKfsQ" comment="host" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_6YurEIEMEe-g-KCc-OKfsQ" comment="warehouse etl" name="warehouse" prompt="warehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_MqvuEoEGEe-g-KCc-OKfsQ" confirmationNeeded="false" hide="false" name="dev">
+    <contextParameter xmi:id="_MqvuE4EGEe-g-KCc-OKfsQ" comment="database de snowflake utilizada" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="test_db"/>
+    <contextParameter xmi:id="_jKt7EYEGEe-g-KCc-OKfsQ" comment="schema de test" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="silver"/>
+    <contextParameter xmi:id="_eUHJw4EMEe-g-KCc-OKfsQ" comment="usuario de etl" name="user" prompt="user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;ETL_USER&quot;"/>
+    <contextParameter xmi:id="_eUHJxIEMEe-g-KCc-OKfsQ" comment="pass" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Virtualsoft24*"/>
+    <contextParameter xmi:id="_eUHJxYEMEe-g-KCc-OKfsQ" comment="host" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;sxb63420.us-east-1&quot;"/>
+    <contextParameter xmi:id="_6YurEYEMEe-g-KCc-OKfsQ" comment="warehouse etl" name="warehouse" prompt="warehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;ETL_WH&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_mcWuIIEKEe-g-KCc-OKfsQ" confirmationNeeded="false" hide="false" name="prod">
+    <contextParameter xmi:id="_mcWuIYEKEe-g-KCc-OKfsQ" comment="database de snowflake utilizada" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="prod_db"/>
+    <contextParameter xmi:id="_mcWuIoEKEe-g-KCc-OKfsQ" comment="schema de test" name="schema" prompt="schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="axe"/>
+    <contextParameter xmi:id="_eUHJxoEMEe-g-KCc-OKfsQ" comment="usuario de etl" name="user" prompt="user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;ETL_USER&quot;"/>
+    <contextParameter xmi:id="_eUHJx4EMEe-g-KCc-OKfsQ" comment="pass" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Virtualsoft24*"/>
+    <contextParameter xmi:id="_eUHJyIEMEe-g-KCc-OKfsQ" comment="host" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="sxb63420.us-east-1"/>
+    <contextParameter xmi:id="_6YurEoEMEe-g-KCc-OKfsQ" comment="warehouse etl" name="warehouse" prompt="warehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;ETL_WH&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>
