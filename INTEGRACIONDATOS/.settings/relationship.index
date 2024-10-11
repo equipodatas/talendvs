@@ -673,10 +673,6 @@
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw",
     "version" : "Latest",
     "type" : "property"
-  }, {
-    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - transaccion_producto",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
