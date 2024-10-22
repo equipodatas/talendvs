@@ -54,6 +54,9 @@
     }, {
       "id" : "_Fs9vY4GYEe-g-KCc-OKfsQ",
       "name" : "snowflake_connection_oauthProperties_scope"
+    }, {
+      "id" : "_UBnCgJCfEe-WCPAy57veuw",
+      "name" : "ruta"
     } ]
   } ]
 }

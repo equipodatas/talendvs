@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_KbDxQJCaEe-WCPAy57veuw" confirmationNeeded="false" hide="true" name="Default">
+    <contextParameter xmi:id="_KbDxQZCaEe-WCPAy57veuw" comment="" name="ruta" prompt="ruta?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_KbDxQ5CaEe-WCPAy57veuw" confirmationNeeded="false" hide="false" name="local">
+    <contextParameter xmi:id="_KbDxRJCaEe-WCPAy57veuw" comment="" name="ruta" prompt="ruta?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/Users/Juan Pablo/Downloads/quality_tablas_count.csv&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_KbDxRpCaEe-WCPAy57veuw" confirmationNeeded="false" hide="false" name="servidor">
+    <contextParameter xmi:id="_KbDxR5CaEe-WCPAy57veuw" comment="" name="ruta" prompt="ruta?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:\Users\opc\Downloads\quality_tablas_count.csv&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>
