@@ -18,7 +18,7 @@
     <contextParameter xmi:id="_Fs9vYYGYEe-g-KCc-OKfsQ" comment="" name="snowflake_connection_oauthProperties_clientId" prompt="snowflake_connection_oauthProperties_clientId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_Fs9vYoGYEe-g-KCc-OKfsQ" comment="" name="snowflake_connection_keyAlias" prompt="snowflake_connection_keyAlias?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_Fs9vY4GYEe-g-KCc-OKfsQ" comment="" name="snowflake_connection_oauthProperties_scope" prompt="snowflake_connection_oauthProperties_scope?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_UBnCgJCfEe-WCPAy57veuw" comment="" name="ruta" prompt="ruta?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:\\Users\\Juan Pablo\\Downloads\\quality_tablas_count.csv&quot;"/>
+    <contextParameter xmi:id="_UBnCgJCfEe-WCPAy57veuw" comment="" name="ruta" prompt="ruta?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\\Users\\Juan Pablo\\Downloads\\quality_tablas_count.csv"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_Fs9vZIGYEe-g-KCc-OKfsQ" confirmationNeeded="false" hide="false" name="prod">
     <contextParameter xmi:id="_Fs9vZYGYEe-g-KCc-OKfsQ" comment="" name="snowflake_connection_loginTimeout" prompt="snowflake_connection_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15"/>
@@ -38,7 +38,7 @@
     <contextParameter xmi:id="_Fs9vc4GYEe-g-KCc-OKfsQ" comment="" name="snowflake_connection_oauthProperties_clientId" prompt="snowflake_connection_oauthProperties_clientId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_Fs9vdIGYEe-g-KCc-OKfsQ" comment="" name="snowflake_connection_keyAlias" prompt="snowflake_connection_keyAlias?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_Fs9vdYGYEe-g-KCc-OKfsQ" comment="" name="snowflake_connection_oauthProperties_scope" prompt="snowflake_connection_oauthProperties_scope?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_UBnCgZCfEe-WCPAy57veuw" comment="" name="ruta" prompt="ruta?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:\\Users\\opc\\Downloads\\quality_tablas_count.csv&quot;"/>
+    <contextParameter xmi:id="_UBnCgZCfEe-WCPAy57veuw" comment="" name="ruta" prompt="ruta?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\\Users\\opc\\Downloads\\quality_tablas_count.csv"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_J_c4sJCtEe-WCPAy57veuw" confirmationNeeded="false" hide="false" name="prod_test">
     <contextParameter xmi:id="_J_c4sZCtEe-WCPAy57veuw" comment="" name="snowflake_connection_loginTimeout" prompt="snowflake_connection_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15"/>
@@ -58,6 +58,6 @@
     <contextParameter xmi:id="_J_c4v5CtEe-WCPAy57veuw" comment="" name="snowflake_connection_oauthProperties_clientId" prompt="snowflake_connection_oauthProperties_clientId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_J_c4wJCtEe-WCPAy57veuw" comment="" name="snowflake_connection_keyAlias" prompt="snowflake_connection_keyAlias?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_J_c4wZCtEe-WCPAy57veuw" comment="" name="snowflake_connection_oauthProperties_scope" prompt="snowflake_connection_oauthProperties_scope?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_J_c4wpCtEe-WCPAy57veuw" comment="" name="ruta" prompt="ruta?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:\\Users\\Juan Pablo\\Downloads\\quality_tablas_count.csv&quot;"/>
+    <contextParameter xmi:id="_J_c4wpCtEe-WCPAy57veuw" comment="" name="ruta" prompt="ruta?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\\Users\\Juan Pablo\\Downloads\\quality_tablas_count.csv"/>
   </talendfile:ContextType>
 </xmi:XMI>
