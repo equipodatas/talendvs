@@ -219,21 +219,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_APwtwJFREe-WCPAy57veuw",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "INTEGRACIONDATOS:_Oen9AJFNEe-WCPAy57veuw",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "INTEGRACIONDATOS:_WUnW8JFPEe-WCPAy57veuw",
-    "version" : "Latest",
-    "type" : "job"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_AwFj0GilEe-V8JDPo_SJTA",
     "version" : "0.1",
     "type" : "job"
@@ -589,25 +574,6 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_Oen9AJFNEe-WCPAy57veuw",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "_lwIUoJFNEe-WCPAy57veuw",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_enIVloWwEe-2W6PUL7QLjw - producto",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_enIVloWwEe-2W6PUL7QLjw - proveedor",
-    "version" : "Latest",
-    "type" : "schema"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_Q7UqYGdHEe-V8JDPo_SJTA",
     "version" : "0.1",
     "type" : "job"
@@ -720,6 +686,25 @@
     "type" : "property"
   }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - transaccion_juego",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_W-PIcJFfEe-txKHo-HwMyg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_lwIUoJFNEe-WCPAy57veuw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_enIVloWwEe-2W6PUL7QLjw - producto",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_enIVloWwEe-2W6PUL7QLjw - proveedor",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -935,6 +920,29 @@
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw",
     "version" : "Latest",
     "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_hsHjQJFmEe-txKHo-HwMyg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - cuenta_cobro",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
