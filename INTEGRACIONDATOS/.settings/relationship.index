@@ -738,7 +738,11 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_5vBZwFWpEe-2T9JNcxp4eA",
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
     "version" : "Latest",
     "type" : "property"
   }, {
@@ -960,6 +964,10 @@
     "type" : "property"
   }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - cuenta_cobro",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - transaccion_producto",
     "version" : "Latest",
     "type" : "schema"
   } ]
