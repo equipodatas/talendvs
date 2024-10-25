@@ -4169,12 +4169,12 @@
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkKgVF8zEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkKgVV8zEe-n7NcGbrUC9Q" name="SMALLINT UNSIGNED" numericPrecisionRadix="10" javaDataType="5"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_gkKgVl8zEe-n7NcGbrUC9Q" name="fecha_crea" comment="Fecha de creacion" label="fecha_crea" length="10" precision="-1" sourceType="VARCHAR" talendType="id_String" nullable="false">
+      <feature xsi:type="relational:TdColumn" xmi:id="_gkKgVl8zEe-n7NcGbrUC9Q" name="fecha_crea" comment="Fecha de creacion" label="fecha_crea" length="10" precision="-1" sourceType="DATE" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd&quot;">
         <taggedValue xmi:id="_gkKgV18zEe-n7NcGbrUC9Q" tag="Comment" value="Fecha de creacion"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkKgWF8zEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkKgWV8zEe-n7NcGbrUC9Q" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_gkKgWl8zEe-n7NcGbrUC9Q" name="hora_crea" comment="Hora de creacion" label="hora_crea" length="8" precision="-1" sourceType="VARCHAR" talendType="id_String" nullable="false">
+      <feature xsi:type="relational:TdColumn" xmi:id="_gkKgWl8zEe-n7NcGbrUC9Q" name="hora_crea" comment="Hora de creacion" label="hora_crea" length="8" precision="-1" sourceType="TIME" talendType="id_Date" nullable="false" pattern="&quot;HH:MM:SS&quot;">
         <taggedValue xmi:id="_gkKgW18zEe-n7NcGbrUC9Q" tag="Comment" value="Hora de creacion"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkKgXF8zEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkKgXV8zEe-n7NcGbrUC9Q" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
@@ -4189,12 +4189,12 @@
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkKgZF8zEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkKgZV8zEe-n7NcGbrUC9Q" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_gkKgZl8zEe-n7NcGbrUC9Q" name="fecha_pago" comment="Fecha de pago" label="fecha_pago" length="10" precision="-1" sourceType="VARCHAR" talendType="id_String">
+      <feature xsi:type="relational:TdColumn" xmi:id="_gkKgZl8zEe-n7NcGbrUC9Q" name="fecha_pago" comment="Fecha de pago" label="fecha_pago" length="10" precision="-1" sourceType="DATE" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
         <taggedValue xmi:id="_gkKgZ18zEe-n7NcGbrUC9Q" tag="Comment" value="Fecha de pago"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkKgaF8zEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkKgaV8zEe-n7NcGbrUC9Q" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_gkKgal8zEe-n7NcGbrUC9Q" name="hora_pago" comment="Hora de pago" label="hora_pago" length="8" precision="-1" sourceType="VARCHAR" talendType="id_String">
+      <feature xsi:type="relational:TdColumn" xmi:id="_gkKgal8zEe-n7NcGbrUC9Q" name="hora_pago" comment="Hora de pago" label="hora_pago" length="8" precision="-1" sourceType="TIME" talendType="id_Date" pattern="&quot;HH:MM:SS&quot;">
         <taggedValue xmi:id="_gkKga18zEe-n7NcGbrUC9Q" tag="Comment" value="Hora de pago"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkKgbF8zEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkKgbV8zEe-n7NcGbrUC9Q" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
@@ -4214,17 +4214,17 @@
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkKgeF8zEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkKgeV8zEe-n7NcGbrUC9Q" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_gkKgel8zEe-n7NcGbrUC9Q" name="fecha_maxpago" comment="Fecha vencimiento premio" label="fecha_maxpago" length="10" precision="-1" sourceType="VARCHAR" talendType="id_String">
+      <feature xsi:type="relational:TdColumn" xmi:id="_gkKgel8zEe-n7NcGbrUC9Q" name="fecha_maxpago" comment="Fecha vencimiento premio" label="fecha_maxpago" length="10" precision="-1" sourceType="DATE" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
         <taggedValue xmi:id="_gkKge18zEe-n7NcGbrUC9Q" tag="Comment" value="Fecha vencimiento premio"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkKgfF8zEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkKgfV8zEe-n7NcGbrUC9Q" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_gkKgfl8zEe-n7NcGbrUC9Q" name="fecha_cierre" comment="Fecha de cierre" label="fecha_cierre" length="10" precision="-1" sourceType="VARCHAR" talendType="id_String">
+      <feature xsi:type="relational:TdColumn" xmi:id="_gkKgfl8zEe-n7NcGbrUC9Q" name="fecha_cierre" comment="Fecha de cierre" label="fecha_cierre" length="10" precision="-1" sourceType="DATE" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;">
         <taggedValue xmi:id="_gkKgf18zEe-n7NcGbrUC9Q" tag="Comment" value="Fecha de cierre"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkKggF8zEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkKggV8zEe-n7NcGbrUC9Q" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_gkLHQF8zEe-n7NcGbrUC9Q" name="hora_cierre" comment="Hora de cierre" label="hora_cierre" length="8" precision="-1" sourceType="VARCHAR" talendType="id_String">
+      <feature xsi:type="relational:TdColumn" xmi:id="_gkLHQF8zEe-n7NcGbrUC9Q" name="hora_cierre" comment="Hora de cierre" label="hora_cierre" length="8" precision="-1" sourceType="TIME" talendType="id_Date" pattern="&quot;HH:MM:SS&quot;">
         <taggedValue xmi:id="_gkLHQV8zEe-n7NcGbrUC9Q" tag="Comment" value="Hora de cierre"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkLHQl8zEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkLHQ18zEe-n7NcGbrUC9Q" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
@@ -4239,7 +4239,7 @@
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkLHSl8zEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkLHS18zEe-n7NcGbrUC9Q" name="BIGINT" numericPrecisionRadix="10" javaDataType="-5"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_gkLHTF8zEe-n7NcGbrUC9Q" name="fecha_modifica" comment="Fecha ultima modificacion" label="fecha_modifica" length="20" precision="-1" sourceType="VARCHAR" talendType="id_String">
+      <feature xsi:type="relational:TdColumn" xmi:id="_gkLHTF8zEe-n7NcGbrUC9Q" name="fecha_modifica" comment="Fecha ultima modificacion" label="fecha_modifica" length="20" precision="-1" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;">
         <taggedValue xmi:id="_gkLHTV8zEe-n7NcGbrUC9Q" tag="Comment" value="Fecha ultima modificacion"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkLHTl8zEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkLHT18zEe-n7NcGbrUC9Q" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
@@ -4309,27 +4309,27 @@
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkLHgl8zEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkLHg18zEe-n7NcGbrUC9Q" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_gkLHhF8zEe-n7NcGbrUC9Q" name="fecha_crea_time" label="fecha_crea_time" length="19" precision="-1" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;">
+      <feature xsi:type="relational:TdColumn" xmi:id="_gkLHhF8zEe-n7NcGbrUC9Q" name="fecha_crea_time" label="fecha_crea_time" length="19" precision="-1" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;">
         <taggedValue xmi:id="_gkLHhV8zEe-n7NcGbrUC9Q" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkLHhl8zEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkLHh18zEe-n7NcGbrUC9Q" name="TIMESTAMP" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_gkLHiF8zEe-n7NcGbrUC9Q" name="fecha_pago_time" label="fecha_pago_time" length="19" precision="-1" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;">
+      <feature xsi:type="relational:TdColumn" xmi:id="_gkLHiF8zEe-n7NcGbrUC9Q" name="fecha_pago_time" label="fecha_pago_time" length="19" precision="-1" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;">
         <taggedValue xmi:id="_gkLHiV8zEe-n7NcGbrUC9Q" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkLHil8zEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkLHi18zEe-n7NcGbrUC9Q" name="TIMESTAMP" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_gkLHjF8zEe-n7NcGbrUC9Q" name="fecha_cierre_time" label="fecha_cierre_time" length="19" precision="-1" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;">
+      <feature xsi:type="relational:TdColumn" xmi:id="_gkLHjF8zEe-n7NcGbrUC9Q" name="fecha_cierre_time" label="fecha_cierre_time" length="19" precision="-1" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;">
         <taggedValue xmi:id="_gkLHjV8zEe-n7NcGbrUC9Q" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkLHjl8zEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkLHj18zEe-n7NcGbrUC9Q" name="TIMESTAMP" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_gkLHkF8zEe-n7NcGbrUC9Q" name="fecha_modifica_time" label="fecha_modifica_time" length="19" precision="-1" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;">
+      <feature xsi:type="relational:TdColumn" xmi:id="_gkLHkF8zEe-n7NcGbrUC9Q" name="fecha_modifica_time" label="fecha_modifica_time" length="19" precision="-1" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;">
         <taggedValue xmi:id="_gkLHkV8zEe-n7NcGbrUC9Q" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkLHkl8zEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkLHk18zEe-n7NcGbrUC9Q" name="TIMESTAMP" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_gkLHlF8zEe-n7NcGbrUC9Q" name="fecha_maxpago_time" label="fecha_maxpago_time" length="19" precision="-1" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;">
+      <feature xsi:type="relational:TdColumn" xmi:id="_gkLHlF8zEe-n7NcGbrUC9Q" name="fecha_maxpago_time" label="fecha_maxpago_time" length="19" precision="-1" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;">
         <taggedValue xmi:id="_gkLHlV8zEe-n7NcGbrUC9Q" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_gkLHll8zEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_gkLHl18zEe-n7NcGbrUC9Q" name="TIMESTAMP" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
