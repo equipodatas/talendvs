@@ -1,7 +1,7 @@
 {
-  "itemId" : "_7kr_MJYFEe-2keSUGTkiUQ",
+  "itemId" : "_vhjrEGpAEe-V8JDPo_SJTA",
   "contextList" : [ {
-    "contextName" : "dev",
+    "contextName" : "Default",
     "repoId" : "_FsdY8IGYEe-g-KCc-OKfsQ",
     "parameterList" : [ {
       "id" : "_Fs9vU4GYEe-g-KCc-OKfsQ",
@@ -54,6 +54,9 @@
     }, {
       "id" : "_Fs9vY4GYEe-g-KCc-OKfsQ",
       "name" : "snowflake_connection_oauthProperties_scope"
+    }, {
+      "id" : "_UBnCgJCfEe-WCPAy57veuw",
+      "name" : "ruta"
     } ]
   }, {
     "contextName" : "prod",
@@ -109,6 +112,67 @@
     }, {
       "id" : "_Fs9vdYGYEe-g-KCc-OKfsQ",
       "name" : "snowflake_connection_oauthProperties_scope"
+    }, {
+      "id" : "_UBnCgZCfEe-WCPAy57veuw",
+      "name" : "ruta"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "parameterList" : [ {
+      "id" : "_Fs9vU4GYEe-g-KCc-OKfsQ",
+      "name" : "snowflake_connection_loginTimeout"
+    }, {
+      "id" : "_Fs9vVIGYEe-g-KCc-OKfsQ",
+      "name" : "snowflake_connection_warehouse"
+    }, {
+      "id" : "_Fs9vVYGYEe-g-KCc-OKfsQ",
+      "name" : "snowflake_connection_oauthProperties_clientSecret"
+    }, {
+      "id" : "_Fs9vVoGYEe-g-KCc-OKfsQ",
+      "name" : "snowflake_connection_oauthProperties_oauthTokenEndpoint"
+    }, {
+      "id" : "_Fs9vV4GYEe-g-KCc-OKfsQ",
+      "name" : "snowflake_connection_jdbcParameters"
+    }, {
+      "id" : "_Fs9vWIGYEe-g-KCc-OKfsQ",
+      "name" : "snowflake_connection_regionID"
+    }, {
+      "id" : "_Fs9vWYGYEe-g-KCc-OKfsQ",
+      "name" : "snowflake_connection_oauthProperties_oauthUserName"
+    }, {
+      "id" : "_Fs9vWoGYEe-g-KCc-OKfsQ",
+      "name" : "snowflake_connection_userPassword_password"
+    }, {
+      "id" : "_Fs9vW4GYEe-g-KCc-OKfsQ",
+      "name" : "snowflake_connection_oauthProperties_oauthPassword"
+    }, {
+      "id" : "_Fs9vXIGYEe-g-KCc-OKfsQ",
+      "name" : "snowflake_connection_userPassword_userId"
+    }, {
+      "id" : "_Fs9vXYGYEe-g-KCc-OKfsQ",
+      "name" : "snowflake_connection_schemaName"
+    }, {
+      "id" : "_Fs9vXoGYEe-g-KCc-OKfsQ",
+      "name" : "snowflake_connection_db"
+    }, {
+      "id" : "_Fs9vX4GYEe-g-KCc-OKfsQ",
+      "name" : "snowflake_connection_role"
+    }, {
+      "id" : "_Fs9vYIGYEe-g-KCc-OKfsQ",
+      "name" : "snowflake_connection_account"
+    }, {
+      "id" : "_Fs9vYYGYEe-g-KCc-OKfsQ",
+      "name" : "snowflake_connection_oauthProperties_clientId"
+    }, {
+      "id" : "_Fs9vYoGYEe-g-KCc-OKfsQ",
+      "name" : "snowflake_connection_keyAlias"
+    }, {
+      "id" : "_Fs9vY4GYEe-g-KCc-OKfsQ",
+      "name" : "snowflake_connection_oauthProperties_scope"
+    }, {
+      "id" : "_UBnCgJCfEe-WCPAy57veuw",
+      "name" : "ruta"
     } ]
   }, {
     "contextName" : "prod_test",
@@ -164,6 +228,9 @@
     }, {
       "id" : "_J_c4wZCtEe-WCPAy57veuw",
       "name" : "snowflake_connection_oauthProperties_scope"
+    }, {
+      "id" : "_J_c4wpCtEe-WCPAy57veuw",
+      "name" : "ruta"
     } ]
   } ]
 }

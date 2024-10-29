@@ -160,7 +160,23 @@
     "version" : "Latest",
     "type" : "property"
   }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - it_ticket_det",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - it_ticket_enc",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - it_ticket_enc_info1",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - it_transaccion",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_deporte_resumen",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -416,10 +432,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_5vBZwFWpEe-2T9JNcxp4eA",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw",
     "version" : "Latest",
     "type" : "property"
@@ -895,6 +907,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "INTEGRACIONDATOS:_7kr_MJYFEe-2keSUGTkiUQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
     "id" : "INTEGRACIONDATOS:_HjLMgGk6Ee-V8JDPo_SJTA",
     "version" : "Latest",
     "type" : "job"
@@ -1052,6 +1068,14 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw",
     "version" : "Latest",
     "type" : "property"
