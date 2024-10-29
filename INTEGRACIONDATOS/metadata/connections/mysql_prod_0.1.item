@@ -5829,7 +5829,7 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_yjZCpmdGEe-V8JDPo_SJTA" name="transaccion_id" comment="Id de la transacion" label="transaccion_id" length="20" precision="-1" sourceType="VARCHAR" talendType="id_String" nullable="false">
         <taggedValue xmi:id="_yjZCp2dGEe-V8JDPo_SJTA" tag="Comment" value="Id de la transacion"/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_yjZCqGdGEe-V8JDPo_SJTA" body="" language="COLUMN_DEF"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_yjZCqGdGEe-V8JDPo_SJTA" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_yjZCqWdGEe-V8JDPo_SJTA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_yjZCqmdGEe-V8JDPo_SJTA" name="ticket_id" comment="Numero del ticket" label="ticket_id" length="15" precision="-1" sourceType="VARCHAR" talendType="id_String" nullable="false">
@@ -5857,12 +5857,12 @@
         <initialValue xsi:type="relational:TdExpression" xmi:id="_yjZCvGdGEe-V8JDPo_SJTA" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_yjZCvWdGEe-V8JDPo_SJTA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_yjZCvmdGEe-V8JDPo_SJTA" name="fecha_crea" comment="Fecha de creacion" label="fecha_crea" length="10" precision="-1" sourceType="VARCHAR" talendType="id_String" nullable="false">
+      <feature xsi:type="relational:TdColumn" xmi:id="_yjZCvmdGEe-V8JDPo_SJTA" name="fecha_crea" comment="Fecha de creacion" label="fecha_crea" length="10" precision="-1" sourceType="DATE" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd&quot;">
         <taggedValue xmi:id="_yjZCv2dGEe-V8JDPo_SJTA" tag="Comment" value="Fecha de creacion"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_yjZCwGdGEe-V8JDPo_SJTA" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_yjZCwWdGEe-V8JDPo_SJTA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_yjZCwmdGEe-V8JDPo_SJTA" name="hora_crea" comment="Hora de creacion" label="hora_crea" length="8" precision="-1" sourceType="VARCHAR" talendType="id_String" nullable="false">
+      <feature xsi:type="relational:TdColumn" xmi:id="_yjZCwmdGEe-V8JDPo_SJTA" name="hora_crea" comment="Hora de creacion" label="hora_crea" length="8" precision="-1" sourceType="TIME" talendType="id_Date" nullable="false" pattern="&quot;hh:mm:ss&quot;">
         <taggedValue xmi:id="_yjZCw2dGEe-V8JDPo_SJTA" tag="Comment" value="Hora de creacion"/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_yjZCxGdGEe-V8JDPo_SJTA" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_yjZCxWdGEe-V8JDPo_SJTA" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
