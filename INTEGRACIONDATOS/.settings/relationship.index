@@ -911,15 +911,7 @@
     "version" : "Latest",
     "type" : "job"
   }, {
-    "id" : "INTEGRACIONDATOS:_HjLMgGk6Ee-V8JDPo_SJTA",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "INTEGRACIONDATOS:_Yv-HQITnEe-2W6PUL7QLjw",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "INTEGRACIONDATOS:_bCgHMIS-Ee-2W6PUL7QLjw",
+    "id" : "INTEGRACIONDATOS:_tNyG0JbQEe-2keSUGTkiUQ",
     "version" : "Latest",
     "type" : "job"
   } ]
@@ -988,6 +980,29 @@
     "type" : "property"
   }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - data_completa2",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_tNyG0JbQEe-2keSUGTkiUQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - cuenta_cobro",
     "version" : "Latest",
     "type" : "schema"
   } ]
