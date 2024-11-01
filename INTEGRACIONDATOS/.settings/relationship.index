@@ -1194,11 +1194,7 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - cuenta_cobro",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usucasino_detalle_resumen",
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - bono_interno",
     "version" : "Latest",
     "type" : "schema"
   } ]
