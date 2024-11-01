@@ -1193,5 +1193,13 @@
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - bono_interno",
     "version" : "Latest",
     "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - bono_log",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_bono",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 } ]
