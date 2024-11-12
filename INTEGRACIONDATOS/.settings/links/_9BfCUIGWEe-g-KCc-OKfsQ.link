@@ -1,65 +1,83 @@
 {
   "itemId" : "_9BfCUIGWEe-g-KCc-OKfsQ",
   "contextList" : [ {
-    "contextName" : "dev",
+    "contextName" : "prod",
     "repoId" : "_FsdY8IGYEe-g-KCc-OKfsQ",
     "parameterList" : [ {
-      "id" : "_Fs9vU4GYEe-g-KCc-OKfsQ",
+      "id" : "_J_c4sZCtEe-WCPAy57veuw",
       "name" : "snowflake_connection_loginTimeout"
     }, {
-      "id" : "_Fs9vVIGYEe-g-KCc-OKfsQ",
+      "id" : "_J_c4spCtEe-WCPAy57veuw",
       "name" : "snowflake_connection_warehouse"
     }, {
-      "id" : "_Fs9vVYGYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_oauthProperties_clientSecret"
+      "id" : "_J_c4uJCtEe-WCPAy57veuw",
+      "name" : "snowflake_connection_password"
     }, {
-      "id" : "_Fs9vVoGYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_oauthProperties_oauthTokenEndpoint"
+      "id" : "_J_c4upCtEe-WCPAy57veuw",
+      "name" : "snowflake_connection_user"
     }, {
-      "id" : "_Fs9vV4GYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_jdbcParameters"
+      "id" : "_J_c4u5CtEe-WCPAy57veuw",
+      "name" : "snowflake_connection_schema"
     }, {
-      "id" : "_Fs9vWIGYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_regionID"
-    }, {
-      "id" : "_Fs9vWYGYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_oauthProperties_oauthUserName"
-    }, {
-      "id" : "_Fs9vWoGYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_userPassword_password"
-    }, {
-      "id" : "_Fs9vW4GYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_oauthProperties_oauthPassword"
-    }, {
-      "id" : "_Fs9vXIGYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_userPassword_userId"
-    }, {
-      "id" : "_Fs9vXYGYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_schemaName"
-    }, {
-      "id" : "_Fs9vXoGYEe-g-KCc-OKfsQ",
+      "id" : "_J_c4vJCtEe-WCPAy57veuw",
       "name" : "snowflake_connection_db"
     }, {
-      "id" : "_Fs9vX4GYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_role"
-    }, {
-      "id" : "_Fs9vYIGYEe-g-KCc-OKfsQ",
+      "id" : "_J_c4vpCtEe-WCPAy57veuw",
       "name" : "snowflake_connection_account"
     }, {
-      "id" : "_Fs9vYYGYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_oauthProperties_clientId"
+      "id" : "_J_c4wpCtEe-WCPAy57veuw",
+      "name" : "ruta_quality_row_count"
     }, {
-      "id" : "_Fs9vYoGYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_keyAlias"
+      "id" : "_rd-tDJ3qEe-d3LwU08hE-w",
+      "name" : "mysql_prod_host"
     }, {
-      "id" : "_Fs9vY4GYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_oauthProperties_scope"
+      "id" : "_rd-tDZ3qEe-d3LwU08hE-w",
+      "name" : "mysql_prod_user"
     }, {
-      "id" : "_UBnCgJCfEe-WCPAy57veuw",
-      "name" : "ruta"
+      "id" : "_rd-tDp3qEe-d3LwU08hE-w",
+      "name" : "mysql_prod_password"
     }, {
-      "id" : "_32q4sJFMEe-WCPAy57veuw",
-      "name" : "mysqlhost"
+      "id" : "_rd-tD53qEe-d3LwU08hE-w",
+      "name" : "mysql_prod_port"
+    }, {
+      "id" : "_rd-tEJ3qEe-d3LwU08hE-w",
+      "name" : "mysql_prod_database"
+    }, {
+      "id" : "_rd-tEZ3qEe-d3LwU08hE-w",
+      "name" : "mysql_prod_additional_parameters"
+    }, {
+      "id" : "_iHeaRp32Ee-d3LwU08hE-w",
+      "name" : "snowflake_suffix"
+    }, {
+      "id" : "_dZjBxp4SEe-S9_3HWziN3Q",
+      "name" : "snowflake_connection_jdcb_parameters"
+    }, {
+      "id" : "_dZjBx54SEe-S9_3HWziN3Q",
+      "name" : "snowflake_connection_role"
+    }, {
+      "id" : "_dZjByJ4SEe-S9_3HWziN3Q",
+      "name" : "snowflake_connection_region"
+    }, {
+      "id" : "_vBzR7p4SEe-S9_3HWziN3Q",
+      "name" : "new4"
+    }, {
+      "id" : "_vBzR754SEe-S9_3HWziN3Q",
+      "name" : "new5"
+    }, {
+      "id" : "_vBzR8J4SEe-S9_3HWziN3Q",
+      "name" : "new6"
+    }, {
+      "id" : "_vBzR8Z4SEe-S9_3HWziN3Q",
+      "name" : "new7"
+    }, {
+      "id" : "_vBzR8p4SEe-S9_3HWziN3Q",
+      "name" : "new8"
+    }, {
+      "id" : "_vBzR854SEe-S9_3HWziN3Q",
+      "name" : "new9"
+    }, {
+      "id" : "_vBzR9J4SEe-S9_3HWziN3Q",
+      "name" : "new10"
     } ]
   } ]
 }

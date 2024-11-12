@@ -26,16 +26,16 @@
       "name" : "snowflake_connection_oauthProperties_oauthUserName"
     }, {
       "id" : "_Fs9vWoGYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_userPassword_password"
+      "name" : "snowflake_connection_password"
     }, {
       "id" : "_Fs9vW4GYEe-g-KCc-OKfsQ",
       "name" : "snowflake_connection_oauthProperties_oauthPassword"
     }, {
       "id" : "_Fs9vXIGYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_userPassword_userId"
+      "name" : "snowflake_connection_user"
     }, {
       "id" : "_Fs9vXYGYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_schemaName"
+      "name" : "snowflake_connection_schema"
     }, {
       "id" : "_Fs9vXoGYEe-g-KCc-OKfsQ",
       "name" : "snowflake_connection_db"
@@ -81,16 +81,16 @@
       "name" : "snowflake_connection_oauthProperties_oauthUserName"
     }, {
       "id" : "_Fs9vbIGYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_userPassword_password"
+      "name" : "snowflake_connection_password"
     }, {
       "id" : "_Fs9vbYGYEe-g-KCc-OKfsQ",
       "name" : "snowflake_connection_oauthProperties_oauthPassword"
     }, {
       "id" : "_Fs9vboGYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_userPassword_userId"
+      "name" : "snowflake_connection_user"
     }, {
       "id" : "_Fs9vb4GYEe-g-KCc-OKfsQ",
-      "name" : "snowflake_connection_schemaName"
+      "name" : "snowflake_connection_schema"
     }, {
       "id" : "_Fs9vcIGYEe-g-KCc-OKfsQ",
       "name" : "snowflake_connection_db"
@@ -136,16 +136,16 @@
       "name" : "snowflake_connection_oauthProperties_oauthUserName"
     }, {
       "id" : "_J_c4uJCtEe-WCPAy57veuw",
-      "name" : "snowflake_connection_userPassword_password"
+      "name" : "snowflake_connection_password"
     }, {
       "id" : "_J_c4uZCtEe-WCPAy57veuw",
       "name" : "snowflake_connection_oauthProperties_oauthPassword"
     }, {
       "id" : "_J_c4upCtEe-WCPAy57veuw",
-      "name" : "snowflake_connection_userPassword_userId"
+      "name" : "snowflake_connection_user"
     }, {
       "id" : "_J_c4u5CtEe-WCPAy57veuw",
-      "name" : "snowflake_connection_schemaName"
+      "name" : "snowflake_connection_schema"
     }, {
       "id" : "_J_c4vJCtEe-WCPAy57veuw",
       "name" : "snowflake_connection_db"
