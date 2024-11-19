@@ -19,7 +19,7 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_6MXI4ITDEe-2W6PUL7QLjw",
+    "id" : "_2kC0gKXXEe-S9_3HWziN3Q",
     "version" : "0.1",
     "type" : "job"
   },
@@ -28,11 +28,34 @@
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "_yxgocJ1PEe-d3LwU08hE-w",
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
     "version" : "Latest",
-    "type" : "context"
+    "type" : "property"
   }, {
-    "id" : "built-in",
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - torneo_detalle",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - torneo_interno",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_torneo",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_6MXI4ITDEe-2W6PUL7QLjw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
     "version" : "Latest",
     "type" : "context"
   }, {
@@ -53,6 +76,10 @@
     "type" : "schema"
   }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - categoria_mandante",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - categoria_producto",
     "version" : "Latest",
     "type" : "schema"
   }, {
@@ -77,6 +104,10 @@
     "type" : "schema"
   }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - punto_venta",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - saldo_usuonline_ajuste",
     "version" : "Latest",
     "type" : "schema"
   }, {
@@ -369,10 +400,6 @@
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "_yxgocJ1PEe-d3LwU08hE-w",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
     "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
@@ -477,6 +504,10 @@
     "version" : "Latest",
     "type" : "schema"
   }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_torneo",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usucasino_detalle_resumen",
     "version" : "Latest",
     "type" : "schema"
@@ -488,6 +519,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "INTEGRACIONDATOS:_2kC0gKXXEe-S9_3HWziN3Q",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
     "id" : "INTEGRACIONDATOS:_7kr_MJYFEe-2keSUGTkiUQ",
     "version" : "Latest",
     "type" : "job"

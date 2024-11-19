@@ -45,6 +45,18 @@
     }, {
       "id" : "_rd-tEZ3qEe-d3LwU08hE-w",
       "name" : "mysql_prod_additional_parameters"
+    }, {
+      "id" : "_iHeaRp32Ee-d3LwU08hE-w",
+      "name" : "snowflake_suffix"
+    }, {
+      "id" : "_dZjBxp4SEe-S9_3HWziN3Q",
+      "name" : "snowflake_connection_jdcb_parameters"
+    }, {
+      "id" : "_dZjBx54SEe-S9_3HWziN3Q",
+      "name" : "snowflake_connection_role"
+    }, {
+      "id" : "_dZjByJ4SEe-S9_3HWziN3Q",
+      "name" : "snowflake_connection_region"
     } ]
   } ]
 }
