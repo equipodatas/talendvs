@@ -6846,5 +6846,37 @@
         <sqlDataType xmi:id="_rFTsQKa2Ee-S9_3HWziN3Q" name="TINYINT" numericPrecisionRadix="10" javaDataType="-6" nullable="columnNullable"/>
       </feature>
     </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_zo9gMKt5Ee-2PamkjMq5iQ" name="clasificador" id="_zo8SEKt5Ee-2PamkjMq5iQ" label="clasificador" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_zo-HQKt5Ee-2PamkjMq5iQ" name="clasificador_id" comment="Id del clasificador" label="clasificador_id" length="20" sourceType="BIGINT" talendType="id_Long" key="true" nullable="false">
+        <taggedValue xmi:id="_zo-HQat5Ee-2PamkjMq5iQ" tag="Comment" value="Id del clasificador"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_zo-HQqt5Ee-2PamkjMq5iQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_zo-HQ6t5Ee-2PamkjMq5iQ" name="BIGINT UNSIGNED" numericPrecisionRadix="10" javaDataType="-5"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_zo-HRKt5Ee-2PamkjMq5iQ" name="tipo" comment="Id del tipo" label="tipo" length="15" precision="-1" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_zo-HRat5Ee-2PamkjMq5iQ" tag="Comment" value="Id del tipo"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_zo-HRqt5Ee-2PamkjMq5iQ" body="" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_zo-HR6t5Ee-2PamkjMq5iQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_zo-HSKt5Ee-2PamkjMq5iQ" name="descripcion" comment="Descripcion" label="descripcion" length="100" precision="-1" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_zo-HSat5Ee-2PamkjMq5iQ" tag="Comment" value="Descripcion"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_zo-HSqt5Ee-2PamkjMq5iQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_zo-HS6t5Ee-2PamkjMq5iQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_zo-HTKt5Ee-2PamkjMq5iQ" name="estado" comment="Estado" label="estado" length="1" precision="-1" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_zo-HTat5Ee-2PamkjMq5iQ" tag="Comment" value="Estado"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_zo-HTqt5Ee-2PamkjMq5iQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_zo-HT6t5Ee-2PamkjMq5iQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_zo-HUKt5Ee-2PamkjMq5iQ" name="mandante" comment="Mandante" label="mandante" length="20" sourceType="BIGINT" talendType="id_Long" nullable="false">
+        <taggedValue xmi:id="_zo-HUat5Ee-2PamkjMq5iQ" tag="Comment" value="Mandante"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_zo-HUqt5Ee-2PamkjMq5iQ" body="" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_zo-HU6t5Ee-2PamkjMq5iQ" name="BIGINT UNSIGNED" numericPrecisionRadix="10" javaDataType="-5"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_zo-HVKt5Ee-2PamkjMq5iQ" name="abreviado" label="abreviado" length="100" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_zo-HVat5Ee-2PamkjMq5iQ" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_zo-HVqt5Ee-2PamkjMq5iQ" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_zo-HV6t5Ee-2PamkjMq5iQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>

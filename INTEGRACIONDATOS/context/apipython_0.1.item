@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_qm67AKgjEe-S9_3HWziN3Q" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_qm67AagjEe-S9_3HWziN3Q" comment="" name="mysql_apipython_dev_AdditionalParams" prompt="mysql_apipython_dev_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true"/>
+  <contextParameter xmi:id="_qm67AqgjEe-S9_3HWziN3Q" comment="" name="mysql_apipython_dev_Port" prompt="mysql_apipython_dev_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_qm67A6gjEe-S9_3HWziN3Q" comment="" name="mysql_apipython_dev_Server" prompt="mysql_apipython_dev_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="157.230.185.225"/>
+  <contextParameter xmi:id="_qm67BKgjEe-S9_3HWziN3Q" comment="" name="mysql_apipython_dev_Login" prompt="mysql_apipython_dev_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="apipython_talend_dev"/>
+  <contextParameter xmi:id="_qm67BagjEe-S9_3HWziN3Q" comment="" name="mysql_apipython_dev_Database" prompt="mysql_apipython_dev_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="casino"/>
+  <contextParameter xmi:id="_qm67BqgjEe-S9_3HWziN3Q" comment="" name="mysql_apipython_dev_Password" prompt="mysql_apipython_dev_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:MiOWirRziPj+folKbI91KHeEySm0KmzM2p1ycov4k2awrMiwzz/KC4qdkCysu2NbQXaIfA=="/>
+</talendfile:ContextType>

@@ -58,26 +58,23 @@
       "id" : "_dZjByJ4SEe-S9_3HWziN3Q",
       "name" : "snowflake_connection_region"
     }, {
-      "id" : "_vBzR7p4SEe-S9_3HWziN3Q",
-      "name" : "new4"
+      "id" : "_08VXDKggEe-S9_3HWziN3Q",
+      "name" : "mysql_apipython_dev_host"
     }, {
-      "id" : "_vBzR754SEe-S9_3HWziN3Q",
-      "name" : "new5"
+      "id" : "_08VXDaggEe-S9_3HWziN3Q",
+      "name" : "mysql_apipython_dev_user"
     }, {
-      "id" : "_vBzR8J4SEe-S9_3HWziN3Q",
-      "name" : "new6"
+      "id" : "_08VXDqggEe-S9_3HWziN3Q",
+      "name" : "mysql_apipython_dev_password"
     }, {
-      "id" : "_vBzR8Z4SEe-S9_3HWziN3Q",
-      "name" : "new7"
+      "id" : "_08VXD6ggEe-S9_3HWziN3Q",
+      "name" : "mysql_apipython_dev_port"
     }, {
-      "id" : "_vBzR8p4SEe-S9_3HWziN3Q",
-      "name" : "new8"
+      "id" : "_08VXEKggEe-S9_3HWziN3Q",
+      "name" : "mysql_apipython_dev_database"
     }, {
-      "id" : "_vBzR854SEe-S9_3HWziN3Q",
-      "name" : "new9"
-    }, {
-      "id" : "_vBzR9J4SEe-S9_3HWziN3Q",
-      "name" : "new10"
+      "id" : "_08VXEaggEe-S9_3HWziN3Q",
+      "name" : "mysql_apipython_dev_additional_parameters"
     } ]
   } ]
 }

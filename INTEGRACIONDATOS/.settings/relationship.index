@@ -130,6 +130,10 @@
     "version" : "Latest",
     "type" : "schema"
   }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - clasificador",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - concesionario",
     "version" : "Latest",
     "type" : "schema"
@@ -503,6 +507,48 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_dbWOUK3FEe-cLrT_R9twmA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "INTEGRACIONDATOS:_knGDUK3FEe-cLrT_R9twmA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "INTEGRACIONDATOS:_pc7w4K3FEe-cLrT_R9twmA",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_fY34wKgkEe-S9_3HWziN3Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_XBSB8IAzEe-lvsTg4qxV_Q",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_lwIUoJFNEe-WCPAy57veuw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_enIVloWwEe-2W6PUL7QLjw - producto",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_enIVloWwEe-2W6PUL7QLjw - proveedor",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_lwIUoJFNEe-WCPAy57veuw - categoria_mandante",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_hWGx0JF4Ee-txKHo-HwMyg",
     "version" : "0.1",
     "type" : "job"
@@ -590,9 +636,36 @@
     "version" : "Latest",
     "type" : "job"
   }, {
+    "id" : "INTEGRACIONDATOS:_yenP0KzgEe-cLrT_R9twmA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
     "id" : "INTEGRACIONDATOS:_zSnfgJhvEe-ZyJG_8iDn4A",
     "version" : "Latest",
     "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_knGDUK3FEe-cLrT_R9twmA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_enIVloWwEe-2W6PUL7QLjw - producto",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_enIVloWwEe-2W6PUL7QLjw - proveedor",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -608,6 +681,25 @@
     "id" : "INTEGRACIONDATOS:_vKnJkGbxEe-V8JDPo_SJTA",
     "version" : "Latest",
     "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_pc7w4K3FEe-cLrT_R9twmA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_XBSB8IAzEe-lvsTg4qxV_Q",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_XBSB8IAzEe-lvsTg4qxV_Q - general_casino_talend",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -631,10 +723,6 @@
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - cuenta_cobro",
     "version" : "Latest",
     "type" : "schema"
-  }, {
-    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usucasino_detalle_resumen",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -652,6 +740,33 @@
     "type" : "schema"
   }, {
     "id" : "_enIVloWwEe-2W6PUL7QLjw - proveedor",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_tVM2MKtEEe-2PamkjMq5iQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - transaccion_juego",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - transjuego_log",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -722,6 +837,56 @@
     "type" : "schema"
   }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_perfil",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_yaoBsKhAEe-S9_3HWziN3Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "INTEGRACIONDATOS:_WUnW8JFPEe-WCPAy57veuw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "INTEGRACIONDATOS:_fY34wKgkEe-S9_3HWziN3Q",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_yenP0KzgEe-cLrT_R9twmA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - transaccion_juego",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - transjuego_info",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - transjuego_log",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usucasino_detalle_resumen",
     "version" : "Latest",
     "type" : "schema"
   } ]
