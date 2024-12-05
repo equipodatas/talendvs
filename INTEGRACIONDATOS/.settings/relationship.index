@@ -737,10 +737,6 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_lwIUoJFNEe-WCPAy57veuw",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "_XBSB8IAzEe-lvsTg4qxV_Q - general_casino_talend",
     "version" : "Latest",
     "type" : "schema"
@@ -1055,10 +1051,6 @@
     "type" : "job"
   }, {
     "id" : "INTEGRACIONDATOS:_WUnW8JFPEe-WCPAy57veuw",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
-    "id" : "INTEGRACIONDATOS:_Z0OncLHHEe-56pKlIfFS7g",
     "version" : "Latest",
     "type" : "job"
   }, {
