@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_PTTkILJ8Ee-C1ZVD7fpTHA" name="apipython_prod" id="_FmmOQLJ8Ee-C1ZVD7fpTHA" label="apipython_prod" dataPackage="_QfuT8LJ8Ee-C1ZVD7fpTHA" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://150.136.69.189:3306/apipythondb?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="apipython_talend" Password="enc:system.encryption.key.v1:gYLq5XjPdju1RtV/p9wZWAux05dEGgMC0ljmlsncx9F8nXmRdu6E+0qylnw=" ServerName="150.136.69.189" DatasourceName="" FileFieldName="" SID="apipythondb" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="" supportNLS="false">
+    <taggedValue xmi:id="_PTTkIbJ8Ee-C1ZVD7fpTHA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_PTkC0LJ8Ee-C1ZVD7fpTHA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_PTkC0bJ8Ee-C1ZVD7fpTHA" tag="Status" value=""/>
+    <taggedValue xmi:id="_PTkC0rJ8Ee-C1ZVD7fpTHA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_PTkC07J8Ee-C1ZVD7fpTHA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_PTkC1LJ8Ee-C1ZVD7fpTHA" tag="Description" value=""/>
+    <taggedValue xmi:id="_PTkC1bJ8Ee-C1ZVD7fpTHA" tag="Author" value=""/>
+    <taggedValue xmi:id="_PTkC1rJ8Ee-C1ZVD7fpTHA" tag="otherParameter"/>
+    <taggedValue xmi:id="_PwUQQLJ8Ee-C1ZVD7fpTHA" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_PwUQQbJ8Ee-C1ZVD7fpTHA" tag="DB ProductVersion" value="5.7.44-48-log"/>
+    <taggedValue xmi:id="_PwUQQrJ8Ee-C1ZVD7fpTHA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_PTTkIrJ8Ee-C1ZVD7fpTHA" key="CONN_PARA_KEY_USERNAME" value="apipython_talend"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_QfuT8LJ8Ee-C1ZVD7fpTHA" name="apipythondb" dataManager="_PTTkILJ8Ee-C1ZVD7fpTHA"/>
+</xmi:XMI>
