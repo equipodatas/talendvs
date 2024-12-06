@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="dev_prod_db" jobType="Standard">
-  <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="192.168.69.64" internalId="_fpP20LKHEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="talend" internalId="_fpP20bKHEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:xzjuWSbCwxrORClEFjb8XzRFbpV/KgfSLRoDM//jQQQiCWxrXK22QwYHd2jvS8FLyUkXSg==" internalId="_fpP20rKHEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_fpP207KHEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_database" prompt="mysql_prod_database?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="casino" internalId="_fpP21LKHEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_additional_parameters" prompt="mysql_prod_additional_parameters?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_fpP21bKHEe-C1ZVD7fpTHA"/>
-  </context>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="prod" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="dev_prod_db">
-    <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="132.145.165.114" internalId="_fpP21rKHEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="vsjuanp" internalId="_fpP217KHEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:U2Bpeb60hvrx7M7R6KGNqsNzFVe46Bpz4N0C/khszRBK/x/CLsUPAiuhKg8=" internalId="_fpP22LKHEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_fpP22bKHEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_database" prompt="mysql_prod_database?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="casino" internalId="_fpP22rKHEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_additional_parameters" prompt="mysql_prod_additional_parameters?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_fpP227KHEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="apipython_AdditionalParams" prompt="apipython_AdditionalParams?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true" internalId="_F2aUYLNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="apipython_Database" prompt="apipython_Database?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipythondb" internalId="_F2aUYbNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="apipython_Login" prompt="apipython_Login?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipython_talend" internalId="_F2aUYrNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="apipython_Password" prompt="apipython_Password?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_Password" value="enc:system.encryption.key.v1:cnseszPXqqJrm3ZZYUvSY4ciAtfCswXFhpBi0vrWzmCTpt+tqHey1+Zpo8c=" internalId="_F2aUY7NXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="apipython_Port" prompt="apipython_Port?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="3306" internalId="_F2aUZLNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="apipython_Server" prompt="apipython_Server?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="150.136.69.189" internalId="_F2aUZbNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="mysql_prod_additional_parameters" prompt="mysql_prod_additional_parameters?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_F2aUZrNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="mysql_prod_database" prompt="mysql_prod_database?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="casino" internalId="_F2aUZ7NXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="132.145.165.114" internalId="_F2aUaLNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:XAmIbZpPmKQP9tgV5+A1POSx+PtpcH3x114u7jXvsjrUvEy0whaVIAYXMWw=" internalId="_F2aUabNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_F2aUarNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="vsjuanp" internalId="_F2aUa7NXEe-C1ZVD7fpTHA"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="prod">
+    <contextParameter comment="" name="apipython_AdditionalParams" prompt="apipython_AdditionalParams?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true" internalId="_F2aUbLNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="apipython_Database" prompt="apipython_Database?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipythondb" internalId="_F2aUbbNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="apipython_Login" prompt="apipython_Login?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipython_talend" internalId="_F2aUbrNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="apipython_Password" prompt="apipython_Password?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_Password" value="enc:system.encryption.key.v1:hK3zTwhbyBubL7MzoGUkgwrACyCoVUDwDgMKJkmYZ1z3ZT3gPwDIytgJiA0=" internalId="_F2aUb7NXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="apipython_Port" prompt="apipython_Port?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="3306" internalId="_F2aUcLNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="apipython_Server" prompt="apipython_Server?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="192.168.69.96" internalId="_F2aUcbNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="mysql_prod_additional_parameters" prompt="mysql_prod_additional_parameters?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true" internalId="_F2aUcrNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="mysql_prod_database" prompt="mysql_prod_database?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="casino" internalId="_F2aUc7NXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="192.168.69.64" internalId="_F2aUdLNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:NWOlyFOzSVJipu3ydY3Zj1YwJsd/rPPSP/bXzL0rXOV/8cXY0NiHfOdamO3EnBHf35+3zA==" internalId="_F2aUdbNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_F2aUdrNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="talend" internalId="_F2aUd7NXEe-C1ZVD7fpTHA"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -120,26 +132,16 @@
   </node>
   <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tMysqlConnection" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/MySQL|ELT/Connections" show="false"/>
-    <elementParameter field="CHECK" name="START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tMysqlConnection" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_FmmOQLJ8Ee-C1ZVD7fpTHA" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;150.136.69.189&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.apipython_Server"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;apipythondb&quot;"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&quot;"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;apipython_talend&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:71S/Z7Kr3aYbwp8sHNfQ+TClo5f/CW/ELVwLBi4/JxTfVPNJnbzah3BYSzdLTg=="/>
+    <elementParameter field="TEXT" name="PORT" value="context.apipython_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.apipython_Database"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.apipython_AdditionalParams"/>
+    <elementParameter field="TEXT" name="USER" value="context.apipython_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:VrYLmyHNjCJWQjMSTam3+MhvtjwAX1cEm7fqSVM4EdMXFfJ9zUdgXl9rbkkcUU8ZV09HS43g"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -159,39 +161,6 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBClose_2" show="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
     <elementParameter field="TEXT" name="LABEL" value="close_apipython"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-  </node>
-  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="600" posY="120">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_2" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tMysqlConnection" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/MySQL|ELT/Connections" show="false"/>
-    <elementParameter field="CHECK" name="START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tMysqlConnection" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_f5PEUFWlEe-a7_fdZKdpLw" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
-    <elementParameter field="TEXT" name="HOST" value="context.mysql_prod_host"/>
-    <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="context.mysql_prod_port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.mysql_prod_database"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.mysql_prod_additional_parameters"/>
-    <elementParameter field="TEXT" name="USER" value="context.mysql_prod_user"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Vt+u2+PSqNp3w7vdWvMgPzkRFOzqCeTpTh+no6QOQLPJUjmcapfBeUIrccanfHCa6wkd3cpDmw=="/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="" show="false"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
-    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="casino_db16"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tMysqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="280">
@@ -3876,42 +3845,32 @@
   </node>
   <node componentName="tMysqlRow" componentVersion="0.102" offsetLabelX="6" offsetLabelY="0" posX="360" posY="280">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_4" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tMysqlRow" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="Databases/DB Specifics/MySQL" show="false"/>
-    <elementParameter field="CHECK" name="START" value="false" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tMysqlRow" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_3" show="false"/>
-    <elementParameter field="TEXT" name="HOST" value="&quot;150.136.69.189&quot;"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
-    <elementParameter field="TEXT" name="DBNAME" value="&quot;apipythondb&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;150.136.69.189&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;apipythondb&quot;" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
-    <elementParameter field="TEXT" name="USER" value="&quot;apipython_talend&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pnaXFeFuT9yjrCQvNFEwwCvR6WD5X4xcsHX64AV/samSnpiP8uJbTcvSuRgc2g=="/>
+    <elementParameter field="TEXT" name="USER" value="&quot;apipython_talend&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pnaXFeFuT9yjrCQvNFEwwCvR6WD5X4xcsHX64AV/samSnpiP8uJbTcvSuRgc2g==" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot; general_casino_talend_provisional&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;create index subproveedor_mandante_pais_estado_index on general_casino_talend_provisional (subproveedor_mandante_estado);&#xD;&#xA;create index subproveedor_mandante_pais_filtro_pais_index on general_casino_talend_provisional (subproveedor_mandante_filtro_pais);&#xD;&#xA;create index subproveedor_mandante_pais_mandante_index on general_casino_talend_provisional (subproveedor_mandante_mandante);&#xD;&#xA;create index subproveedor_mandante_pais_orden_index on general_casino_talend_provisional (subproveedor_mandante_orden);&#xD;&#xA;create index subproveedor_mandante_pais_pais_id_index on general_casino_talend_provisional (subproveedor_mandante_pais_pais_id);&#xD;&#xA;create index subproveedor_mandante_pais_subproveedor_id_index on general_casino_talend_provisional (subproveedor_mandante_subproveedor_id);&#xD;&#xA;create index subproveedor_mandante_pais_verifica_index on general_casino_talend_provisional (subproveedor_mandante_verifica);&#xD;&#xA;create index categoria_mandante_categoria_id_index on general_casino_talend_provisional (categoria_mandante_categoria_id);&#xD;&#xA;create index categoria_mandante_estado_index on general_casino_talend_provisional (categoria_mandante_estado);&#xD;&#xA;create index categoria_mandante_mandante_index on general_casino_talend_provisional (categoria_mandante_mandante);&#xD;&#xA;create index categoria_mandante_orden_index on general_casino_talend_provisional (categoria_mandante_orden);&#xD;&#xA;create index categoria_mandante_pais_id_index on general_casino_talend_provisional (categoria_mandante_pais_id);&#xD;&#xA;create index categoria_producto_categoria_id_index on general_casino_talend_provisional (categoria_producto_categoria_id);&#xD;&#xA;create index categoria_producto_estado_index on general_casino_talend_provisional (categoria_producto_estado);&#xD;&#xA;create index categoria_producto_mandante_index on general_casino_talend_provisional (categoria_producto_mandante);&#xD;&#xA;create index categoria_producto_orden_index on general_casino_talend_provisional (categoria_producto_orden);&#xD;&#xA;create index categoria_producto_pais_id_index on general_casino_talend_provisional (categoria_producto_pais_id);&#xD;&#xA;create index categoria_producto_producto_id_index on general_casino_talend_provisional (categoria_producto_producto_id);&#xD;&#xA;create index idx_producto_descripcion on general_casino_talend_provisional (producto_descripcion);&#xD;&#xA;create index producto_desktop_index on general_casino_talend_provisional (producto_desktop);&#xD;&#xA;create index producto_estado_mostrar_mobile_desktop_index on general_casino_talend_provisional (producto_estado, producto_mostrar, producto_mobile, producto_desktop);&#xD;&#xA;create index producto_externo_id_index on general_casino_talend_provisional (producto_externo_id);&#xD;&#xA;create index producto_mobile_index on general_casino_talend_provisional (producto_mobile);&#xD;&#xA;create index producto_mostrar_index on general_casino_talend_provisional (producto_mostrar);&#xD;&#xA;create index producto_proveedor_id_index on general_casino_talend_provisional (producto_proveedor_id);&#xD;&#xA;create index producto_subproveedor_id_index on general_casino_talend_provisional (producto_subproveedor_id);&#xD;&#xA;create index idx_productodetalle_pkey on general_casino_talend_provisional (producto_detalle_p_key);&#xD;&#xA;create index producto_detalle_producto_id_index on general_casino_talend_provisional (producto_detalle_producto_id);&#xD;&#xA;create index idx_productomandante_orden on general_casino_talend_provisional (producto_mandante_orden);&#xD;&#xA;create index producto_mandante_estado_index on general_casino_talend_provisional (producto_mandante_estado);&#xD;&#xA;create index producto_mandante_habilitacion_index on general_casino_talend_provisional (producto_mandante_habilitacion);&#xD;&#xA;create index producto_mandante_filtro_pais_index on general_casino_talend_provisional (producto_mandante_filtro_pais);&#xD;&#xA;create index producto_mandante_pais_id_index on general_casino_talend_provisional (producto_mandante_pais_id);&#xD;&#xA;create index producto_mandante_producto_id_mandante_index on general_casino_talend_provisional (producto_mandante_producto_id, producto_mandante_mandante);&#xD;&#xA;create index producto_mandante_verifica_index on general_casino_talend_provisional (producto_mandante_verifica);&#xD;&#xA;create index proveedor_abreviado_index on general_casino_talend_provisional (proveedor_abreviado);&#xD;&#xA;create index proveedor_estado_tipo_index on general_casino_talend_provisional (proveedor_estado, proveedor_tipo);&#xD;&#xA;create index proveedor_tipo_index on general_casino_talend_provisional (proveedor_tipo);&#xD;&#xA;create index proveedor_mandante_estado_index on general_casino_talend_provisional (proveedor_mandante_estado);&#xD;&#xA;create index proveedor_mandante_filtro_pais_index on general_casino_talend_provisional (proveedor_mandante_filtro_pais);&#xD;&#xA;create index proveedor_mandante_mandante_index on general_casino_talend_provisional (proveedor_mandante_mandante);&#xD;&#xA;create index proveedor_mandante_proveedor_id_index on general_casino_talend_provisional (proveedor_mandante_proveedor_id);&#xD;&#xA;create index proveedor_mandante_verifica_index on general_casino_talend_provisional (proveedor_mandante_verifica);&#xD;&#xA;create index subproveedor_abreviado_index on general_casino_talend_provisional (subproveedor_abreviado);&#xD;&#xA;create index subproveedor_estado_tipo_index on general_casino_talend_provisional (subproveedor_estado, subproveedor_tipo);&#xD;&#xA;create index subproveedor_proveedor_id_index on general_casino_talend_provisional (subproveedor_proveedor_id);&#xD;&#xA;create index subproveedor_tipo_index on general_casino_talend_provisional (subproveedor_tipo);&#xD;&#xA;create index general_casino_general_index on general_casino_talend_provisional (producto_desktop, proveedor_mandante_estado, proveedor_mandante_mandante, categoria_producto_pais_id, subproveedor_tipo, proveedor_estado, subproveedor_estado, producto_estado, subproveedor_mandante_estado, producto_mandante_estado,producto_mandante_habilitacion, producto_mostrar, producto_producto_id, producto_mandante_producto_id, producto_mandante_orden, producto_descripcion);&#xD;&#xA;create index idx_search_product2 on general_casino_talend_provisional (proveedor_mandante_mandante, producto_mandante_estado,producto_mandante_habilitacion, producto_mandante_pais_id, producto_mobile,producto_mostrar, producto_descripcion, producto_producto_id)&quot;&#xD;&#xA;"/>
-    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
-    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;allowMultiQueries=true&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;allowMultiQueries=true&quot;" show="false"/>
     <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
     <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value="generalcasino_id" show="false"/>
     <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
     <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="Index"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="general_casino_talend" name="tDBRow_4">
@@ -4803,23 +4762,11 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMysqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="760" posY="440">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBClose_1" show="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
-    <elementParameter field="TEXT" name="LABEL" value="close_desarrollo"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-  </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBConnection_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
   </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tDBConnection_2">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk3" show="false"/>
-  </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tDBClose_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
-  </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBClose_2" offsetLabelX="0" offsetLabelY="0" source="tDBClose_2" target="tDBClose_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk5" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" source="tDBRow_1" target="tDBRow_4">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
@@ -4856,11 +4803,6 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_2" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
-  </subjob>
-  <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
@@ -4882,11 +4824,6 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_4" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBClose_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>

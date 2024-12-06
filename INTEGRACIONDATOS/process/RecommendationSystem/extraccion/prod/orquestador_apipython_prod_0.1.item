@@ -105,7 +105,7 @@
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="casino_drop_tables_prov2_ml_prod"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev_prod_db"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:_5604wLJ9Ee-C1ZVD7fpTHA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
@@ -114,7 +114,9 @@
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="0"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;D3syc@B59z0hW8M7&quot;" id="1"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="apipython_Password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;bq7=DL6+Fc01]^W,&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -137,7 +139,7 @@
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="casino_producto_ml_prod"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev_prod_db"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:_kuX0ALJ7Ee-C1ZVD7fpTHA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
@@ -146,7 +148,9 @@
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="0"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;D3syc@B59z0hW8M7&quot;" id="1"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="apipython_Password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;bq7=DL6+Fc01]^W,&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -169,7 +173,7 @@
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="casino_producto_mandante_ml_prod"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev_prod_db"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:_PncEQLKAEe-C1ZVD7fpTHA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
@@ -178,7 +182,9 @@
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="0"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;D3syc@B59z0hW8M7&quot;" id="1"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="apipython_Password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;bq7=DL6+Fc01]^W,&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -201,7 +207,7 @@
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="casino_proveedor_ml_prod"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev_prod_db"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:_0YFsILKBEe-C1ZVD7fpTHA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
@@ -210,7 +216,9 @@
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="0"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;D3syc@B59z0hW8M7&quot;" id="1"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="apipython_Password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;bq7=DL6+Fc01]^W,&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -233,7 +241,7 @@
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="casino_subproveedor_ml_prod"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev_prod_db"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:_2YExcLKCEe-C1ZVD7fpTHA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
@@ -242,7 +250,9 @@
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="0"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;D3syc@B59z0hW8M7&quot;" id="1"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="apipython_Password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;bq7=DL6+Fc01]^W,&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -265,7 +275,7 @@
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="casino_proveedor_mandante_ml_prod"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev_prod_db"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:_O7-lELKDEe-C1ZVD7fpTHA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
@@ -274,7 +284,9 @@
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="0"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;D3syc@B59z0hW8M7&quot;" id="1"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="apipython_Password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;bq7=DL6+Fc01]^W,&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -297,7 +309,7 @@
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="casino_subproveedor_mandante_ml_prod"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev_prod_db"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:_jQY5cLKDEe-C1ZVD7fpTHA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
@@ -306,7 +318,9 @@
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="0"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;D3syc@B59z0hW8M7&quot;" id="1"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="apipython_Password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;bq7=DL6+Fc01]^W,&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -329,7 +343,7 @@
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="casino_subproveedor_mandante_pais_ml_prod"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev_prod_db"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:_8NP_oLKDEe-C1ZVD7fpTHA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
@@ -338,7 +352,9 @@
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="0"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;D3syc@B59z0hW8M7&quot;" id="1"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="apipython_Password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;bq7=DL6+Fc01]^W,&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -361,7 +377,7 @@
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="casino_categoria_producto_ml_prod"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev_prod_db"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:_Nr1WYLKEEe-C1ZVD7fpTHA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
@@ -370,7 +386,9 @@
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="0"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;D3syc@B59z0hW8M7&quot;" id="1"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="apipython_Password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;bq7=DL6+Fc01]^W,&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -393,7 +411,7 @@
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="casino_categoria_mandante_ml_prod"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev_prod_db"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:_9n_p4LKEEe-C1ZVD7fpTHA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
@@ -402,7 +420,9 @@
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="0"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;D3syc@B59z0hW8M7&quot;" id="1"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="apipython_Password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;bq7=DL6+Fc01]^W,&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -425,7 +445,7 @@
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="casino_producto_detalle_ml_prod"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev_prod_db"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:_XrrOMLKFEe-C1ZVD7fpTHA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
@@ -434,7 +454,9 @@
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="0"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;D3syc@B59z0hW8M7&quot;" id="1"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="apipython_Password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;bq7=DL6+Fc01]^W,&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -457,7 +479,7 @@
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="casino_etiqueta_ml_prod"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev_prod_db"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:_uzXigLKFEe-C1ZVD7fpTHA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
@@ -466,7 +488,9 @@
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="0"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;D3syc@B59z0hW8M7&quot;" id="1"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="apipython_Password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;bq7=DL6+Fc01]^W,&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -489,7 +513,7 @@
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="casino_etiqueta_producto_ml_prod"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev_prod_db"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:_GesIULKGEe-C1ZVD7fpTHA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
@@ -498,7 +522,9 @@
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="0"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;D3syc@B59z0hW8M7&quot;" id="1"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="apipython_Password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;bq7=DL6+Fc01]^W,&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -521,7 +547,7 @@
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="casino_rename_tables_ml_prod"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev_prod_db"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:_fEup8LKGEe-C1ZVD7fpTHA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
@@ -530,7 +556,9 @@
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="0"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;D3syc@B59z0hW8M7&quot;" id="1"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="apipython_Password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;bq7=DL6+Fc01]^W,&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -553,7 +581,7 @@
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="general_casino_prep_prod"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev_prod_db"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:_IEyG8LKHEe-C1ZVD7fpTHA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
@@ -562,7 +590,9 @@
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="0"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;D3syc@B59z0hW8M7&quot;" id="1"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="apipython_Password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;bq7=DL6+Fc01]^W,&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
@@ -585,7 +615,7 @@
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="casino_drop_tables_prov2_ml_prod"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev_prod_db"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:_5604wLJ9Ee-C1ZVD7fpTHA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
@@ -594,7 +624,9 @@
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
       <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="0"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;D3syc@B59z0hW8M7&quot;" id="1"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="apipython_Password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;bq7=DL6+Fc01]^W,&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
