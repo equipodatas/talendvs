@@ -2372,12 +2372,12 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_slygJlsvEe-n7NcGbrUC9Q" name="fecha_inicio" label="fecha_inicio" length="19" precision="-1" sourceType="TIMESTAMP" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;">
         <taggedValue xmi:id="_slygJ1svEe-n7NcGbrUC9Q" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_slygKFsvEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_slygKFsvEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_slygKVsvEe-n7NcGbrUC9Q" name="TIMESTAMP" numericPrecisionRadix="10" javaDataType="93"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_slygKlsvEe-n7NcGbrUC9Q" name="fecha_fin" label="fecha_fin" length="19" precision="-1" sourceType="TIMESTAMP" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;">
         <taggedValue xmi:id="_slygK1svEe-n7NcGbrUC9Q" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_slygLFsvEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_slygLFsvEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_slygLVsvEe-n7NcGbrUC9Q" name="TIMESTAMP" numericPrecisionRadix="10" javaDataType="93"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_slygLlsvEe-n7NcGbrUC9Q" name="descripcion" label="descripcion" length="65535" precision="-1" sourceType="VARCHAR" talendType="id_String" nullable="false">
@@ -2412,7 +2412,7 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_slygRlsvEe-n7NcGbrUC9Q" name="fecha_crea" label="fecha_crea" length="19" precision="-1" sourceType="TIMESTAMP" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;">
         <taggedValue xmi:id="_slygR1svEe-n7NcGbrUC9Q" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_slygSFsvEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_slygSFsvEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_slygSVsvEe-n7NcGbrUC9Q" name="TIMESTAMP" numericPrecisionRadix="10" javaDataType="93"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_slygSlsvEe-n7NcGbrUC9Q" name="usumodif_id" label="usumodif_id" length="10" sourceType="INT" talendType="id_Integer" nullable="false">
@@ -2422,12 +2422,12 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_slygTlsvEe-n7NcGbrUC9Q" name="fecha_modif" label="fecha_modif" length="19" precision="-1" sourceType="TIMESTAMP" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;">
         <taggedValue xmi:id="_slygT1svEe-n7NcGbrUC9Q" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_slygUFsvEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_slygUFsvEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_slygUVsvEe-n7NcGbrUC9Q" name="TIMESTAMP" numericPrecisionRadix="10" javaDataType="93"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_slygUlsvEe-n7NcGbrUC9Q" name="condicional" label="condicional" length="3" sourceType="VARCHAR" talendType="id_String">
         <taggedValue xmi:id="_slygU1svEe-n7NcGbrUC9Q" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_slygVFsvEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_slygVFsvEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_slygVVsvEe-n7NcGbrUC9Q" name="ENUM" numericPrecisionRadix="10" javaDataType="1" nullable="columnNullable"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_slygVlsvEe-n7NcGbrUC9Q" name="orden" label="orden" length="10" sourceType="INT" talendType="id_Integer">
@@ -2480,7 +2480,7 @@
         <initialValue xsi:type="relational:TdExpression" xmi:id="_slygfFsvEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_slygfVsvEe-n7NcGbrUC9Q" name="TINYINT" numericPrecisionRadix="10" javaDataType="-6" nullable="columnNullable"/>
       </feature>
-      <feature xsi:type="relational:TdColumn" xmi:id="_slygflsvEe-n7NcGbrUC9Q" name="json_temp" label="json_temp" length="65535" sourceType="VARCHAR" talendType="id_String" nullable="false">
+      <feature xsi:type="relational:TdColumn" xmi:id="_slygflsvEe-n7NcGbrUC9Q" name="json_temp" label="json_temp" length="-1" sourceType="TEXT" talendType="id_String" nullable="false">
         <taggedValue xmi:id="_slygf1svEe-n7NcGbrUC9Q" tag="Comment" value=""/>
         <initialValue xsi:type="relational:TdExpression" xmi:id="_slyggFsvEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_slyggVsvEe-n7NcGbrUC9Q" name="TEXT" numericPrecisionRadix="10" javaDataType="-1"/>

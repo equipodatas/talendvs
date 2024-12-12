@@ -58,23 +58,14 @@
       "id" : "_dZjByJ4SEe-S9_3HWziN3Q",
       "name" : "snowflake_connection_region"
     }, {
-      "id" : "_08VXDKggEe-S9_3HWziN3Q",
-      "name" : "mysql_apipython_dev_host"
+      "id" : "_e8ZKArZ7Ee-C1ZVD7fpTHA",
+      "name" : "path"
     }, {
-      "id" : "_08VXDaggEe-S9_3HWziN3Q",
-      "name" : "mysql_apipython_dev_user"
+      "id" : "_dEQdE7cSEe-jUKfZJLRVmA",
+      "name" : "key_path"
     }, {
-      "id" : "_08VXDqggEe-S9_3HWziN3Q",
-      "name" : "mysql_apipython_dev_password"
-    }, {
-      "id" : "_08VXD6ggEe-S9_3HWziN3Q",
-      "name" : "mysql_apipython_dev_port"
-    }, {
-      "id" : "_08VXEKggEe-S9_3HWziN3Q",
-      "name" : "mysql_apipython_dev_database"
-    }, {
-      "id" : "_08VXEaggEe-S9_3HWziN3Q",
-      "name" : "mysql_apipython_dev_additional_parameters"
+      "id" : "_SQ0jE7frEe-jUKfZJLRVmA",
+      "name" : "u_nombre"
     } ]
   } ]
 }

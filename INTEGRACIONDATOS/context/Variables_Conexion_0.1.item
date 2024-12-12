@@ -19,6 +19,32 @@
     <contextParameter xmi:id="_dZjBw54SEe-S9_3HWziN3Q" comment="" name="snowflake_connection_jdcb_parameters" prompt="snowflake_connection_jdcb_parameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_dZjBxJ4SEe-S9_3HWziN3Q" comment="" name="snowflake_connection_role" prompt="snowflake_connection_role?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_dZjBxZ4SEe-S9_3HWziN3Q" comment="" name="snowflake_connection_region" prompt="snowflake_connection_region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_e8ZKALZ7Ee-C1ZVD7fpTHA" comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\\Users\\Juan Pablo\\Downloads\\talend\\"/>
+    <contextParameter xmi:id="_dEQdELcSEe-jUKfZJLRVmA" comment="" name="key_path" prompt="key_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_SQ0jELfrEe-jUKfZJLRVmA" comment="" name="u_nombre" prompt="u_nombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u.nombre"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_OGZlYLcMEe-C1ZVD7fpTHA" confirmationNeeded="false" hide="false" name="dev_prod_db_reports">
+    <contextParameter xmi:id="_OGZlYbcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_loginTimeout" prompt="snowflake_connection_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15"/>
+    <contextParameter xmi:id="_OGZlYrcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_warehouse" prompt="snowflake_connection_warehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="REPORTS_WH"/>
+    <contextParameter xmi:id="_OGZlY7cMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_password" prompt="snowflake_connection_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:zbxUXaEQXdCjD5DGmtXOekJhg4vFgN7U9jVneWjgKexCOy7tIW8aqQ=="/>
+    <contextParameter xmi:id="_OGZlZLcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_user" prompt="snowflake_connection_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ETL_USER"/>
+    <contextParameter xmi:id="_OGZlZbcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_schema" prompt="snowflake_connection_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="BRONZE"/>
+    <contextParameter xmi:id="_OGZlZrcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_db" prompt="snowflake_connection_db?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="PROD_DB"/>
+    <contextParameter xmi:id="_OGZlZ7cMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_account" prompt="snowflake_connection_account?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="sxb63420.us-east-1"/>
+    <contextParameter xmi:id="_OGZlaLcMEe-C1ZVD7fpTHA" comment="" name="ruta_quality_row_count" prompt="ruta_quality_row_count?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\\Users\\Juan Pablo\\Downloads\\quality_tablas_count.csv"/>
+    <contextParameter xmi:id="_OGZlabcMEe-C1ZVD7fpTHA" comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="132.145.165.114"/>
+    <contextParameter xmi:id="_OGZlarcMEe-C1ZVD7fpTHA" comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="vsjuanp"/>
+    <contextParameter xmi:id="_OGZla7cMEe-C1ZVD7fpTHA" comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:fV9JTG92VlnJcmTCSmANgq59k77XTQpXQ6yF5mB2vM+cL8bnQZqdpok1Cjw="/>
+    <contextParameter xmi:id="_OGZlbLcMEe-C1ZVD7fpTHA" comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="3306"/>
+    <contextParameter xmi:id="_OGZlbbcMEe-C1ZVD7fpTHA" comment="" name="mysql_prod_database" prompt="mysql_prod_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="casino"/>
+    <contextParameter xmi:id="_OGZlbrcMEe-C1ZVD7fpTHA" comment="" name="mysql_prod_additional_parameters" prompt="mysql_prod_additional_parameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter xmi:id="_OGZlb7cMEe-C1ZVD7fpTHA" comment="" name="snowflake_suffix" prompt="snowflake_suffix?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=".snowflakecomputing.com"/>
+    <contextParameter xmi:id="_OGZlcLcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_jdcb_parameters" prompt="snowflake_connection_jdcb_parameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_OGZlcbcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_role" prompt="snowflake_connection_role?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_OGZlcrcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_region" prompt="snowflake_connection_region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_OGZlc7cMEe-C1ZVD7fpTHA" comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\\Users\\Juan Pablo\\Downloads\\talend\\"/>
+    <contextParameter xmi:id="_dEQdEbcSEe-jUKfZJLRVmA" comment="" name="key_path" prompt="key_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Users/Juan Pablo/Downloads/talend_key"/>
+    <contextParameter xmi:id="_SQ0jEbfrEe-jUKfZJLRVmA" comment="" name="u_nombre" prompt="u_nombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u.nombre"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_Fs9vUoGYEe-g-KCc-OKfsQ" confirmationNeeded="false" hide="false" name="dev_test_db">
     <contextParameter xmi:id="_Fs9vU4GYEe-g-KCc-OKfsQ" comment="" name="snowflake_connection_loginTimeout" prompt="snowflake_connection_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15"/>
@@ -39,6 +65,9 @@
     <contextParameter xmi:id="_dZjBwJ4SEe-S9_3HWziN3Q" comment="" name="snowflake_connection_jdcb_parameters" prompt="snowflake_connection_jdcb_parameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_dZjBwZ4SEe-S9_3HWziN3Q" comment="" name="snowflake_connection_role" prompt="snowflake_connection_role?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_dZjBwp4SEe-S9_3HWziN3Q" comment="" name="snowflake_connection_region" prompt="snowflake_connection_region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_e8ZKAbZ7Ee-C1ZVD7fpTHA" comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\\Users\\Juan Pablo\\Downloads\\talend\\"/>
+    <contextParameter xmi:id="_dEQdErcSEe-jUKfZJLRVmA" comment="" name="key_path" prompt="key_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_SQ0jErfrEe-jUKfZJLRVmA" comment="" name="u_nombre" prompt="u_nombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u.nombre"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_J_c4sJCtEe-WCPAy57veuw" confirmationNeeded="false" hide="false" name="prod">
     <contextParameter xmi:id="_J_c4sZCtEe-WCPAy57veuw" comment="" name="snowflake_connection_loginTimeout" prompt="snowflake_connection_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15"/>
@@ -59,6 +88,32 @@
     <contextParameter xmi:id="_dZjBxp4SEe-S9_3HWziN3Q" comment="" name="snowflake_connection_jdcb_parameters" prompt="snowflake_connection_jdcb_parameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_dZjBx54SEe-S9_3HWziN3Q" comment="" name="snowflake_connection_role" prompt="snowflake_connection_role?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_dZjByJ4SEe-S9_3HWziN3Q" comment="" name="snowflake_connection_region" prompt="snowflake_connection_region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_e8ZKArZ7Ee-C1ZVD7fpTHA" comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/talend/reports"/>
+    <contextParameter xmi:id="_dEQdE7cSEe-jUKfZJLRVmA" comment="" name="key_path" prompt="key_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_SQ0jE7frEe-jUKfZJLRVmA" comment="" name="u_nombre" prompt="u_nombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u.nombre"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_OGZldLcMEe-C1ZVD7fpTHA" confirmationNeeded="false" hide="false" name="prod_reports">
+    <contextParameter xmi:id="_OGZldbcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_loginTimeout" prompt="snowflake_connection_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15"/>
+    <contextParameter xmi:id="_OGZldrcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_warehouse" prompt="snowflake_connection_warehouse?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="REPORTS_WH"/>
+    <contextParameter xmi:id="_OGZld7cMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_password" prompt="snowflake_connection_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:zbxUXaEQXdCjD5DGmtXOekJhg4vFgN7U9jVneWjgKexCOy7tIW8aqQ=="/>
+    <contextParameter xmi:id="_OGZleLcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_user" prompt="snowflake_connection_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ETL_USER"/>
+    <contextParameter xmi:id="_OGZlebcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_schema" prompt="snowflake_connection_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="BRONZE"/>
+    <contextParameter xmi:id="_OGZlercMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_db" prompt="snowflake_connection_db?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="PROD_DB"/>
+    <contextParameter xmi:id="_OGZle7cMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_account" prompt="snowflake_connection_account?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="sxb63420.us-east-1"/>
+    <contextParameter xmi:id="_OGZlfLcMEe-C1ZVD7fpTHA" comment="" name="ruta_quality_row_count" prompt="ruta_quality_row_count?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/talend/reports"/>
+    <contextParameter xmi:id="_OGZlfbcMEe-C1ZVD7fpTHA" comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="192.168.69.64"/>
+    <contextParameter xmi:id="_OGZlfrcMEe-C1ZVD7fpTHA" comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend"/>
+    <contextParameter xmi:id="_OGZlf7cMEe-C1ZVD7fpTHA" comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:dt/q3SjIIw4+CCl8LVI9ReMqSMSsmhdFVHdp5qr3EqweGgV3+rDk3h2EO+uc01r7t0XL0A=="/>
+    <contextParameter xmi:id="_OGZlgLcMEe-C1ZVD7fpTHA" comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="3306"/>
+    <contextParameter xmi:id="_OGZlgbcMEe-C1ZVD7fpTHA" comment="" name="mysql_prod_database" prompt="mysql_prod_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="casino"/>
+    <contextParameter xmi:id="_OGZlgrcMEe-C1ZVD7fpTHA" comment="" name="mysql_prod_additional_parameters" prompt="mysql_prod_additional_parameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true"/>
+    <contextParameter xmi:id="_OGZlg7cMEe-C1ZVD7fpTHA" comment="" name="snowflake_suffix" prompt="snowflake_suffix?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=".snowflakecomputing.com"/>
+    <contextParameter xmi:id="_OGZlhLcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_jdcb_parameters" prompt="snowflake_connection_jdcb_parameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_OGZlhbcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_role" prompt="snowflake_connection_role?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_OGZlhrcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_region" prompt="snowflake_connection_region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_OGZlh7cMEe-C1ZVD7fpTHA" comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/talend/reports/"/>
+    <contextParameter xmi:id="_dEREILcSEe-jUKfZJLRVmA" comment="" name="key_path" prompt="key_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/talend/talend_key"/>
+    <contextParameter xmi:id="_SQ0jFLfrEe-jUKfZJLRVmA" comment="" name="u_nombre" prompt="u_nombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u.nombre"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_CJuLsJ4YEe-S9_3HWziN3Q" confirmationNeeded="false" hide="false" name="prod_test">
     <contextParameter xmi:id="_CJuLsZ4YEe-S9_3HWziN3Q" comment="" name="snowflake_connection_loginTimeout" prompt="snowflake_connection_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15"/>
@@ -79,5 +134,8 @@
     <contextParameter xmi:id="_CJuLwJ4YEe-S9_3HWziN3Q" comment="" name="snowflake_connection_jdcb_parameters" prompt="snowflake_connection_jdcb_parameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_CJuLwZ4YEe-S9_3HWziN3Q" comment="" name="snowflake_connection_role" prompt="snowflake_connection_role?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_CJuLwp4YEe-S9_3HWziN3Q" comment="" name="snowflake_connection_region" prompt="snowflake_connection_region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_e8ZKA7Z7Ee-C1ZVD7fpTHA" comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/talend/reports"/>
+    <contextParameter xmi:id="_dEREIbcSEe-jUKfZJLRVmA" comment="" name="key_path" prompt="key_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_SQ0jFbfrEe-jUKfZJLRVmA" comment="" name="u_nombre" prompt="u_nombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u.nombre"/>
   </talendfile:ContextType>
 </xmi:XMI>
