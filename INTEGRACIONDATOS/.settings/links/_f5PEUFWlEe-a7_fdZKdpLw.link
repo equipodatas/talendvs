@@ -57,6 +57,15 @@
     }, {
       "id" : "_dZjByJ4SEe-S9_3HWziN3Q",
       "name" : "snowflake_connection_region"
+    }, {
+      "id" : "_e8ZKArZ7Ee-C1ZVD7fpTHA",
+      "name" : "path"
+    }, {
+      "id" : "_dEQdE7cSEe-jUKfZJLRVmA",
+      "name" : "key_path"
+    }, {
+      "id" : "_SQ0jE7frEe-jUKfZJLRVmA",
+      "name" : "u_nombre"
     } ]
   } ]
 }

@@ -2,4 +2,5 @@
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
   <deletedFolders>process/extraccion/bonos</deletedFolders>
   <deletedItems id="_enIVloWwEe-2W6PUL7QLjw" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_wqE-QLigEe-jUKfZJLRVmA" path="extraccion/jira" type="PROCESS"/>
 </recyclebin:RecycleBin>

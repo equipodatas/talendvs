@@ -6878,5 +6878,37 @@
         <sqlDataType xmi:id="_zo-HV6t5Ee-2PamkjMq5iQ" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
     </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_tbjaYLyeEe-2dfkGHxnlvg" name="departamento" id="_tbLm8LyeEe-2dfkGHxnlvg" label="departamento" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_tbjaYbyeEe-2dfkGHxnlvg" name="depto_id" comment="Id del departamento" label="depto_id" length="20" sourceType="BIGINT" talendType="id_Long" key="true" nullable="false">
+        <taggedValue xmi:id="_tbjaYryeEe-2dfkGHxnlvg" tag="Comment" value="Id del departamento"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_tbjaY7yeEe-2dfkGHxnlvg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_tbjaZLyeEe-2dfkGHxnlvg" name="BIGINT UNSIGNED" numericPrecisionRadix="10" javaDataType="-5"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_tbjaZbyeEe-2dfkGHxnlvg" name="depto_cod" comment="Codigo del departamento" label="depto_cod" length="5" precision="-1" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_tbjaZryeEe-2dfkGHxnlvg" tag="Comment" value="Codigo del departamento"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_tbjaZ7yeEe-2dfkGHxnlvg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_tbjaaLyeEe-2dfkGHxnlvg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_tbjaabyeEe-2dfkGHxnlvg" name="depto_nom" comment="Nombre del departamento" label="depto_nom" length="100" precision="-1" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_tbjaaryeEe-2dfkGHxnlvg" tag="Comment" value="Nombre del departamento"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_tbjaa7yeEe-2dfkGHxnlvg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_tbjabLyeEe-2dfkGHxnlvg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_tbjabbyeEe-2dfkGHxnlvg" name="pais_id" comment="Id del pais" label="pais_id" length="20" sourceType="BIGINT" talendType="id_Long" nullable="false">
+        <taggedValue xmi:id="_tbjabryeEe-2dfkGHxnlvg" tag="Comment" value="Id del pais"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_tbjab7yeEe-2dfkGHxnlvg" body="" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_tbjacLyeEe-2dfkGHxnlvg" name="BIGINT UNSIGNED" numericPrecisionRadix="10" javaDataType="-5"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_tbjacbyeEe-2dfkGHxnlvg" name="longitud" label="longitud" length="250" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_tbjacryeEe-2dfkGHxnlvg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_tbjac7yeEe-2dfkGHxnlvg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_tbjadLyeEe-2dfkGHxnlvg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_tbjadbyeEe-2dfkGHxnlvg" name="latitud" label="latitud" length="250" precision="-1" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_tbjadryeEe-2dfkGHxnlvg" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_tbjad7yeEe-2dfkGHxnlvg" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_tbjaeLyeEe-2dfkGHxnlvg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>
