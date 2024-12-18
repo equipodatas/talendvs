@@ -366,9 +366,9 @@
   <node componentName="tSystem" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="400" posY="400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSystem_1" show="false"/>
     <elementParameter field="CHECK" name="ROOTDIR" value="false"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="&quot;/home/&quot;" show="false"/>
     <elementParameter field="RADIO" name="USE_SINGLE_COMMAND" value="true"/>
-    <elementParameter field="MEMO_JAVA" name="COMMAND" value="&quot;/usr/bin/rclone -vv copy /home/talend/reports/casos_jira_incidentes/casos_jira_incidentes.csv OneDrive: > /home/talend/rclone_log.txt 2>&amp;1&quot;"/>
+    <elementParameter field="MEMO_JAVA" name="COMMAND" value="&quot;rclone copy /home/talend/reports/casos_jira_incidentes/casos_jira_incidentes.csv OneDrive:talend/tableros_power_bi/casos_jira_incidentes&quot;"/>
     <elementParameter field="RADIO" name="USE_ARRAY_COMMAND" value="false"/>
     <elementParameter field="TABLE" name="ARRAY_COMMAND" show="false">
       <elementValue elementRef="VALUE" value="&quot;rclone&quot;" id="0"/>
