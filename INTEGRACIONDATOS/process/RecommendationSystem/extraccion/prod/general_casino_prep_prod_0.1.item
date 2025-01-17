@@ -9,7 +9,7 @@
     <contextParameter comment="" name="apipython_Server" prompt="apipython_Server?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="150.136.69.189" internalId="_F2aUZbNXEe-C1ZVD7fpTHA"/>
     <contextParameter comment="" name="mysql_prod_additional_parameters" prompt="mysql_prod_additional_parameters?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_F2aUZrNXEe-C1ZVD7fpTHA"/>
     <contextParameter comment="" name="mysql_prod_database" prompt="mysql_prod_database?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="casino" internalId="_F2aUZ7NXEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="132.145.165.114" internalId="_F2aUaLNXEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="129.213.202.204" internalId="_F2aUaLNXEe-C1ZVD7fpTHA"/>
     <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:XAmIbZpPmKQP9tgV5+A1POSx+PtpcH3x114u7jXvsjrUvEy0whaVIAYXMWw=" internalId="_F2aUabNXEe-C1ZVD7fpTHA"/>
     <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_F2aUarNXEe-C1ZVD7fpTHA"/>
     <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="vsjuanp" internalId="_F2aUa7NXEe-C1ZVD7fpTHA"/>
@@ -4781,7 +4781,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
   </connection>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
@@ -4792,7 +4792,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>

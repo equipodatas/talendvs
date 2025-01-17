@@ -66,6 +66,15 @@
     }, {
       "id" : "_SQ0jE7frEe-jUKfZJLRVmA",
       "name" : "u_nombre"
+    }, {
+      "id" : "_r93QGb4tEe-2dfkGHxnlvg",
+      "name" : "u_login"
+    }, {
+      "id" : "_r93QGr4tEe-2dfkGHxnlvg",
+      "name" : "r_cedula"
+    }, {
+      "id" : "_r93QG74tEe-2dfkGHxnlvg",
+      "name" : "r_celular"
     } ]
   } ]
 }
