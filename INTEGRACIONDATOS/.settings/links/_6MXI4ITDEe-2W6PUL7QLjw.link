@@ -232,5 +232,121 @@
       "id" : "_iHeaO532Ee-d3LwU08hE-w",
       "name" : "snowflake_suffix"
     } ]
+  }, {
+    "contextName" : "dev_prod_db_reports",
+    "repoId" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "parameterList" : [ {
+      "id" : "_OGZlYbcMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_loginTimeout"
+    }, {
+      "id" : "_OGZlYrcMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_warehouse"
+    }, {
+      "id" : "_OGZlY7cMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_password"
+    }, {
+      "id" : "_OGZlZLcMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_user"
+    }, {
+      "id" : "_OGZlZbcMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_schema"
+    }, {
+      "id" : "_OGZlZrcMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_db"
+    }, {
+      "id" : "_OGZlZ7cMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_account"
+    }, {
+      "id" : "_OGZlaLcMEe-C1ZVD7fpTHA",
+      "name" : "ruta_quality_row_count"
+    }, {
+      "id" : "_OGZlabcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_host"
+    }, {
+      "id" : "_OGZlarcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_user"
+    }, {
+      "id" : "_OGZla7cMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_password"
+    }, {
+      "id" : "_OGZlbLcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_port"
+    }, {
+      "id" : "_OGZlbbcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_database"
+    }, {
+      "id" : "_OGZlbrcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_additional_parameters"
+    }, {
+      "id" : "_OGZlb7cMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_suffix"
+    }, {
+      "id" : "_OGZlcLcMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_jdcb_parameters"
+    }, {
+      "id" : "_OGZlcbcMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_role"
+    }, {
+      "id" : "_OGZlcrcMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_region"
+    } ]
+  }, {
+    "contextName" : "prod_reports",
+    "repoId" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "parameterList" : [ {
+      "id" : "_OGZldbcMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_loginTimeout"
+    }, {
+      "id" : "_OGZldrcMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_warehouse"
+    }, {
+      "id" : "_OGZld7cMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_password"
+    }, {
+      "id" : "_OGZleLcMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_user"
+    }, {
+      "id" : "_OGZlebcMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_schema"
+    }, {
+      "id" : "_OGZlercMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_db"
+    }, {
+      "id" : "_OGZle7cMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_account"
+    }, {
+      "id" : "_OGZlfLcMEe-C1ZVD7fpTHA",
+      "name" : "ruta_quality_row_count"
+    }, {
+      "id" : "_OGZlfbcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_host"
+    }, {
+      "id" : "_OGZlfrcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_user"
+    }, {
+      "id" : "_OGZlf7cMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_password"
+    }, {
+      "id" : "_OGZlgLcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_port"
+    }, {
+      "id" : "_OGZlgbcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_database"
+    }, {
+      "id" : "_OGZlgrcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_additional_parameters"
+    }, {
+      "id" : "_OGZlg7cMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_suffix"
+    }, {
+      "id" : "_OGZlhLcMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_jdcb_parameters"
+    }, {
+      "id" : "_OGZlhbcMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_role"
+    }, {
+      "id" : "_OGZlhrcMEe-C1ZVD7fpTHA",
+      "name" : "snowflake_connection_region"
+    } ]
   } ]
 }

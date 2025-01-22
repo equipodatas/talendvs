@@ -25,6 +25,9 @@
     <contextParameter xmi:id="_r93QEL4tEe-2dfkGHxnlvg" comment="" name="u_login" prompt="u_login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u.login"/>
     <contextParameter xmi:id="_r93QEb4tEe-2dfkGHxnlvg" comment="" name="r_cedula" prompt="r_cedula?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.cedula"/>
     <contextParameter xmi:id="_r93QEr4tEe-2dfkGHxnlvg" comment="" name="r_celular" prompt="r_celular?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.celular"/>
+    <contextParameter xmi:id="_lAp6kNUcEe-VuNWOYT2j0A" comment="" name="start_week" prompt="start_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_lAp6kdUcEe-VuNWOYT2j0A" comment="" name="end_week" prompt="end_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_lAp6ktUcEe-VuNWOYT2j0A" comment="" name="month" prompt="month?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_OGZlYLcMEe-C1ZVD7fpTHA" confirmationNeeded="false" hide="false" name="dev_prod_db_reports">
     <contextParameter xmi:id="_OGZlYbcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_loginTimeout" prompt="snowflake_connection_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15"/>
@@ -51,6 +54,9 @@
     <contextParameter xmi:id="_r93QE74tEe-2dfkGHxnlvg" comment="" name="u_login" prompt="u_login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u.login"/>
     <contextParameter xmi:id="_r93QFL4tEe-2dfkGHxnlvg" comment="" name="r_cedula" prompt="r_cedula?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.cedula"/>
     <contextParameter xmi:id="_r93QFb4tEe-2dfkGHxnlvg" comment="" name="r_celular" prompt="r_celular?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.celular"/>
+    <contextParameter xmi:id="_lAp6k9UcEe-VuNWOYT2j0A" comment="" name="start_week" prompt="start_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;undefined&quot;"/>
+    <contextParameter xmi:id="_lAp6lNUcEe-VuNWOYT2j0A" comment="" name="end_week" prompt="end_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;undefined&quot;"/>
+    <contextParameter xmi:id="_lAp6ldUcEe-VuNWOYT2j0A" comment="" name="month" prompt="month?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;undefined&quot;"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_Fs9vUoGYEe-g-KCc-OKfsQ" confirmationNeeded="false" hide="false" name="dev_test_db">
     <contextParameter xmi:id="_Fs9vU4GYEe-g-KCc-OKfsQ" comment="" name="snowflake_connection_loginTimeout" prompt="snowflake_connection_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15"/>
@@ -77,6 +83,9 @@
     <contextParameter xmi:id="_r93QFr4tEe-2dfkGHxnlvg" comment="" name="u_login" prompt="u_login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u.login"/>
     <contextParameter xmi:id="_r93QF74tEe-2dfkGHxnlvg" comment="" name="r_cedula" prompt="r_cedula?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.cedula"/>
     <contextParameter xmi:id="_r93QGL4tEe-2dfkGHxnlvg" comment="" name="r_celular" prompt="r_celular?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.celular"/>
+    <contextParameter xmi:id="_lAp6ltUcEe-VuNWOYT2j0A" comment="" name="start_week" prompt="start_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_lAp6l9UcEe-VuNWOYT2j0A" comment="" name="end_week" prompt="end_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_lAp6mNUcEe-VuNWOYT2j0A" comment="" name="month" prompt="month?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_J_c4sJCtEe-WCPAy57veuw" confirmationNeeded="false" hide="false" name="prod">
     <contextParameter xmi:id="_J_c4sZCtEe-WCPAy57veuw" comment="" name="snowflake_connection_loginTimeout" prompt="snowflake_connection_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15"/>
@@ -103,6 +112,9 @@
     <contextParameter xmi:id="_r93QGb4tEe-2dfkGHxnlvg" comment="" name="u_login" prompt="u_login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u.login"/>
     <contextParameter xmi:id="_r93QGr4tEe-2dfkGHxnlvg" comment="" name="r_cedula" prompt="r_cedula?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.cedula"/>
     <contextParameter xmi:id="_r93QG74tEe-2dfkGHxnlvg" comment="" name="r_celular" prompt="r_celular?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.celular"/>
+    <contextParameter xmi:id="_lAp6mdUcEe-VuNWOYT2j0A" comment="" name="start_week" prompt="start_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_lAp6mtUcEe-VuNWOYT2j0A" comment="" name="end_week" prompt="end_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_lAp6m9UcEe-VuNWOYT2j0A" comment="" name="month" prompt="month?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_OGZldLcMEe-C1ZVD7fpTHA" confirmationNeeded="false" hide="false" name="prod_reports">
     <contextParameter xmi:id="_OGZldbcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_loginTimeout" prompt="snowflake_connection_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15"/>
@@ -129,6 +141,9 @@
     <contextParameter xmi:id="_r93QHL4tEe-2dfkGHxnlvg" comment="" name="u_login" prompt="u_login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u.login"/>
     <contextParameter xmi:id="_r93QHb4tEe-2dfkGHxnlvg" comment="" name="r_cedula" prompt="r_cedula?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.cedula"/>
     <contextParameter xmi:id="_r93QHr4tEe-2dfkGHxnlvg" comment="" name="r_celular" prompt="r_celular?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.celular"/>
+    <contextParameter xmi:id="_lAp6nNUcEe-VuNWOYT2j0A" comment="" name="start_week" prompt="start_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_lAp6ndUcEe-VuNWOYT2j0A" comment="" name="end_week" prompt="end_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_lAp6ntUcEe-VuNWOYT2j0A" comment="" name="month" prompt="month?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_CJuLsJ4YEe-S9_3HWziN3Q" confirmationNeeded="false" hide="false" name="prod_test">
     <contextParameter xmi:id="_CJuLsZ4YEe-S9_3HWziN3Q" comment="" name="snowflake_connection_loginTimeout" prompt="snowflake_connection_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15"/>
@@ -155,5 +170,8 @@
     <contextParameter xmi:id="_r93QH74tEe-2dfkGHxnlvg" comment="" name="u_login" prompt="u_login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u.login"/>
     <contextParameter xmi:id="_r93QIL4tEe-2dfkGHxnlvg" comment="" name="r_cedula" prompt="r_cedula?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.cedula"/>
     <contextParameter xmi:id="_r93QIb4tEe-2dfkGHxnlvg" comment="" name="r_celular" prompt="r_celular?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.celular"/>
+    <contextParameter xmi:id="_lAp6n9UcEe-VuNWOYT2j0A" comment="" name="start_week" prompt="start_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_lAp6oNUcEe-VuNWOYT2j0A" comment="" name="end_week" prompt="end_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_lAp6odUcEe-VuNWOYT2j0A" comment="" name="month" prompt="month?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </talendfile:ContextType>
 </xmi:XMI>

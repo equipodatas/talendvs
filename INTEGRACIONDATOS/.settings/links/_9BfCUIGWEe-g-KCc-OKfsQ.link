@@ -75,6 +75,15 @@
     }, {
       "id" : "_r93QG74tEe-2dfkGHxnlvg",
       "name" : "r_celular"
+    }, {
+      "id" : "_lAp6mdUcEe-VuNWOYT2j0A",
+      "name" : "start_week"
+    }, {
+      "id" : "_lAp6mtUcEe-VuNWOYT2j0A",
+      "name" : "end_week"
+    }, {
+      "id" : "_lAp6m9UcEe-VuNWOYT2j0A",
+      "name" : "month"
     } ]
   } ]
 }
