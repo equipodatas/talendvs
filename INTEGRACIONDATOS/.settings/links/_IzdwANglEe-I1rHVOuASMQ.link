@@ -19,6 +19,9 @@
       "id" : "_r93QFL4tEe-2dfkGHxnlvg",
       "name" : "r_cedula"
     }, {
+      "id" : "_LmplIdqdEe-2YOe7H7WRqg",
+      "name" : "r_telefono"
+    }, {
       "id" : "_OGZlZ7cMEe-C1ZVD7fpTHA",
       "name" : "snowflake_connection_account"
     }, {
@@ -79,6 +82,9 @@
     }, {
       "id" : "_r93QHb4tEe-2dfkGHxnlvg",
       "name" : "r_cedula"
+    }, {
+      "id" : "_LmplJNqdEe-2YOe7H7WRqg",
+      "name" : "r_telefono"
     }, {
       "id" : "_OGZle7cMEe-C1ZVD7fpTHA",
       "name" : "snowflake_connection_account"

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
-  <deletedFolders>process/extraccion/bonos</deletedFolders>
-  <deletedFolders>process/reports/jobs_variables_fechas</deletedFolders>
-  <deletedItems id="_enIVloWwEe-2W6PUL7QLjw" path="" type="METADATA_CONNECTIONS"/>
-  <deletedItems id="_wqE-QLigEe-jUKfZJLRVmA" path="extraccion/jira" type="PROCESS"/>
-  <deletedItems id="_H4mPQLcgEe-jUKfZJLRVmA" path="reports" type="PROCESS"/>
+  <deletedFolders>process/extraccion/inswitch/extraccion</deletedFolders>
+  <deletedFolders>process/extraccion/inswitch/extraccion/inswitch</deletedFolders>
+  <deletedItems id="_xJ-j5tjtEe-2YOe7H7WRqg" path="" type="CONTEXT"/>
 </recyclebin:RecycleBin>
