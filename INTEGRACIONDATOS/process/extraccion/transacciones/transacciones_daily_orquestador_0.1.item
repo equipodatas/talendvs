@@ -106,7 +106,7 @@
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="600" posY="280">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="280" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_4" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
@@ -119,10 +119,10 @@
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="false"/>
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="snowflake_connection_password"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;vtgcqHIvQ368&quot;"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="snowflake_connection_password" id="0"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;vtgcqHIvQ368&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="true"/>
@@ -144,7 +144,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="depositos_retiros_casino"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="depositos_retiros"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:_tNyG0JbQEe-2keSUGTkiUQ"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
@@ -153,10 +153,10 @@
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="false"/>
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="snowflake_connection_password"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;vtgcqHIvQ368&quot;"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="snowflake_connection_password" id="0"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;vtgcqHIvQ368&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="true"/>
@@ -187,10 +187,10 @@
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="false"/>
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="snowflake_connection_password"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;vtgcqHIvQ368&quot;"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="snowflake_connection_password" id="0"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;vtgcqHIvQ368&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="true"/>
@@ -221,10 +221,10 @@
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="false"/>
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="snowflake_connection_password"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;vtgcqHIvQ368&quot;"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="snowflake_connection_password" id="0"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;vtgcqHIvQ368&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="true"/>
@@ -255,10 +255,10 @@
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="false"/>
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="snowflake_connection_password"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;vtgcqHIvQ368&quot;"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="snowflake_connection_password" id="0"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;vtgcqHIvQ368&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="true"/>
@@ -289,10 +289,10 @@
     <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="false"/>
     <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
     <elementParameter field="TABLE" name="CONTEXTPARAMS">
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="snowflake_connection_password"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;vtgcqHIvQ368&quot;"/>
-      <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="snowflake_connection_password" id="0"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;vtgcqHIvQ368&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="3"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="true"/>
@@ -310,6 +310,47 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_6"/>
   </node>
+  <node componentName="tParallelize" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tParallelize_2" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="WAIT_FOR" value="All"/>
+    <elementParameter field="TEXT" name="SLEEPTIME" value="100"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="880" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_7" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="historial_daily"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="prod"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="INTEGRACIONDATOS:__p2xsNy6Ee-2YOe7H7WRqg"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="snowflake_connection_password" id="0"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;vtgcqHIvQ368&quot;" id="1"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="mysql_prod_password" id="2"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;Wq5L$7fvcxaF64jA98eZSBu$&quot;" id="3"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" value="false" show="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_BASE64" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="historial"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_7"/>
+  </node>
   <connection connectorName="PARALLELIZE" label="Parallelize" lineStyle="13" metaname="tParallelize_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tParallelize_1" target="tRunJob_4">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="Parallelize" show="false"/>
   </connection>
@@ -326,6 +367,12 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="Parallelize" show="false"/>
   </connection>
   <connection connectorName="PARALLELIZE" label="Parallelize" lineStyle="13" metaname="tParallelize_1" offsetLabelX="0" offsetLabelY="0" outputId="6" source="tParallelize_1" target="tRunJob_6">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Parallelize" show="false"/>
+  </connection>
+  <connection connectorName="SYNCHRONIZE" label="Synchronize" lineStyle="12" metaname="tParallelize_1" offsetLabelX="0" offsetLabelY="0" source="tParallelize_1" target="tParallelize_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Synchronize" show="false"/>
+  </connection>
+  <connection connectorName="PARALLELIZE" label="Parallelize" lineStyle="13" metaname="tParallelize_2" offsetLabelX="0" offsetLabelY="0" source="tParallelize_2" target="tRunJob_7">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="Parallelize" show="false"/>
   </connection>
   <subjob>
@@ -360,6 +407,16 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_6" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tParallelize_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_7" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>

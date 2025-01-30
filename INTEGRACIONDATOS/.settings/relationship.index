@@ -62,10 +62,6 @@
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw",
     "version" : "Latest",
     "type" : "property"
-  }, {
-    "id" : "_enIVloWwEe-2W6PUL7QLjw - proveedor",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -951,6 +947,29 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "__p2xsNy6Ee-2YOe7H7WRqg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_historial",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_aGpNUI--Ee-jN6Ic0WJqrw",
     "version" : "0.1",
     "type" : "job"
@@ -1054,7 +1073,7 @@
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "_yxgocJ1PEe-d3LwU08hE-w",
+    "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
   }, {
@@ -1180,17 +1199,24 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_enIVloWwEe-2W6PUL7QLjw - producto",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_enIVloWwEe-2W6PUL7QLjw - proveedor",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
     "id" : "_lwIUoJFNEe-WCPAy57veuw - categoria_mandante",
     "version" : "Latest",
     "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_gH0oINzXEe-2YOe7H7WRqg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
   } ]
 }, {
   "baseItem" : {
@@ -1262,6 +1288,21 @@
     "id" : "INTEGRACIONDATOS:_y7yqILG5Ee-bQ_F7j3I6Tw",
     "version" : "Latest",
     "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_hhEhwNzREe-2YOe7H7WRqg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
   } ]
 }, {
   "baseItem" : {
@@ -1371,6 +1412,10 @@
     "version" : "Latest",
     "type" : "job"
   }, {
+    "id" : "INTEGRACIONDATOS:__p2xsNy6Ee-2YOe7H7WRqg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
     "id" : "INTEGRACIONDATOS:_tNyG0JbQEe-2keSUGTkiUQ",
     "version" : "Latest",
     "type" : "job"
@@ -1451,10 +1496,6 @@
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw",
     "version" : "Latest",
     "type" : "property"
-  }, {
-    "id" : "_enIVloWwEe-2W6PUL7QLjw - producto",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -1513,6 +1554,10 @@
   },
   "relatedItems" : [ {
     "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
   }, {
@@ -1704,7 +1749,7 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
   }, {

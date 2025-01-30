@@ -90,6 +90,12 @@
     }, {
       "id" : "_LmplI9qdEe-2YOe7H7WRqg",
       "name" : "r_telefono"
+    }, {
+      "id" : "_Me454tz8Ee-2YOe7H7WRqg",
+      "name" : "fecha_ayer"
+    }, {
+      "id" : "_igUFI98qEe-h2M66THFW5w",
+      "name" : "u2_nombre"
     } ]
   } ]
 }

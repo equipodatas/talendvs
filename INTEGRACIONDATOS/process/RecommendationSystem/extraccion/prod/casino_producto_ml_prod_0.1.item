@@ -1,60 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="prod" jobType="Standard">
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="dev_prod_db" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="dev_prod_db">
-    <contextParameter comment="" name="apipython_AdditionalParams" prompt="apipython_AdditionalParams?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true" internalId="_HARHILNREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Database" prompt="apipython_Database?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipythondb" internalId="_HARHIbNREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Login" prompt="apipython_Login?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipython_talend" internalId="_HARHIrNREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Password" prompt="apipython_Password?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_Password" value="enc:system.encryption.key.v1:WkV3kFixGUq+cZYwDIbEbatmSe9HkeqoubQg0XNR8shxY9oxwcofrisMCko=" internalId="_HARHI7NREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Port" prompt="apipython_Port?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="3306" internalId="_HARHJLNREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Server" prompt="apipython_Server?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="150.136.69.189" internalId="_HARHJbNREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_additional_parameters" prompt="mysql_prod_additional_parameters?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_HARuMLNREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_database" prompt="mysql_prod_database?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="casino" internalId="_HARuMbNREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="129.213.202.204" internalId="_HARuMrNREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:k3oGDr36dqYf6boaB722Z5ggguLVUeHgQV6lKJZ71vm4loUMrDOv7QfIh4A=" internalId="_HARuM7NREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_HARuNLNREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="vsjuanp" internalId="_HARuNbNREe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="apipython_AdditionalParams" prompt="apipython_AdditionalParams?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true" internalId="_Z5yCUN5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Database" prompt="apipython_Database?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipythondb" internalId="_Z5yCUd5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Login" prompt="apipython_Login?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipython_talend" internalId="_Z5yCUt5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Password" prompt="apipython_Password?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_Password" value="enc:system.encryption.key.v1:2Af6wP9R8FRS9fUP5XQBpHUbW4m2QN5ZWyypzdpYkLZLmVIU54Yf7+QJbD8=" internalId="_Z5yCU95oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Port" prompt="apipython_Port?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="3306" internalId="_Z5yCVN5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Server" prompt="apipython_Server?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="150.136.69.189" internalId="_Z5yCVd5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_additional_parameters" prompt="mysql_prod_additional_parameters?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_Z5yCVt5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_database" prompt="mysql_prod_database?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="casino" internalId="_Z5yCV95oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="129.213.202.204" internalId="_Z5yCWN5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:jHq7PHuEOv/vEnJOnJA5Fp8FrR89WYPpcaVAFl0YWFl5p7vTF/UEr/PMukY=" internalId="_Z5yCWd5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_Z5yCWt5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="vsjuanp" internalId="_Z5yCW95oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="C:\\Users\\Juan Pablo\\Downloads\\talend\\" internalId="_Z5yCXN5oEe-h2M66THFW5w"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="prod">
-    <contextParameter comment="" name="apipython_AdditionalParams" prompt="apipython_AdditionalParams?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true" internalId="_HARuNrNREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Database" prompt="apipython_Database?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipythondb" internalId="_HARuN7NREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Login" prompt="apipython_Login?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipython_talend" internalId="_HARuOLNREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Password" prompt="apipython_Password?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_Password" value="enc:system.encryption.key.v1:j/TM4ea/c++EGdMBwekejRjoT9CYadl9IStMxPEWJEo+PTr2cD37H3Q38hE=" internalId="_HARuObNREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Port" prompt="apipython_Port?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="3306" internalId="_HARuOrNREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Server" prompt="apipython_Server?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="192.168.69.96" internalId="_HARuO7NREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_additional_parameters" prompt="mysql_prod_additional_parameters?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true" internalId="_HARuPLNREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_database" prompt="mysql_prod_database?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="casino" internalId="_HARuPbNREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="192.168.69.64" internalId="_HARuPrNREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:Sb7rMYr2ppOuGPopHsFXEVaMZvNyXeURbeuYtYNKCtjZKo0yf52MOVq1mt9jc0to+tYJDQ==" internalId="_HARuP7NREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_HARuQLNREe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="talend" internalId="_HARuQbNREe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="apipython_AdditionalParams" prompt="apipython_AdditionalParams?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true" internalId="_Z5yCXd5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Database" prompt="apipython_Database?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipythondb" internalId="_Z5yCXt5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Login" prompt="apipython_Login?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipython_talend" internalId="_Z5yCX95oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Password" prompt="apipython_Password?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_Password" value="enc:system.encryption.key.v1:corWyhwNENZNF15CBBELVaiVAT/7qLmvmyNNRUUlOecurKUlKlftG2rxA/U=" internalId="_Z5yCYN5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Port" prompt="apipython_Port?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="3306" internalId="_Z5yCYd5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Server" prompt="apipython_Server?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="192.168.69.96" internalId="_Z5yCYt5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_additional_parameters" prompt="mysql_prod_additional_parameters?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true" internalId="_Z5yCY95oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_database" prompt="mysql_prod_database?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="casino" internalId="_Z5yCZN5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="192.168.69.64" internalId="_Z5yCZd5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:OQ3/lpP7TU29j3DAPHvlIxT9fSGBSZcdkeX6PZtPUrvBBDxFJtMh0VyI9Wi3M34veWahWg==" internalId="_Z5yCZt5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_Z5yCZ95oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="talend" internalId="_Z5yCaN5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="/home/talend/reports/tmp/" internalId="_Z5yCad5oEe-h2M66THFW5w"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="dev_prod_db_reports">
-    <contextParameter comment="" name="apipython_AdditionalParams" prompt="apipython_AdditionalParams?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true" internalId="_NevvgLcMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Database" prompt="apipython_Database?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipythondb" internalId="_NevvgbcMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Login" prompt="apipython_Login?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipython_talend" internalId="_NevvgrcMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Password" prompt="apipython_Password?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_Password" value="enc:system.encryption.key.v1:j/TM4ea/c++EGdMBwekejRjoT9CYadl9IStMxPEWJEo+PTr2cD37H3Q38hE=" internalId="_Nevvg7cMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Port" prompt="apipython_Port?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="3306" internalId="_NevvhLcMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Server" prompt="apipython_Server?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="150.136.69.189" internalId="_NevvhbcMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="129.213.202.204" internalId="_NevvhrcMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="vsjuanp" internalId="_Nevvh7cMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:fV9JTG92VlnJcmTCSmANgq59k77XTQpXQ6yF5mB2vM+cL8bnQZqdpok1Cjw=" internalId="_NevviLcMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_NevvibcMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_database" prompt="mysql_prod_database?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="casino" internalId="_NevvircMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_additional_parameters" prompt="mysql_prod_additional_parameters?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_Nevvi7cMEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="apipython_AdditionalParams" prompt="apipython_AdditionalParams?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true" internalId="_Z5yCat5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Database" prompt="apipython_Database?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipythondb" internalId="_Z5yCa95oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Login" prompt="apipython_Login?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipython_talend" internalId="_Z5yCbN5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Password" prompt="apipython_Password?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_Password" value="enc:system.encryption.key.v1:SxGF+eb9HfvWhbZfdQJ7DMh3Ql2KIgBmHDiSQe0o6samAL5tblHZcWUlBm0=" internalId="_Z5yCbd5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Port" prompt="apipython_Port?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="3306" internalId="_Z5yCbt5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Server" prompt="apipython_Server?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="150.136.69.189" internalId="_Z5yCb95oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_additional_parameters" prompt="mysql_prod_additional_parameters?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" internalId="_Z5yCcN5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_database" prompt="mysql_prod_database?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="casino" internalId="_Z5yCcd5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="129.213.202.204" internalId="_Z5yCct5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:ytfR5+kKW5MiGu4PCQk5tTdz4j5lbmIN828lGEnA9iBPPnAZM++CDlXf0Bk=" internalId="_Z5yCc95oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_Z5yCdN5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="vsjuanp" internalId="_Z5yCdd5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="C:\\Users\\Juan Pablo\\Downloads\\talend\\" internalId="_Z5yCdt5oEe-h2M66THFW5w"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="prod_reports">
-    <contextParameter comment="" name="apipython_AdditionalParams" prompt="apipython_AdditionalParams?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true" internalId="_NevvjLcMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Database" prompt="apipython_Database?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipythondb" internalId="_NevvjbcMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Login" prompt="apipython_Login?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipython_talend" internalId="_NevvjrcMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Password" prompt="apipython_Password?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_Password" value="enc:system.encryption.key.v1:j/TM4ea/c++EGdMBwekejRjoT9CYadl9IStMxPEWJEo+PTr2cD37H3Q38hE=" internalId="_Nevvj7cMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Port" prompt="apipython_Port?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="3306" internalId="_NevvkLcMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="apipython_Server" prompt="apipython_Server?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="150.136.69.189" internalId="_NevvkbcMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="192.168.69.64" internalId="_NevvkrcMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="talend" internalId="_Nevvk7cMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:dt/q3SjIIw4+CCl8LVI9ReMqSMSsmhdFVHdp5qr3EqweGgV3+rDk3h2EO+uc01r7t0XL0A==" internalId="_NevvlLcMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_NevvlbcMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_database" prompt="mysql_prod_database?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="casino" internalId="_NevvlrcMEe-C1ZVD7fpTHA"/>
-    <contextParameter comment="" name="mysql_prod_additional_parameters" prompt="mysql_prod_additional_parameters?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true" internalId="_Nevvl7cMEe-C1ZVD7fpTHA"/>
+    <contextParameter comment="" name="apipython_AdditionalParams" prompt="apipython_AdditionalParams?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true" internalId="_Z5yCd95oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Database" prompt="apipython_Database?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipythondb" internalId="_Z5yCeN5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Login" prompt="apipython_Login?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="apipython_talend" internalId="_Z5yCed5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Password" prompt="apipython_Password?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_Password" value="enc:system.encryption.key.v1:HMX7ZjtHEBBWXPzI7VGrgUDQeBryWp+uqAWBNOUoikYbv/MaDHgNZ0MRm3I=" internalId="_Z5yCet5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Port" prompt="apipython_Port?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="3306" internalId="_Z5yCe95oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="apipython_Server" prompt="apipython_Server?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="150.136.69.189" internalId="_Z5yCfN5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_additional_parameters" prompt="mysql_prod_additional_parameters?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true" internalId="_Z5yCfd5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_database" prompt="mysql_prod_database?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="casino" internalId="_Z5yCft5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="192.168.69.64" internalId="_Z5yCf95oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:lmXBu1zm2YoHlFosoCQPC95hQJ9XpZloZEp8qgs7Bse9gRG6TNjdorb2W34fkQxUFGABOQ==" internalId="_Z5yCgN5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_Z5yCgd5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="talend" internalId="_Z5yCgt5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="/home/talend/reports/tmp/" internalId="_Z5yCg95oEe-h2M66THFW5w"/>
   </context>
   <parameters>
     <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" value="true" show="false"/>
@@ -234,8 +238,6 @@
     <elementParameter field="TEXT" name="TYPE" value="MYSQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.mysql_prod_user"/>
     <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:G58BhQ5lUjFx2cBheVYD2gRTOpthZ7Rhv9FLgMPOFgLtQYCKqQnhvN+jfkmbR2Uka3iyzqcaWQ=="/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_enIVloWwEe-2W6PUL7QLjw - producto" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;producto&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -320,13 +322,13 @@
       <column comment="" key="false" length="1" name="verifica" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="Fecha de creacion" key="false" length="19" name="fecha_crea" nullable="false" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+      <column comment="Fecha de creacion" key="false" length="19" name="fecha_crea" nullable="false" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value="Fecha de creacion"/>
       </column>
       <column comment="Id Usuario de Creacion" defaultValue="" key="false" length="10" name="usucrea_id" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value="Id Usuario de Creacion"/>
       </column>
-      <column comment="Fecha de modificación." key="false" length="19" name="fecha_modif" nullable="false" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+      <column comment="Fecha de modificación." key="false" length="19" name="fecha_modif" nullable="false" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value="Fecha de modificación."/>
       </column>
       <column comment="Id Usuario de Modificación" defaultValue="" key="false" length="10" name="usumodif_id" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
@@ -543,13 +545,13 @@
       <column comment="" key="false" length="1" name="verifica" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="Fecha de creacion" key="false" length="19" name="fecha_crea" nullable="false" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+      <column comment="Fecha de creacion" key="false" length="19" name="fecha_crea" nullable="false" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value="Fecha de creacion"/>
       </column>
       <column comment="Id Usuario de Creacion" defaultValue="" key="false" length="10" name="usucrea_id" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value="Id Usuario de Creacion"/>
       </column>
-      <column comment="Fecha de modificación." key="false" length="19" name="fecha_modif" nullable="false" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+      <column comment="Fecha de modificación." defaultValue="CURRENT_TIMESTAMP" key="false" length="19" name="fecha_modif" nullable="false" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value="Fecha de modificación."/>
       </column>
       <column comment="Id Usuario de Modificación" defaultValue="" key="false" length="10" name="usumodif_id" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
@@ -614,13 +616,13 @@
       <column comment="" key="false" length="1" name="verifica" nullable="false" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="Fecha de creacion" key="false" length="19" name="fecha_crea" nullable="false" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+      <column comment="Fecha de creacion" key="false" length="19" name="fecha_crea" nullable="false" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value="Fecha de creacion"/>
       </column>
       <column comment="Id Usuario de Creacion" defaultValue="" key="false" length="10" name="usucrea_id" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
         <additionalField key="Comment" value="Id Usuario de Creacion"/>
       </column>
-      <column comment="Fecha de modificación." key="false" length="19" name="fecha_modif" nullable="false" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+      <column comment="Fecha de modificación." defaultValue="CURRENT_TIMESTAMP" key="false" length="19" name="fecha_modif" nullable="false" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value="Fecha de modificación."/>
       </column>
       <column comment="Id Usuario de Modificación" defaultValue="" key="false" length="10" name="usumodif_id" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
@@ -3454,7 +3456,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk17" show="false"/>
   </connection>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
@@ -3465,7 +3467,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>

@@ -4,17 +4,11 @@
     "contextName" : "prod",
     "repoId" : "_FsdY8IGYEe-g-KCc-OKfsQ",
     "parameterList" : [ {
-      "id" : "_Qxx4E9juEe-2YOe7H7WRqg",
-      "name" : "python_path"
-    }, {
       "id" : "_rd-tEZ3qEe-d3LwU08hE-w",
       "name" : "mysql_prod_additional_parameters"
     }, {
       "id" : "_rd-tEJ3qEe-d3LwU08hE-w",
       "name" : "mysql_prod_database"
-    }, {
-      "id" : "_rd-tDJ3qEe-d3LwU08hE-w",
-      "name" : "mysql_prod_host"
     }, {
       "id" : "_rd-tDp3qEe-d3LwU08hE-w",
       "name" : "mysql_prod_password"
@@ -60,22 +54,19 @@
     }, {
       "id" : "_iHeaRp32Ee-d3LwU08hE-w",
       "name" : "snowflake_suffix"
+    }, {
+      "id" : "_rd-tDJ3qEe-d3LwU08hE-w",
+      "name" : "mysql_prod_host"
     } ]
   }, {
     "contextName" : "dev_prod_db",
     "repoId" : "_FsdY8IGYEe-g-KCc-OKfsQ",
     "parameterList" : [ {
-      "id" : "_Qxx4ENjuEe-2YOe7H7WRqg",
-      "name" : "python_path"
-    }, {
       "id" : "_rd-tC53qEe-d3LwU08hE-w",
       "name" : "mysql_prod_additional_parameters"
     }, {
       "id" : "_rd-tCp3qEe-d3LwU08hE-w",
       "name" : "mysql_prod_database"
-    }, {
-      "id" : "_rd-tBp3qEe-d3LwU08hE-w",
-      "name" : "mysql_prod_host"
     }, {
       "id" : "_rd-tCJ3qEe-d3LwU08hE-w",
       "name" : "mysql_prod_password"
@@ -121,6 +112,9 @@
     }, {
       "id" : "_iHeaO532Ee-d3LwU08hE-w",
       "name" : "snowflake_suffix"
+    }, {
+      "id" : "_rd-tBp3qEe-d3LwU08hE-w",
+      "name" : "mysql_prod_host"
     } ]
   } ]
 }

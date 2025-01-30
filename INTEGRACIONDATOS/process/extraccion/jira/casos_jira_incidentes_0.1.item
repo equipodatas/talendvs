@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="prod_reports" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="dev_prod_db_reports">
-    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="C:\\Users\\Juan Pablo\\Downloads\\talend\\" internalId="_qeNfkLvaEe-VVNo6EIHxtg"/>
+    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\\Users\\Juan Pablo\\Downloads\\talend\\" internalId="_qeNfkLvaEe-VVNo6EIHxtg"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="prod_reports">
-    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="/home/talend/reports/" internalId="_qeNfkbvaEe-VVNo6EIHxtg"/>
+    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/talend/reports/" internalId="_qeNfkbvaEe-VVNo6EIHxtg"/>
   </context>
   <parameters>
     <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" value="true" show="false"/>

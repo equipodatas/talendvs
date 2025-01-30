@@ -42,6 +42,9 @@
     }, {
       "id" : "_OGZlb7cMEe-C1ZVD7fpTHA",
       "name" : "snowflake_suffix"
+    }, {
+      "id" : "_igUFId8qEe-h2M66THFW5w",
+      "name" : "u2_nombre"
     } ]
   }, {
     "contextName" : "prod_reports",
@@ -85,6 +88,9 @@
     }, {
       "id" : "_OGZlg7cMEe-C1ZVD7fpTHA",
       "name" : "snowflake_suffix"
+    }, {
+      "id" : "_igUFJN8qEe-h2M66THFW5w",
+      "name" : "u2_nombre"
     } ]
   } ]
 }

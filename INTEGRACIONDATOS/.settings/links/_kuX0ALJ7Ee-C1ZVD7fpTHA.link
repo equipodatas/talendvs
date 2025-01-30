@@ -43,6 +43,9 @@
     }, {
       "id" : "_rd-tB53qEe-d3LwU08hE-w",
       "name" : "mysql_prod_user"
+    }, {
+      "id" : "_e8ZKALZ7Ee-C1ZVD7fpTHA",
+      "name" : "path"
     } ]
   }, {
     "contextName" : "prod",
@@ -87,6 +90,103 @@
     }, {
       "id" : "_rd-tDZ3qEe-d3LwU08hE-w",
       "name" : "mysql_prod_user"
+    }, {
+      "id" : "_e8ZKArZ7Ee-C1ZVD7fpTHA",
+      "name" : "path"
+    } ]
+  }, {
+    "contextName" : "dev_prod_db_reports",
+    "repoId" : "_viddELNJEe-C1ZVD7fpTHA",
+    "parameterList" : [ {
+      "id" : "_vixmJLNJEe-C1ZVD7fpTHA",
+      "name" : "apipython_AdditionalParams"
+    }, {
+      "id" : "_vixmJrNJEe-C1ZVD7fpTHA",
+      "name" : "apipython_Database"
+    }, {
+      "id" : "_vixmI7NJEe-C1ZVD7fpTHA",
+      "name" : "apipython_Login"
+    }, {
+      "id" : "_vixmIbNJEe-C1ZVD7fpTHA",
+      "name" : "apipython_Password"
+    }, {
+      "id" : "_vixmJbNJEe-C1ZVD7fpTHA",
+      "name" : "apipython_Port"
+    }, {
+      "id" : "_vixmIrNJEe-C1ZVD7fpTHA",
+      "name" : "apipython_Server"
+    } ]
+  }, {
+    "contextName" : "dev_prod_db_reports",
+    "repoId" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "parameterList" : [ {
+      "id" : "_OGZlbrcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_additional_parameters"
+    }, {
+      "id" : "_OGZlbbcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_database"
+    }, {
+      "id" : "_OGZlabcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_host"
+    }, {
+      "id" : "_OGZla7cMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_password"
+    }, {
+      "id" : "_OGZlbLcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_port"
+    }, {
+      "id" : "_OGZlarcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_user"
+    }, {
+      "id" : "_OGZlc7cMEe-C1ZVD7fpTHA",
+      "name" : "path"
+    } ]
+  }, {
+    "contextName" : "prod_reports",
+    "repoId" : "_viddELNJEe-C1ZVD7fpTHA",
+    "parameterList" : [ {
+      "id" : "_vixmJLNJEe-C1ZVD7fpTHA",
+      "name" : "apipython_AdditionalParams"
+    }, {
+      "id" : "_vixmJrNJEe-C1ZVD7fpTHA",
+      "name" : "apipython_Database"
+    }, {
+      "id" : "_vixmI7NJEe-C1ZVD7fpTHA",
+      "name" : "apipython_Login"
+    }, {
+      "id" : "_vixmIbNJEe-C1ZVD7fpTHA",
+      "name" : "apipython_Password"
+    }, {
+      "id" : "_vixmJbNJEe-C1ZVD7fpTHA",
+      "name" : "apipython_Port"
+    }, {
+      "id" : "_vixmIrNJEe-C1ZVD7fpTHA",
+      "name" : "apipython_Server"
+    } ]
+  }, {
+    "contextName" : "prod_reports",
+    "repoId" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "parameterList" : [ {
+      "id" : "_OGZlgrcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_additional_parameters"
+    }, {
+      "id" : "_OGZlgbcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_database"
+    }, {
+      "id" : "_OGZlfbcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_host"
+    }, {
+      "id" : "_OGZlf7cMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_password"
+    }, {
+      "id" : "_OGZlgLcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_port"
+    }, {
+      "id" : "_OGZlfrcMEe-C1ZVD7fpTHA",
+      "name" : "mysql_prod_user"
+    }, {
+      "id" : "_OGZlh7cMEe-C1ZVD7fpTHA",
+      "name" : "path"
     } ]
   } ]
 }

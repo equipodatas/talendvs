@@ -421,7 +421,7 @@
       <column comment="" key="false" length="19" name="fecha_crea" nullable="false" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="19" name="fecha_modif" nullable="true" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+      <column comment="" defaultValue="CURRENT_TIMESTAMP" key="false" length="19" name="fecha_modif" nullable="true" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="10" name="usucrea_id" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
@@ -459,7 +459,7 @@
       <column comment="" key="false" length="19" name="fecha_crea" nullable="false" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="19" name="fecha_modif" nullable="true" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+      <column comment="" defaultValue="CURRENT_TIMESTAMP" key="false" length="19" name="fecha_modif" nullable="true" pattern="&quot;yyyy-MM-dd HH:MM:SS&quot;" precision="-1" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="10" name="usucrea_id" nullable="false" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
@@ -2353,7 +2353,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk12" show="false"/>
   </connection>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
@@ -2364,7 +2364,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
