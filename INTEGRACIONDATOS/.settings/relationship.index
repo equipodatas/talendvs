@@ -379,6 +379,10 @@
     "version" : "Latest",
     "type" : "property"
   }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - bodega_informe_gerencial",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - it_ticket_det",
     "version" : "Latest",
     "type" : "schema"
@@ -530,6 +534,21 @@
     "id" : "_enIVloWwEe-2W6PUL7QLjw - proveedor",
     "version" : "Latest",
     "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_Bfsl8OMyEe-iAej3T0AmKA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
   } ]
 }, {
   "baseItem" : {
@@ -707,6 +726,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_Ket4wOCoEe-iAej3T0AmKA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_Nr1WYLKEEe-C1ZVD7fpTHA",
     "version" : "0.1",
     "type" : "job"
@@ -786,6 +820,21 @@
     "type" : "property"
   }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_RIpmwOSxEe-IhJb-aZSJoQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
     "version" : "Latest",
     "type" : "property"
   } ]
@@ -953,6 +1002,10 @@
   },
   "relatedItems" : [ {
     "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
   }, {
@@ -1205,12 +1258,31 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_foOQsOSbEe-IhJb-aZSJoQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_gH0oINzXEe-2YOe7H7WRqg",
     "version" : "0.1",
     "type" : "job"
   },
   "relatedItems" : [ {
     "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
   }, {
@@ -1430,6 +1502,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_kWFC8OTHEe-IhJb-aZSJoQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_k_vhILydEe-2dfkGHxnlvg",
     "version" : "0.1",
     "type" : "job"
@@ -1514,6 +1601,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_mkFS4OMXEe-iAej3T0AmKA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_nUmG8IJ5Ee-2W6PUL7QLjw",
     "version" : "0.1",
     "type" : "job"
@@ -1554,10 +1656,6 @@
   },
   "relatedItems" : [ {
     "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
   }, {
@@ -1727,6 +1825,10 @@
     "version" : "Latest",
     "type" : "schema"
   }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_otrainfo",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_perfil",
     "version" : "Latest",
     "type" : "schema"
@@ -1886,5 +1988,20 @@
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_bono",
     "version" : "Latest",
     "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_zhBzMONTEe-iAej3T0AmKA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
   } ]
 } ]

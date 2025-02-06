@@ -28,10 +28,15 @@
     <contextParameter xmi:id="_lAp6kNUcEe-VuNWOYT2j0A" comment="" name="start_week" prompt="start_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_lAp6kdUcEe-VuNWOYT2j0A" comment="" name="end_week" prompt="end_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_lAp6ktUcEe-VuNWOYT2j0A" comment="" name="month" prompt="month?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_Qxx4ENjuEe-2YOe7H7WRqg" comment="" name="python_path" prompt="python_path?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value=""/>
-    <contextParameter xmi:id="_LmplINqdEe-2YOe7H7WRqg" comment="" name="r_telefono" prompt="r_telefono?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.telefono"/>
-    <contextParameter xmi:id="_Me4S0Nz8Ee-2YOe7H7WRqg" comment="" name="fecha_ayer" prompt="fecha_ayer?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_igUFIN8qEe-h2M66THFW5w" comment="" name="u2_nombre" prompt="u2_nombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u2.nombre"/>
+    <contextParameter xmi:id="_6fo_gNpdEe-a38NsAvI_-w" comment="" name="root_path" prompt="root_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="\\wsl.localhost\Ubuntu\home\virtual_soft_efer\efer\python3\casino_env\bin\"/>
+    <contextParameter xmi:id="_c4DCkOI_Ee-iAej3T0AmKA" comment="" name="fecha_ayer" prompt="fecha_ayer?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;undefined&quot;"/>
+    <contextParameter xmi:id="_c4DCkeI_Ee-iAej3T0AmKA" comment="" name="fecha_hoy" prompt="fecha_hoy?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_nB9x0ONQEe-iAej3T0AmKA" comment="" name="r_nombre1" prompt="r_nombre1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.nombre1"/>
+    <contextParameter xmi:id="_nB9x0eNQEe-iAej3T0AmKA" comment="" name="r_apellido1" prompt="r_apellido1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.apellido1"/>
+    <contextParameter xmi:id="_nB9x0uNQEe-iAej3T0AmKA" comment="" name="r_sexo" prompt="r_sexo?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.sexo"/>
+    <contextParameter xmi:id="_nB9x0-NQEe-iAej3T0AmKA" comment="" name="r_direccion" prompt="r_direccion?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.direccion"/>
+    <contextParameter xmi:id="_vmWCsOPJEe-iAej3T0AmKA" comment="" name="automatic_run" prompt="automatic_run?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false"/>
+    <contextParameter xmi:id="_rtl_sOSeEe-IhJb-aZSJoQ" comment="" name="r_telefono" prompt="r_telefono?" promptNeeded="false" type="id_String" value="r.telefono"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_OGZlYLcMEe-C1ZVD7fpTHA" confirmationNeeded="false" hide="false" name="dev_prod_db_reports">
     <contextParameter xmi:id="_OGZlYbcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_loginTimeout" prompt="snowflake_connection_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15"/>
@@ -42,7 +47,7 @@
     <contextParameter xmi:id="_OGZlZrcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_db" prompt="snowflake_connection_db?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="PROD_DB"/>
     <contextParameter xmi:id="_OGZlZ7cMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_account" prompt="snowflake_connection_account?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="sxb63420.us-east-1"/>
     <contextParameter xmi:id="_OGZlaLcMEe-C1ZVD7fpTHA" comment="" name="ruta_quality_row_count" prompt="ruta_quality_row_count?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\\Users\\Juan Pablo\\Downloads\\quality_tablas_count.csv"/>
-    <contextParameter xmi:id="_OGZlabcMEe-C1ZVD7fpTHA" comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="129.213.202.204"/>
+    <contextParameter xmi:id="_OGZlabcMEe-C1ZVD7fpTHA" comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="192.168.69.64"/>
     <contextParameter xmi:id="_OGZlarcMEe-C1ZVD7fpTHA" comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="vsjuanp"/>
     <contextParameter xmi:id="_OGZla7cMEe-C1ZVD7fpTHA" comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:fV9JTG92VlnJcmTCSmANgq59k77XTQpXQ6yF5mB2vM+cL8bnQZqdpok1Cjw="/>
     <contextParameter xmi:id="_OGZlbLcMEe-C1ZVD7fpTHA" comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="3306"/>
@@ -61,10 +66,15 @@
     <contextParameter xmi:id="_lAp6k9UcEe-VuNWOYT2j0A" comment="" name="start_week" prompt="start_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;undefined&quot;"/>
     <contextParameter xmi:id="_lAp6lNUcEe-VuNWOYT2j0A" comment="" name="end_week" prompt="end_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;undefined&quot;"/>
     <contextParameter xmi:id="_lAp6ldUcEe-VuNWOYT2j0A" comment="" name="month" prompt="month?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;undefined&quot;"/>
-    <contextParameter xmi:id="_Qxx4EdjuEe-2YOe7H7WRqg" comment="" name="python_path" prompt="python_path?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value=""/>
-    <contextParameter xmi:id="_LmplIdqdEe-2YOe7H7WRqg" comment="" name="r_telefono" prompt="r_telefono?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.telefono"/>
-    <contextParameter xmi:id="_Me454Nz8Ee-2YOe7H7WRqg" comment="" name="fecha_ayer" prompt="fecha_ayer?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;undefined&quot;"/>
-    <contextParameter xmi:id="_igUFId8qEe-h2M66THFW5w" comment="" name="u2_nombre" prompt="u2_nombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u2.nombre"/>
+    <contextParameter xmi:id="_6fo_gdpdEe-a38NsAvI_-w" comment="" name="root_path" prompt="root_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_c4DCkuI_Ee-iAej3T0AmKA" comment="" name="fecha_ayer" prompt="fecha_ayer?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_c4DCk-I_Ee-iAej3T0AmKA" comment="" name="fecha_hoy" prompt="fecha_hoy?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_nB9x1ONQEe-iAej3T0AmKA" comment="" name="r_nombre1" prompt="r_nombre1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.nombre1"/>
+    <contextParameter xmi:id="_nB9x1eNQEe-iAej3T0AmKA" comment="" name="r_apellido1" prompt="r_apellido1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.apellido1"/>
+    <contextParameter xmi:id="_nB9x1uNQEe-iAej3T0AmKA" comment="" name="r_sexo" prompt="r_sexo?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.sexo"/>
+    <contextParameter xmi:id="_nB9x1-NQEe-iAej3T0AmKA" comment="" name="r_direccion" prompt="r_direccion?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.direccion"/>
+    <contextParameter xmi:id="_vmWCsePJEe-iAej3T0AmKA" comment="" name="automatic_run" prompt="automatic_run?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false"/>
+    <contextParameter xmi:id="_rtl_seSeEe-IhJb-aZSJoQ" comment="" name="r_telefono" prompt="r_telefono?" promptNeeded="false" type="id_String" value="r.telefono"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_Fs9vUoGYEe-g-KCc-OKfsQ" confirmationNeeded="false" hide="false" name="dev_test_db">
     <contextParameter xmi:id="_Fs9vU4GYEe-g-KCc-OKfsQ" comment="" name="snowflake_connection_loginTimeout" prompt="snowflake_connection_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15"/>
@@ -94,10 +104,15 @@
     <contextParameter xmi:id="_lAp6ltUcEe-VuNWOYT2j0A" comment="" name="start_week" prompt="start_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_lAp6l9UcEe-VuNWOYT2j0A" comment="" name="end_week" prompt="end_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_lAp6mNUcEe-VuNWOYT2j0A" comment="" name="month" prompt="month?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_Qxx4EtjuEe-2YOe7H7WRqg" comment="" name="python_path" prompt="python_path?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="C:\\Users\\Jhon Castaño\\Downloads\\casino\\Scripts\\"/>
-    <contextParameter xmi:id="_LmplItqdEe-2YOe7H7WRqg" comment="" name="r_telefono" prompt="r_telefono?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.telefono"/>
-    <contextParameter xmi:id="_Me454dz8Ee-2YOe7H7WRqg" comment="" name="fecha_ayer" prompt="fecha_ayer?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_igUFIt8qEe-h2M66THFW5w" comment="" name="u2_nombre" prompt="u2_nombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u2.nombre"/>
+    <contextParameter xmi:id="_6fo_gtpdEe-a38NsAvI_-w" comment="" name="root_path" prompt="root_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Users/Jhon Castaño/Downloads/casino/Scripts/"/>
+    <contextParameter xmi:id="_c4DpoOI_Ee-iAej3T0AmKA" comment="" name="fecha_ayer" prompt="fecha_ayer?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_c4DpoeI_Ee-iAej3T0AmKA" comment="" name="fecha_hoy" prompt="fecha_hoy?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_nB9x2ONQEe-iAej3T0AmKA" comment="" name="r_nombre1" prompt="r_nombre1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.nombre1"/>
+    <contextParameter xmi:id="_nB9x2eNQEe-iAej3T0AmKA" comment="" name="r_apellido1" prompt="r_apellido1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.apellido1"/>
+    <contextParameter xmi:id="_nB9x2uNQEe-iAej3T0AmKA" comment="" name="r_sexo" prompt="r_sexo?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.sexo"/>
+    <contextParameter xmi:id="_nB9x2-NQEe-iAej3T0AmKA" comment="" name="r_direccion" prompt="r_direccion?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.direccion"/>
+    <contextParameter xmi:id="_vmWCsuPJEe-iAej3T0AmKA" comment="" name="automatic_run" prompt="automatic_run?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false"/>
+    <contextParameter xmi:id="_rtl_suSeEe-IhJb-aZSJoQ" comment="" name="r_telefono" prompt="r_telefono?" promptNeeded="false" type="id_String" value="r.telefono"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_J_c4sJCtEe-WCPAy57veuw" confirmationNeeded="false" hide="false" name="prod">
     <contextParameter xmi:id="_J_c4sZCtEe-WCPAy57veuw" comment="" name="snowflake_connection_loginTimeout" prompt="snowflake_connection_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15"/>
@@ -127,10 +142,15 @@
     <contextParameter xmi:id="_lAp6mdUcEe-VuNWOYT2j0A" comment="" name="start_week" prompt="start_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_lAp6mtUcEe-VuNWOYT2j0A" comment="" name="end_week" prompt="end_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_lAp6m9UcEe-VuNWOYT2j0A" comment="" name="month" prompt="month?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_Qxx4E9juEe-2YOe7H7WRqg" comment="" name="python_path" prompt="python_path?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value="/home/talend/talend_python/bin/"/>
-    <contextParameter xmi:id="_LmplI9qdEe-2YOe7H7WRqg" comment="" name="r_telefono" prompt="r_telefono?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.telefono"/>
-    <contextParameter xmi:id="_Me454tz8Ee-2YOe7H7WRqg" comment="" name="fecha_ayer" prompt="fecha_ayer?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_igUFI98qEe-h2M66THFW5w" comment="" name="u2_nombre" prompt="u2_nombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u2.nombre"/>
+    <contextParameter xmi:id="_6fo_g9pdEe-a38NsAvI_-w" comment="" name="root_path" prompt="root_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/talend/"/>
+    <contextParameter xmi:id="_c4DpouI_Ee-iAej3T0AmKA" comment="" name="fecha_ayer" prompt="fecha_ayer?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_c4Dpo-I_Ee-iAej3T0AmKA" comment="" name="fecha_hoy" prompt="fecha_hoy?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_nB9x3ONQEe-iAej3T0AmKA" comment="" name="r_nombre1" prompt="r_nombre1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.nombre1"/>
+    <contextParameter xmi:id="_nB9x3eNQEe-iAej3T0AmKA" comment="" name="r_apellido1" prompt="r_apellido1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.apellido1"/>
+    <contextParameter xmi:id="_nB9x3uNQEe-iAej3T0AmKA" comment="" name="r_sexo" prompt="r_sexo?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.sexo"/>
+    <contextParameter xmi:id="_nB9x3-NQEe-iAej3T0AmKA" comment="" name="r_direccion" prompt="r_direccion?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.direccion"/>
+    <contextParameter xmi:id="_vmWCs-PJEe-iAej3T0AmKA" comment="" name="automatic_run" prompt="automatic_run?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false"/>
+    <contextParameter xmi:id="_rtl_s-SeEe-IhJb-aZSJoQ" comment="" name="r_telefono" prompt="r_telefono?" promptNeeded="false" type="id_String" value="r.telefono"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_OGZldLcMEe-C1ZVD7fpTHA" confirmationNeeded="false" hide="false" name="prod_reports">
     <contextParameter xmi:id="_OGZldbcMEe-C1ZVD7fpTHA" comment="" name="snowflake_connection_loginTimeout" prompt="snowflake_connection_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15"/>
@@ -160,10 +180,15 @@
     <contextParameter xmi:id="_lAp6nNUcEe-VuNWOYT2j0A" comment="" name="start_week" prompt="start_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_lAp6ndUcEe-VuNWOYT2j0A" comment="" name="end_week" prompt="end_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_lAp6ntUcEe-VuNWOYT2j0A" comment="" name="month" prompt="month?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_Qxx4FNjuEe-2YOe7H7WRqg" comment="" name="python_path" prompt="python_path?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value=""/>
-    <contextParameter xmi:id="_LmplJNqdEe-2YOe7H7WRqg" comment="" name="r_telefono" prompt="r_telefono?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.telefono"/>
-    <contextParameter xmi:id="_Me4549z8Ee-2YOe7H7WRqg" comment="" name="fecha_ayer" prompt="fecha_ayer?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;undefined&quot;"/>
-    <contextParameter xmi:id="_igUFJN8qEe-h2M66THFW5w" comment="" name="u2_nombre" prompt="u2_nombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u2.nombre"/>
+    <contextParameter xmi:id="_6fpmkNpdEe-a38NsAvI_-w" comment="" name="root_path" prompt="root_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_c4DppOI_Ee-iAej3T0AmKA" comment="" name="fecha_ayer" prompt="fecha_ayer?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_c4DppeI_Ee-iAej3T0AmKA" comment="" name="fecha_hoy" prompt="fecha_hoy?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_nB9x4ONQEe-iAej3T0AmKA" comment="" name="r_nombre1" prompt="r_nombre1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.nombre1"/>
+    <contextParameter xmi:id="_nB9x4eNQEe-iAej3T0AmKA" comment="" name="r_apellido1" prompt="r_apellido1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.apellido1"/>
+    <contextParameter xmi:id="_nB9x4uNQEe-iAej3T0AmKA" comment="" name="r_sexo" prompt="r_sexo?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.sexo"/>
+    <contextParameter xmi:id="_nB9x4-NQEe-iAej3T0AmKA" comment="" name="r_direccion" prompt="r_direccion?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.direccion"/>
+    <contextParameter xmi:id="_vmWCtOPJEe-iAej3T0AmKA" comment="" name="automatic_run" prompt="automatic_run?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false"/>
+    <contextParameter xmi:id="_rtl_tOSeEe-IhJb-aZSJoQ" comment="" name="r_telefono" prompt="r_telefono?" promptNeeded="false" type="id_String" value="r.telefono"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_CJuLsJ4YEe-S9_3HWziN3Q" confirmationNeeded="false" hide="false" name="prod_test">
     <contextParameter xmi:id="_CJuLsZ4YEe-S9_3HWziN3Q" comment="" name="snowflake_connection_loginTimeout" prompt="snowflake_connection_loginTimeout?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="15"/>
@@ -184,7 +209,7 @@
     <contextParameter xmi:id="_CJuLwJ4YEe-S9_3HWziN3Q" comment="" name="snowflake_connection_jdcb_parameters" prompt="snowflake_connection_jdcb_parameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_CJuLwZ4YEe-S9_3HWziN3Q" comment="" name="snowflake_connection_role" prompt="snowflake_connection_role?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_CJuLwp4YEe-S9_3HWziN3Q" comment="" name="snowflake_connection_region" prompt="snowflake_connection_region?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_e8ZKA7Z7Ee-C1ZVD7fpTHA" comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/talend/reports/tmp/"/>
+    <contextParameter xmi:id="_e8ZKA7Z7Ee-C1ZVD7fpTHA" comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/talend/reports/tmp"/>
     <contextParameter xmi:id="_dEREIbcSEe-jUKfZJLRVmA" comment="" name="key_path" prompt="key_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_SQ0jFbfrEe-jUKfZJLRVmA" comment="" name="u_nombre" prompt="u_nombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u.nombre"/>
     <contextParameter xmi:id="_r93QH74tEe-2dfkGHxnlvg" comment="" name="u_login" prompt="u_login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u.login"/>
@@ -193,9 +218,14 @@
     <contextParameter xmi:id="_lAp6n9UcEe-VuNWOYT2j0A" comment="" name="start_week" prompt="start_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_lAp6oNUcEe-VuNWOYT2j0A" comment="" name="end_week" prompt="end_week?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_lAp6odUcEe-VuNWOYT2j0A" comment="" name="month" prompt="month?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_Qxx4FdjuEe-2YOe7H7WRqg" comment="" name="python_path" prompt="python_path?" promptNeeded="false" repositoryContextId="built-in" type="id_Directory" value=""/>
-    <contextParameter xmi:id="_LmplJdqdEe-2YOe7H7WRqg" comment="" name="r_telefono" prompt="r_telefono?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.telefono"/>
-    <contextParameter xmi:id="_Me455Nz8Ee-2YOe7H7WRqg" comment="" name="fecha_ayer" prompt="fecha_ayer?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter xmi:id="_igUFJd8qEe-h2M66THFW5w" comment="" name="u2_nombre" prompt="u2_nombre?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="u2.nombre"/>
+    <contextParameter xmi:id="_6fpmkdpdEe-a38NsAvI_-w" comment="" name="root_path" prompt="root_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_c4DppuI_Ee-iAej3T0AmKA" comment="" name="fecha_ayer" prompt="fecha_ayer?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_c4Dpp-I_Ee-iAej3T0AmKA" comment="" name="fecha_hoy" prompt="fecha_hoy?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_nB9x5ONQEe-iAej3T0AmKA" comment="" name="r_nombre1" prompt="r_nombre1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.nombre1"/>
+    <contextParameter xmi:id="_nB9x5eNQEe-iAej3T0AmKA" comment="" name="r_apellido1" prompt="r_apellido1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.apellido1"/>
+    <contextParameter xmi:id="_nB9x5uNQEe-iAej3T0AmKA" comment="" name="r_sexo" prompt="r_sexo?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.sexo"/>
+    <contextParameter xmi:id="_nB9x5-NQEe-iAej3T0AmKA" comment="" name="r_direccion" prompt="r_direccion?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="r.direccion"/>
+    <contextParameter xmi:id="_vmWpwOPJEe-iAej3T0AmKA" comment="" name="automatic_run" prompt="automatic_run?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false"/>
+    <contextParameter xmi:id="_rtl_teSeEe-IhJb-aZSJoQ" comment="" name="r_telefono" prompt="r_telefono?" promptNeeded="false" type="id_String" value="r.telefono"/>
   </talendfile:ContextType>
 </xmi:XMI>

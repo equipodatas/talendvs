@@ -4,14 +4,8 @@
     "contextName" : "dev_prod_db_reports",
     "repoId" : "_FsdY8IGYEe-g-KCc-OKfsQ",
     "parameterList" : [ {
-      "id" : "_Me454Nz8Ee-2YOe7H7WRqg",
-      "name" : "fecha_ayer"
-    }, {
       "id" : "_dEQdEbcSEe-jUKfZJLRVmA",
       "name" : "key_path"
-    }, {
-      "id" : "_lAp6ldUcEe-VuNWOYT2j0A",
-      "name" : "month"
     }, {
       "id" : "_OGZlc7cMEe-C1ZVD7fpTHA",
       "name" : "path"
@@ -62,14 +56,8 @@
     "contextName" : "prod_reports",
     "repoId" : "_FsdY8IGYEe-g-KCc-OKfsQ",
     "parameterList" : [ {
-      "id" : "_Me4549z8Ee-2YOe7H7WRqg",
-      "name" : "fecha_ayer"
-    }, {
       "id" : "_dEREILcSEe-jUKfZJLRVmA",
       "name" : "key_path"
-    }, {
-      "id" : "_lAp6ntUcEe-VuNWOYT2j0A",
-      "name" : "month"
     }, {
       "id" : "_OGZlh7cMEe-C1ZVD7fpTHA",
       "name" : "path"

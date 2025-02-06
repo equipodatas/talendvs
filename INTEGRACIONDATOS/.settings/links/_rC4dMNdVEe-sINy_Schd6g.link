@@ -22,6 +22,9 @@
       "id" : "_e8ZKArZ7Ee-C1ZVD7fpTHA",
       "name" : "path"
     }, {
+      "id" : "_6fo_g9pdEe-a38NsAvI_-w",
+      "name" : "root_path"
+    }, {
       "id" : "_J_c4vpCtEe-WCPAy57veuw",
       "name" : "snowflake_connection_account"
     }, {
@@ -79,6 +82,9 @@
     }, {
       "id" : "_e8ZKALZ7Ee-C1ZVD7fpTHA",
       "name" : "path"
+    }, {
+      "id" : "_6fo_gNpdEe-a38NsAvI_-w",
+      "name" : "root_path"
     }, {
       "id" : "_Fs9vcoGYEe-g-KCc-OKfsQ",
       "name" : "snowflake_connection_account"

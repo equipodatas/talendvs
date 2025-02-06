@@ -85,17 +85,29 @@
       "id" : "_lAp6m9UcEe-VuNWOYT2j0A",
       "name" : "month"
     }, {
-      "id" : "_Qxx4E9juEe-2YOe7H7WRqg",
-      "name" : "python_path"
+      "id" : "_6fo_g9pdEe-a38NsAvI_-w",
+      "name" : "root_path"
     }, {
-      "id" : "_LmplI9qdEe-2YOe7H7WRqg",
-      "name" : "r_telefono"
-    }, {
-      "id" : "_Me454tz8Ee-2YOe7H7WRqg",
+      "id" : "_c4DpouI_Ee-iAej3T0AmKA",
       "name" : "fecha_ayer"
     }, {
-      "id" : "_igUFI98qEe-h2M66THFW5w",
-      "name" : "u2_nombre"
+      "id" : "_c4Dpo-I_Ee-iAej3T0AmKA",
+      "name" : "fecha_hoy"
+    }, {
+      "id" : "_nB9x3ONQEe-iAej3T0AmKA",
+      "name" : "r_nombre1"
+    }, {
+      "id" : "_nB9x3eNQEe-iAej3T0AmKA",
+      "name" : "r_apellido1"
+    }, {
+      "id" : "_nB9x3uNQEe-iAej3T0AmKA",
+      "name" : "r_sexo"
+    }, {
+      "id" : "_nB9x3-NQEe-iAej3T0AmKA",
+      "name" : "r_direccion"
+    }, {
+      "id" : "_vmWCs-PJEe-iAej3T0AmKA",
+      "name" : "automatic_run"
     } ]
   } ]
 }

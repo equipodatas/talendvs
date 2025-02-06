@@ -3388,7 +3388,7 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_vQRLbVvdEe-n7NcGbrUC9Q" name="anexo_doc" comment="Anexo de cedula" label="anexo_doc" length="1" precision="-1" sourceType="VARCHAR" talendType="id_String">
         <taggedValue xmi:id="_vQRLblvdEe-n7NcGbrUC9Q" tag="Comment" value="Anexo de cedula"/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_vQRLb1vdEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_vQRLb1vdEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_vQRLcFvdEe-n7NcGbrUC9Q" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_vQRLcVvdEe-n7NcGbrUC9Q" name="info1" label="info1" length="255" precision="-1" sourceType="VARCHAR" talendType="id_String">
