@@ -93,6 +93,24 @@
     }, {
       "id" : "_c4Dpo-I_Ee-iAej3T0AmKA",
       "name" : "fecha_hoy"
+    }, {
+      "id" : "_nB9x3ONQEe-iAej3T0AmKA",
+      "name" : "r_nombre1"
+    }, {
+      "id" : "_nB9x3eNQEe-iAej3T0AmKA",
+      "name" : "r_apellido1"
+    }, {
+      "id" : "_nB9x3uNQEe-iAej3T0AmKA",
+      "name" : "r_sexo"
+    }, {
+      "id" : "_nB9x3-NQEe-iAej3T0AmKA",
+      "name" : "r_direccion"
+    }, {
+      "id" : "_vmWCs-PJEe-iAej3T0AmKA",
+      "name" : "automatic_run"
+    }, {
+      "id" : "_rtl_s-SeEe-IhJb-aZSJoQ",
+      "name" : "r_telefono"
     } ]
   } ]
 }

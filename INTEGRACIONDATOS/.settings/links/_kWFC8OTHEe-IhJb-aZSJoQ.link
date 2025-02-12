@@ -7,8 +7,14 @@
       "id" : "_c4DCkuI_Ee-iAej3T0AmKA",
       "name" : "fecha_ayer"
     }, {
+      "id" : "_jPu38ufSEe-8Z4PjzpxETw",
+      "name" : "fecha_ayer_acumulado"
+    }, {
       "id" : "_c4DCk-I_Ee-iAej3T0AmKA",
       "name" : "fecha_hoy"
+    }, {
+      "id" : "_jPu38-fSEe-8Z4PjzpxETw",
+      "name" : "fecha_hoy_acumulado"
     }, {
       "id" : "_dEQdEbcSEe-jUKfZJLRVmA",
       "name" : "key_path"
@@ -56,8 +62,14 @@
       "id" : "_c4DppOI_Ee-iAej3T0AmKA",
       "name" : "fecha_ayer"
     }, {
+      "id" : "_jPvfBOfSEe-8Z4PjzpxETw",
+      "name" : "fecha_ayer_acumulado"
+    }, {
       "id" : "_c4DppeI_Ee-iAej3T0AmKA",
       "name" : "fecha_hoy"
+    }, {
+      "id" : "_jPvfBefSEe-8Z4PjzpxETw",
+      "name" : "fecha_hoy_acumulado"
     }, {
       "id" : "_dEREILcSEe-jUKfZJLRVmA",
       "name" : "key_path"

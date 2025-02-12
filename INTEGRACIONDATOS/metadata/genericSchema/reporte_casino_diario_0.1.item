@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_3ccNUOiMEe-8Z4PjzpxETw" comment="connectionComment" label="connectionLabel" dataPackage="_3ccNUeiMEe-8Z4PjzpxETw"/>
+  <TalendMetadata:GenericPackage xmi:id="_3ccNUeiMEe-8Z4PjzpxETw" dataManager="_3ccNUOiMEe-8Z4PjzpxETw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_3ccNUuiMEe-8Z4PjzpxETw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ccNU-iMEe-8Z4PjzpxETw" name="Periodo" id="181976" label="Periodo" length="-1" precision="-1" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd&quot;">
+        <initialValue xmi:id="_3ccNVOiMEe-8Z4PjzpxETw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ccNVeiMEe-8Z4PjzpxETw" name="Partner" id="181977" label="Partner" length="250" precision="-1" talendType="id_String">
+        <initialValue xmi:id="_3ccNVuiMEe-8Z4PjzpxETw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ccNV-iMEe-8Z4PjzpxETw" name="Pais" id="181978" label="Pais" length="100" precision="-1" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_3ccNWOiMEe-8Z4PjzpxETw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ccNWeiMEe-8Z4PjzpxETw" name="Moneda" id="181979" label="Moneda" length="3" precision="-1" talendType="id_String">
+        <initialValue xmi:id="_3ccNWuiMEe-8Z4PjzpxETw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ccNW-iMEe-8Z4PjzpxETw" name="ID_Proveedor" id="181980" label="ID_Proveedor" length="38" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_3ccNXOiMEe-8Z4PjzpxETw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ccNXeiMEe-8Z4PjzpxETw" name="Nombre_Proveedor" id="181981" label="Nombre_Proveedor" length="255" precision="-1" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_3ccNXuiMEe-8Z4PjzpxETw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ccNX-iMEe-8Z4PjzpxETw" name="ID_Subproveedor" id="181982" label="ID_Subproveedor" length="38" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_3ccNYOiMEe-8Z4PjzpxETw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ccNYeiMEe-8Z4PjzpxETw" name="Nombre_Subproveedor" id="181983" label="Nombre_Subproveedor" length="255" precision="-1" talendType="id_String">
+        <initialValue xmi:id="_3ccNYuiMEe-8Z4PjzpxETw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ccNY-iMEe-8Z4PjzpxETw" name="Tipo_Subproveedor" id="181984" label="Tipo_Subproveedor" length="255" precision="-1" talendType="id_String">
+        <initialValue xmi:id="_3ccNZOiMEe-8Z4PjzpxETw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ccNZeiMEe-8Z4PjzpxETw" name="ID_Juego" id="181985" label="ID_Juego" length="38" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_3ccNZuiMEe-8Z4PjzpxETw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ccNZ-iMEe-8Z4PjzpxETw" name="Nombre_Juego" id="181986" label="Nombre_Juego" length="255" precision="-1" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_3ccNaOiMEe-8Z4PjzpxETw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ccNaeiMEe-8Z4PjzpxETw" name="Cantidad_Apuestas" id="181987" label="Cantidad_Apuestas" length="38" talendType="id_Integer">
+        <initialValue xmi:id="_3ccNauiMEe-8Z4PjzpxETw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ccNa-iMEe-8Z4PjzpxETw" name="Apuestas" id="181988" label="Apuestas" length="-1" precision="-1" talendType="id_Double">
+        <initialValue xmi:id="_3ccNbOiMEe-8Z4PjzpxETw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ccNbeiMEe-8Z4PjzpxETw" name="Premios" id="181989" label="Premios" length="-1" precision="-1" talendType="id_Double">
+        <initialValue xmi:id="_3ccNbuiMEe-8Z4PjzpxETw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ccNb-iMEe-8Z4PjzpxETw" name="Premios_Bonos" id="181990" label="Premios_Bonos" length="-1" precision="-1" talendType="id_Double">
+        <initialValue xmi:id="_3ccNcOiMEe-8Z4PjzpxETw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ccNceiMEe-8Z4PjzpxETw" name="GGR" id="181991" label="GGR" length="-1" precision="-1" talendType="id_Double">
+        <initialValue xmi:id="_3ccNcuiMEe-8Z4PjzpxETw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_3ccNc-iMEe-8Z4PjzpxETw" name="Cantidad_de_Usuarios" id="181992" label="Cantidad_de_Usuarios" length="18" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_3ccNdOiMEe-8Z4PjzpxETw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

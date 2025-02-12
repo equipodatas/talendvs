@@ -1,9 +1,15 @@
 {
-  "itemId" : "_iogn4NjUEe-2YOe7H7WRqg",
+  "itemId" : "_DOM3QOilEe-8Z4PjzpxETw",
   "contextList" : [ {
     "contextName" : "dev_prod_db_reports",
     "repoId" : "_FsdY8IGYEe-g-KCc-OKfsQ",
     "parameterList" : [ {
+      "id" : "_c4DCkuI_Ee-iAej3T0AmKA",
+      "name" : "fecha_ayer"
+    }, {
+      "id" : "_c4DCk-I_Ee-iAej3T0AmKA",
+      "name" : "fecha_hoy"
+    }, {
       "id" : "_dEQdEbcSEe-jUKfZJLRVmA",
       "name" : "key_path"
     }, {
@@ -42,14 +48,17 @@
     }, {
       "id" : "_OGZlb7cMEe-C1ZVD7fpTHA",
       "name" : "snowflake_suffix"
-    }, {
-      "id" : "_yJWeEejDEe-8Z4PjzpxETw",
-      "name" : "u2_nombre"
     } ]
   }, {
     "contextName" : "prod_reports",
     "repoId" : "_FsdY8IGYEe-g-KCc-OKfsQ",
     "parameterList" : [ {
+      "id" : "_c4DppOI_Ee-iAej3T0AmKA",
+      "name" : "fecha_ayer"
+    }, {
+      "id" : "_c4DppeI_Ee-iAej3T0AmKA",
+      "name" : "fecha_hoy"
+    }, {
       "id" : "_dEREILcSEe-jUKfZJLRVmA",
       "name" : "key_path"
     }, {
@@ -88,9 +97,6 @@
     }, {
       "id" : "_OGZlg7cMEe-C1ZVD7fpTHA",
       "name" : "snowflake_suffix"
-    }, {
-      "id" : "_yJWeFOjDEe-8Z4PjzpxETw",
-      "name" : "u2_nombre"
     } ]
   } ]
 }

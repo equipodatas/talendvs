@@ -108,6 +108,15 @@
     }, {
       "id" : "_vmWCs-PJEe-iAej3T0AmKA",
       "name" : "automatic_run"
+    }, {
+      "id" : "_rtl_s-SeEe-IhJb-aZSJoQ",
+      "name" : "r_telefono"
+    }, {
+      "id" : "_jPvfAufSEe-8Z4PjzpxETw",
+      "name" : "fecha_ayer_acumulado"
+    }, {
+      "id" : "_jPvfA-fSEe-8Z4PjzpxETw",
+      "name" : "fecha_hoy_acumulado"
     } ]
   } ]
 }
