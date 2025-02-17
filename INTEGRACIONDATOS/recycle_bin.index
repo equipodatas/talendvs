@@ -1,7 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
-  <deletedFolders>process/extraccion/inswitch/extraccion</deletedFolders>
-  <deletedFolders>process/extraccion/inswitch/extraccion/inswitch</deletedFolders>
-  <deletedFolders>process/reports/reports</deletedFolders>
   <deletedItems id="_xJ-j5tjtEe-2YOe7H7WRqg" path="" type="CONTEXT"/>
 </recyclebin:RecycleBin>
