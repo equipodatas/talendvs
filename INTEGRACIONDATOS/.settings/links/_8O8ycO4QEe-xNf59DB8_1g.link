@@ -1,5 +1,5 @@
 {
-  "itemId" : "_hhEhwNzREe-2YOe7H7WRqg",
+  "itemId" : "_8O8ycO4QEe-xNf59DB8_1g",
   "contextList" : [ {
     "contextName" : "dev_prod_db_reports",
     "repoId" : "_FsdY8IGYEe-g-KCc-OKfsQ",
@@ -7,8 +7,14 @@
       "id" : "_c4DCkuI_Ee-iAej3T0AmKA",
       "name" : "fecha_ayer"
     }, {
+      "id" : "_jPu38ufSEe-8Z4PjzpxETw",
+      "name" : "fecha_ayer_acumulado"
+    }, {
       "id" : "_c4DCk-I_Ee-iAej3T0AmKA",
       "name" : "fecha_hoy"
+    }, {
+      "id" : "_jPu38-fSEe-8Z4PjzpxETw",
+      "name" : "fecha_hoy_acumulado"
     }, {
       "id" : "_dEQdEbcSEe-jUKfZJLRVmA",
       "name" : "key_path"
@@ -48,9 +54,6 @@
     }, {
       "id" : "_OGZlb7cMEe-C1ZVD7fpTHA",
       "name" : "snowflake_suffix"
-    }, {
-      "id" : "_SQ0jEbfrEe-jUKfZJLRVmA",
-      "name" : "u_nombre"
     } ]
   }, {
     "contextName" : "prod_reports",
@@ -59,8 +62,14 @@
       "id" : "_c4DppOI_Ee-iAej3T0AmKA",
       "name" : "fecha_ayer"
     }, {
+      "id" : "_jPvfBOfSEe-8Z4PjzpxETw",
+      "name" : "fecha_ayer_acumulado"
+    }, {
       "id" : "_c4DppeI_Ee-iAej3T0AmKA",
       "name" : "fecha_hoy"
+    }, {
+      "id" : "_jPvfBefSEe-8Z4PjzpxETw",
+      "name" : "fecha_hoy_acumulado"
     }, {
       "id" : "_dEREILcSEe-jUKfZJLRVmA",
       "name" : "key_path"
@@ -100,9 +109,6 @@
     }, {
       "id" : "_OGZlg7cMEe-C1ZVD7fpTHA",
       "name" : "snowflake_suffix"
-    }, {
-      "id" : "_SQ0jFLfrEe-jUKfZJLRVmA",
-      "name" : "u_nombre"
     } ]
   } ]
 }
