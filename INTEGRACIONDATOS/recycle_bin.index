@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedFolders>process/extraccion/transacciones/extraccion</deletedFolders>
+  <deletedFolders>process/extraccion/transacciones/extraccion/transacciones</deletedFolders>
   <deletedItems id="_xJ-j5tjtEe-2YOe7H7WRqg" path="" type="CONTEXT"/>
+  <deletedItems id="_2XxiwO1XEe-tjN4Zz7dbwg" path="reports/diario" type="PROCESS"/>
   <deletedItems id="_8O8ycO4QEe-xNf59DB8_1g" path="reports/diario" type="PROCESS"/>
 </recyclebin:RecycleBin>

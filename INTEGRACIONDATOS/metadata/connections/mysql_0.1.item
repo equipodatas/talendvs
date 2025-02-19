@@ -4022,7 +4022,7 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_K7i-rV8eEe-n7NcGbrUC9Q" name="fecha_crea" label="fecha_crea" length="19" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;">
         <taggedValue xmi:id="_K7i-rl8eEe-n7NcGbrUC9Q" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_K7i-r18eEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_K7i-r18eEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_K7i-sF8eEe-n7NcGbrUC9Q" name="TIMESTAMP" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_K7i-sV8eEe-n7NcGbrUC9Q" name="usumodif_id" label="usumodif_id" length="10" sourceType="INT" talendType="id_Integer">
@@ -4032,7 +4032,7 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_K7i-tV8eEe-n7NcGbrUC9Q" name="estado" label="estado" length="2" precision="-1" sourceType="VARCHAR" talendType="id_String">
         <taggedValue xmi:id="_K7i-tl8eEe-n7NcGbrUC9Q" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_K7i-t18eEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_K7i-t18eEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_K7i-uF8eEe-n7NcGbrUC9Q" name="ENUM" numericPrecisionRadix="10" javaDataType="1" nullable="columnNullable"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_K7i-uV8eEe-n7NcGbrUC9Q" name="dispositivo" label="dispositivo" length="100" precision="-1" sourceType="VARCHAR" talendType="id_String">
@@ -4052,7 +4052,7 @@
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_K7i-xV8eEe-n7NcGbrUC9Q" name="fecha_modif" label="fecha_modif" length="19" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:MI:SS&quot;">
         <taggedValue xmi:id="_K7i-xl8eEe-n7NcGbrUC9Q" tag="Comment" value=""/>
-        <initialValue xsi:type="relational:TdExpression" xmi:id="_K7i-x18eEe-n7NcGbrUC9Q" body="" language="COLUMN_DEF"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_K7i-x18eEe-n7NcGbrUC9Q" language="COLUMN_DEF"/>
         <sqlDataType xmi:id="_K7i-yF8eEe-n7NcGbrUC9Q" name="TIMESTAMP" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
       </feature>
       <feature xsi:type="relational:TdColumn" xmi:id="_K7i-yV8eEe-n7NcGbrUC9Q" name="imagen" label="imagen" length="16777215" precision="-1" sourceType="VARCHAR" talendType="id_String">

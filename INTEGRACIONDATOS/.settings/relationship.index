@@ -91,6 +91,25 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_2XxiwO1XEe-tjN4Zz7dbwg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_2YExcLKCEe-C1ZVD7fpTHA",
     "version" : "0.1",
     "type" : "job"
@@ -1759,6 +1778,37 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_nXrxAO4CEe-Zuv9o6pbIrA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - jackpot_interno",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_jackpot",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuariojackpot_ganador",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_pc7w4K3FEe-cLrT_R9twmA",
     "version" : "0.1",
     "type" : "job"
@@ -1866,6 +1916,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_tiPiEO4_Ee-xNf59DB8_1g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_uzXigLKFEe-C1ZVD7fpTHA",
     "version" : "0.1",
     "type" : "job"
@@ -1950,6 +2015,10 @@
     "type" : "schema"
   }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_link",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_log",
     "version" : "Latest",
     "type" : "schema"
   }, {

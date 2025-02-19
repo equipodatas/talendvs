@@ -111,6 +111,15 @@
     }, {
       "id" : "_rtl_s-SeEe-IhJb-aZSJoQ",
       "name" : "r_telefono"
+    }, {
+      "id" : "_jPvfAufSEe-8Z4PjzpxETw",
+      "name" : "fecha_ayer_acumulado"
+    }, {
+      "id" : "_jPvfA-fSEe-8Z4PjzpxETw",
+      "name" : "fecha_hoy_acumulado"
+    }, {
+      "id" : "_yJWeE-jDEe-8Z4PjzpxETw",
+      "name" : "u2_nombre"
     } ]
   } ]
 }
