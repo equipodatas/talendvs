@@ -39,6 +39,10 @@
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_historial",
     "version" : "Latest",
     "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_log2",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -346,6 +350,10 @@
     "type" : "schema"
   }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_banco",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usucomision_resumen",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -1059,6 +1067,49 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_X__WoPBlEe-xNf59DB8_1g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - lealtad_detalle",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - lealtad_historial",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - lealtad_interna",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_lealtad",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_puntoslealtad",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_XrrOMLKFEe-C1ZVD7fpTHA",
     "version" : "0.1",
     "type" : "job"
@@ -1616,7 +1667,15 @@
     "version" : "Latest",
     "type" : "job"
   }, {
+    "id" : "INTEGRACIONDATOS:_X__WoPBlEe-xNf59DB8_1g",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
     "id" : "INTEGRACIONDATOS:__p2xsNy6Ee-2YOe7H7WRqg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "INTEGRACIONDATOS:_nXrxAO4CEe-Zuv9o6pbIrA",
     "version" : "Latest",
     "type" : "job"
   }, {
@@ -1794,18 +1853,6 @@
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw",
     "version" : "Latest",
     "type" : "property"
-  }, {
-    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - jackpot_interno",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_jackpot",
-    "version" : "Latest",
-    "type" : "schema"
-  }, {
-    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuariojackpot_ganador",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -2014,6 +2061,10 @@
     "version" : "Latest",
     "type" : "schema"
   }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_configuracion",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_link",
     "version" : "Latest",
     "type" : "schema"
@@ -2022,11 +2073,19 @@
     "version" : "Latest",
     "type" : "schema"
   }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_log2",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_otrainfo",
     "version" : "Latest",
     "type" : "schema"
   }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_perfil",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_saldoresumen",
     "version" : "Latest",
     "type" : "schema"
   } ]
