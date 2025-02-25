@@ -36,11 +36,11 @@
     "version" : "Latest",
     "type" : "property"
   }, {
-    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_historial",
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - flujo_caja",
     "version" : "Latest",
     "type" : "schema"
   }, {
-    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_log2",
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - usuario_historial",
     "version" : "Latest",
     "type" : "schema"
   } ]
@@ -314,6 +314,10 @@
     "type" : "schema"
   }, {
     "id" : "_f5PEUFWlEe-a7_fdZKdpLw - departamento",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_f5PEUFWlEe-a7_fdZKdpLw - flujo_caja",
     "version" : "Latest",
     "type" : "schema"
   }, {
@@ -1206,6 +1210,25 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_a3gDMPK-Ee-xNf59DB8_1g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_aGpNUI--Ee-jN6Ic0WJqrw",
     "version" : "0.1",
     "type" : "job"
@@ -1808,6 +1831,21 @@
 }, {
   "baseItem" : {
     "id" : "_mkFS4OMXEe-iAej3T0AmKA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FsdY8IGYEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_9BfCUIGWEe-g-KCc-OKfsQ",
+    "version" : "Latest",
+    "type" : "property"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_nD4-YPL8Ee-xNf59DB8_1g",
     "version" : "0.1",
     "type" : "job"
   },

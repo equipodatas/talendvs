@@ -5,6 +5,10 @@
   <deletedFolders>process/extraccion/transacciones/extraccion</deletedFolders>
   <deletedFolders>process/extraccion/transacciones/extraccion/transacciones</deletedFolders>
   <deletedItems id="_xJ-j5tjtEe-2YOe7H7WRqg" path="" type="CONTEXT"/>
+  <deletedItems id="_8yAjYJ1XEe-d3LwU08hE-w" path="extraccion" type="PROCESS"/>
+  <deletedItems id="_aoqZcGinEe-V8JDPo_SJTA" path="extraccion" type="PROCESS"/>
+  <deletedItems id="_k_vhILydEe-2dfkGHxnlvg" path="extraccion" type="PROCESS"/>
+  <deletedItems id="_y6NakLY_Ee-C1ZVD7fpTHA" path="extraccion" type="PROCESS"/>
   <deletedItems id="_2XxiwO1XEe-tjN4Zz7dbwg" path="reports/diario" type="PROCESS"/>
   <deletedItems id="_8O8ycO4QEe-xNf59DB8_1g" path="reports/diario" type="PROCESS"/>
 </recyclebin:RecycleBin>
