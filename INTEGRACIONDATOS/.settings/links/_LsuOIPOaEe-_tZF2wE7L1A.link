@@ -1,0 +1,70 @@
+{
+  "itemId" : "_LsuOIPOaEe-_tZF2wE7L1A",
+  "contextList" : [ {
+    "contextName" : "prod",
+    "repoId" : "_-Xpa4PPPEe-ZY5xxnltYYQ",
+    "parameterList" : [ {
+      "id" : "_-X9j-_PPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_AdditionalParams"
+    }, {
+      "id" : "_-X9j-PPPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_Database"
+    }, {
+      "id" : "_-X9j_PPPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_Login"
+    }, {
+      "id" : "_-X9j-vPPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_Password"
+    }, {
+      "id" : "_-X9j-fPPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_Port"
+    }, {
+      "id" : "_-X9j_fPPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_Server"
+    } ]
+  }, {
+    "contextName" : "dev_prod_db",
+    "repoId" : "_-Xpa4PPPEe-ZY5xxnltYYQ",
+    "parameterList" : [ {
+      "id" : "_-X9j-_PPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_AdditionalParams"
+    }, {
+      "id" : "_-X9j-PPPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_Database"
+    }, {
+      "id" : "_-X9j_PPPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_Login"
+    }, {
+      "id" : "_-X9j-vPPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_Password"
+    }, {
+      "id" : "_-X9j-fPPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_Port"
+    }, {
+      "id" : "_-X9j_fPPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_Server"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_-Xpa4PPPEe-ZY5xxnltYYQ",
+    "parameterList" : [ {
+      "id" : "_-X9j9PPPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_AdditionalParams"
+    }, {
+      "id" : "_-X9j8fPPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_Database"
+    }, {
+      "id" : "_-X9j9fPPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_Login"
+    }, {
+      "id" : "_-X9j8_PPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_Password"
+    }, {
+      "id" : "_-X9j8vPPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_Port"
+    }, {
+      "id" : "_-X9j9vPPEe-ZY5xxnltYYQ",
+      "name" : "casino_dev_bidatos_Server"
+    } ]
+  } ]
+}

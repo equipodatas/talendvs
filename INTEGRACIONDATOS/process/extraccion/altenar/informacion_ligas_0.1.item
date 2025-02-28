@@ -101,16 +101,8 @@
   </parameters>
   <node componentName="tRabbitMQConnection" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="600" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRabbitMQConnection_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tRabbitMQConnection" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="cmFiYml0bXEjUmFiYml0TVEjSW5wdXQConnection" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="1" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="RabbitMQ" show="false"/>
-    <elementParameter field="CHECK" name="START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="HELP" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
@@ -122,14 +114,51 @@
     <elementParameter field="CHECK" name="configuration.useVirtualHost" value="true"/>
     <elementParameter field="TEXT" name="configuration.virtualHost" value="/Virtualsoft"/>
     <elementParameter field="TECHNICAL" name="configuration.__version" value="-1" show="false"/>
-    <elementParameter field="TEXT" name="___TACOKIT_COMPONENT_PLUGIN_NAME___" value="rabbitmq" show="false"/>
     <metadata connector="FLOW" name="tRabbitMQConnection_1"/>
+    <metadata connector="LOOKUP" name="LOOKUP"/>
+    <metadata connector="MERGE" name="MERGE"/>
+    <metadata connector="REJECT" name="REJECT"/>
+  </node>
+  <node componentName="tRabbitMQConnection" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="920" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRabbitMQConnection_2" show="false"/>
+    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tRabbitMQConnection" show="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="cmFiYml0bXEjUmFiYml0TVEjSW5wdXQConnection" show="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_METADATA_TYPE_ID" value="cmFiYml0bXEjUmFiYml0TVEjZGF0YXN0b3JlI1JhYmJpdE1RQ29ubmVjdGlvbg" show="false"/>
+    <elementParameter field="TEXT" name="VERSION" value="1" show="false"/>
+    <elementParameter field="TEXT" name="FAMILY" value="RabbitMQ" show="false"/>
+    <elementParameter field="CHECK" name="START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
+    <elementParameter field="CHECK" name="END_OF_FLOW" value="true" show="false"/>
+    <elementParameter field="TEXT" name="HELP" value="HELP" show="false"/>
+    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_Kk4YQPSKEe-Igef3Y_GRsA"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TEXT" name="LABEL" value="s"/>
+    <elementParameter field="TEXT" name="configuration.hostname" value="&quot;sb-export-altenar2-stage.biahosted.com&quot;"/>
+    <elementParameter field="TEXT" name="configuration.port" value="5671"/>
+    <elementParameter field="TEXT" name="configuration.userName" value="&quot;virtualsoft&quot;"/>
+    <elementParameter field="PASSWORD" name="configuration.password" value="enc:system.encryption.key.v1:bERoufjZXZPQZv/mv6CbIDbrFWh0mpEaNmF/EiK+eukxWhPL1/XcYwxXO5nYDQ=="/>
+    <elementParameter field="CHECK" name="configuration.tls" value="false"/>
+    <elementParameter field="CHECK" name="configuration.useVirtualHost" value="true"/>
+    <elementParameter field="TEXT" name="configuration.virtualHost" value="&quot;/Virtualsoft&quot;"/>
+    <elementParameter field="TECHNICAL" name="configuration.__version" value="-1" show="false"/>
+    <elementParameter field="TEXT" name="___TACOKIT_COMPONENT_PLUGIN_NAME___" value="rabbitmq" show="false"/>
+    <metadata connector="FLOW" name="tRabbitMQConnection_2"/>
     <metadata connector="LOOKUP" name="LOOKUP"/>
     <metadata connector="MERGE" name="MERGE"/>
     <metadata connector="REJECT" name="REJECT"/>
   </node>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRabbitMQConnection_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRabbitMQConnection_2" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>

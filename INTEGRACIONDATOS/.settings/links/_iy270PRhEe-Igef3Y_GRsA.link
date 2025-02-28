@@ -1,14 +1,17 @@
 {
-  "itemId" : "_PSJDsNTwEe-VuNWOYT2j0A",
+  "itemId" : "_iy270PRhEe-Igef3Y_GRsA",
   "contextList" : [ {
     "contextName" : "dev_prod_db_reports",
     "repoId" : "_FsdY8IGYEe-g-KCc-OKfsQ",
     "parameterList" : [ {
-      "id" : "_lAp6lNUcEe-VuNWOYT2j0A",
-      "name" : "end_week"
+      "id" : "_c4DCkuI_Ee-iAej3T0AmKA",
+      "name" : "fecha_ayer"
     }, {
-      "id" : "_lAp6ldUcEe-VuNWOYT2j0A",
-      "name" : "month"
+      "id" : "_c4DCk-I_Ee-iAej3T0AmKA",
+      "name" : "fecha_hoy"
+    }, {
+      "id" : "_OGZlc7cMEe-C1ZVD7fpTHA",
+      "name" : "path"
     }, {
       "id" : "_OGZlZ7cMEe-C1ZVD7fpTHA",
       "name" : "snowflake_connection_account"
@@ -42,19 +45,19 @@
     }, {
       "id" : "_OGZlb7cMEe-C1ZVD7fpTHA",
       "name" : "snowflake_suffix"
-    }, {
-      "id" : "_lAp6k9UcEe-VuNWOYT2j0A",
-      "name" : "start_week"
     } ]
   }, {
     "contextName" : "prod_reports",
     "repoId" : "_FsdY8IGYEe-g-KCc-OKfsQ",
     "parameterList" : [ {
-      "id" : "_lAp6ndUcEe-VuNWOYT2j0A",
-      "name" : "end_week"
+      "id" : "_c4DppOI_Ee-iAej3T0AmKA",
+      "name" : "fecha_ayer"
     }, {
-      "id" : "_lAp6ntUcEe-VuNWOYT2j0A",
-      "name" : "month"
+      "id" : "_c4DppeI_Ee-iAej3T0AmKA",
+      "name" : "fecha_hoy"
+    }, {
+      "id" : "_OGZlh7cMEe-C1ZVD7fpTHA",
+      "name" : "path"
     }, {
       "id" : "_OGZle7cMEe-C1ZVD7fpTHA",
       "name" : "snowflake_connection_account"
@@ -88,9 +91,6 @@
     }, {
       "id" : "_OGZlg7cMEe-C1ZVD7fpTHA",
       "name" : "snowflake_suffix"
-    }, {
-      "id" : "_lAp6nNUcEe-VuNWOYT2j0A",
-      "name" : "start_week"
     } ]
   } ]
 }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_-X9j8PPPEe-ZY5xxnltYYQ" confirmationNeeded="false" hide="false" name="dev">
+    <contextParameter xmi:id="_-X9j8fPPEe-ZY5xxnltYYQ" comment="" name="casino_dev_bidatos_Database" prompt="casino_dev_bidatos_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="casino"/>
+    <contextParameter xmi:id="_-X9j8vPPEe-ZY5xxnltYYQ" comment="" name="casino_dev_bidatos_Port" prompt="casino_dev_bidatos_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3305"/>
+    <contextParameter xmi:id="_-X9j8_PPEe-ZY5xxnltYYQ" comment="" name="casino_dev_bidatos_Password" prompt="casino_dev_bidatos_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:tC1UJHiDOTKI/GD8Tan0QOgJyZ1WiW2iK6X+UWZB7XKdFfWBQViiNlJSSSzJmMWgqKJIyg=="/>
+    <contextParameter xmi:id="_-X9j9PPPEe-ZY5xxnltYYQ" comment="" name="casino_dev_bidatos_AdditionalParams" prompt="casino_dev_bidatos_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter xmi:id="_-X9j9fPPEe-ZY5xxnltYYQ" comment="" name="casino_dev_bidatos_Login" prompt="casino_dev_bidatos_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="bidatos"/>
+    <contextParameter xmi:id="_-X9j9vPPEe-ZY5xxnltYYQ" comment="" name="casino_dev_bidatos_Server" prompt="casino_dev_bidatos_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="157.230.185.225"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_-X9j9_PPEe-ZY5xxnltYYQ" confirmationNeeded="false" hide="false" name="prod">
+    <contextParameter xmi:id="_-X9j-PPPEe-ZY5xxnltYYQ" comment="" name="casino_dev_bidatos_Database" prompt="casino_dev_bidatos_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="casino"/>
+    <contextParameter xmi:id="_-X9j-fPPEe-ZY5xxnltYYQ" comment="" name="casino_dev_bidatos_Port" prompt="casino_dev_bidatos_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_-X9j-vPPEe-ZY5xxnltYYQ" comment="" name="casino_dev_bidatos_Password" prompt="casino_dev_bidatos_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:Dc1rTsx5K1qBUZaEm0sdb663cDYKqHcjAcALw6RlNP7bMAEjIhQ09Hjza4DjfEZ0SECT"/>
+    <contextParameter xmi:id="_-X9j-_PPEe-ZY5xxnltYYQ" comment="" name="casino_dev_bidatos_AdditionalParams" prompt="casino_dev_bidatos_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter xmi:id="_-X9j_PPPEe-ZY5xxnltYYQ" comment="" name="casino_dev_bidatos_Login" prompt="casino_dev_bidatos_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="bidatos"/>
+    <contextParameter xmi:id="_-X9j_fPPEe-ZY5xxnltYYQ" comment="" name="casino_dev_bidatos_Server" prompt="casino_dev_bidatos_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="157.230.185.225"/>
+  </talendfile:ContextType>
+</xmi:XMI>
