@@ -7,7 +7,7 @@
     <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="192.168.69.64" internalId="_tsV_4-jGEe-_6OwSmnvIUA"/>
     <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:yZhf26W7/OCRpcjwXP3QofUx2PEwiJh1UJCZ6CC4Dsk95aq7vtWATGvdye1uupdxVqG5NQ==" internalId="_tsV_5OjGEe-_6OwSmnvIUA"/>
     <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_tsV_5ejGEe-_6OwSmnvIUA"/>
-    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="/home/talend/reports" internalId="_tsV_5ujGEe-_6OwSmnvIUA"/>
+    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="/home/talend/reports/tmp/" internalId="_tsV_5ujGEe-_6OwSmnvIUA"/>
     <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="talend" internalId="_oZ0yYOk_Ee-_6OwSmnvIUA"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="dev_prod_db">
@@ -17,7 +17,7 @@
     <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="129.213.202.204" internalId="_tsV_6ujGEe-_6OwSmnvIUA"/>
     <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:oRD+rFe3RNmSkbdXm8T5c3VgnXnqWsaLSgxRBW09J+JaGmvHg+APgFGgQls=" internalId="_tsWm8OjGEe-_6OwSmnvIUA"/>
     <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_tsWm8ejGEe-_6OwSmnvIUA"/>
-    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="C:\\Users\\Juan Pablo\\Downloads\\talend\\" internalId="_tsWm8ujGEe-_6OwSmnvIUA"/>
+    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="C:\\Users\\talend\\" internalId="_tsWm8ujGEe-_6OwSmnvIUA"/>
     <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="vsjuanp" internalId="_oZ0yYek_Ee-_6OwSmnvIUA"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="dev_test_db">
@@ -37,7 +37,7 @@
     <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="192.168.69.64" internalId="_tsWm_ejGEe-_6OwSmnvIUA"/>
     <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:1bsJb5Bk9Rm0SfejsnXgEZlFUHum+qW6R97p9CT8bYUP10sT4t8QymurCVCRtbWyMFV3vQ==" internalId="_tsWm_ujGEe-_6OwSmnvIUA"/>
     <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_tsWm_-jGEe-_6OwSmnvIUA"/>
-    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="/home/talend/reports/" internalId="_tsWnAOjGEe-_6OwSmnvIUA"/>
+    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="/home/talend/reports/tmp/" internalId="_tsWnAOjGEe-_6OwSmnvIUA"/>
     <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="talend" internalId="_oZ2AgOk_Ee-_6OwSmnvIUA"/>
   </context>
   <parameters>
@@ -395,7 +395,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="47;47;47"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;255;255"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="47;47;47"/>
@@ -406,7 +406,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="47;47;47"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;255;255"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="47;47;47"/>
