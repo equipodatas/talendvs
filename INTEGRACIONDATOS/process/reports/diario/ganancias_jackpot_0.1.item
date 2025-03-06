@@ -17,7 +17,7 @@
     <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="129.213.202.204" internalId="_tsV_6ujGEe-_6OwSmnvIUA"/>
     <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:oRD+rFe3RNmSkbdXm8T5c3VgnXnqWsaLSgxRBW09J+JaGmvHg+APgFGgQls=" internalId="_tsWm8OjGEe-_6OwSmnvIUA"/>
     <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_tsWm8ejGEe-_6OwSmnvIUA"/>
-    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="C:\\Users\\talend\\" internalId="_tsWm8ujGEe-_6OwSmnvIUA"/>
+    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="C:\talend\" internalId="_tsWm8ujGEe-_6OwSmnvIUA"/>
     <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="vsjuanp" internalId="_oZ0yYek_Ee-_6OwSmnvIUA"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="dev_test_db">
@@ -27,7 +27,7 @@
     <contextParameter comment="" name="mysql_prod_host" prompt="mysql_prod_host?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="129.213.202.204" internalId="_tsWm9ujGEe-_6OwSmnvIUA"/>
     <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:hiJ0oYraS0jMy0EtJ1ktKt7wF4ZZJUTu0HLscRdYSRHAqAiQwqv1+io7MEY=" internalId="_tsWm9-jGEe-_6OwSmnvIUA"/>
     <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_tsWm-OjGEe-_6OwSmnvIUA"/>
-    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="C:\\Users\\Juan Pablo\\Downloads\\talend\\" internalId="_tsWm-ejGEe-_6OwSmnvIUA"/>
+    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="C:\talend\" internalId="_tsWm-ejGEe-_6OwSmnvIUA"/>
     <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="vsjuanp" internalId="_oZ0yYuk_Ee-_6OwSmnvIUA"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="prod_reports">

@@ -13,7 +13,7 @@
     <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:jHq7PHuEOv/vEnJOnJA5Fp8FrR89WYPpcaVAFl0YWFl5p7vTF/UEr/PMukY=" internalId="_Z5yCWd5oEe-h2M66THFW5w"/>
     <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_Z5yCWt5oEe-h2M66THFW5w"/>
     <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="vsjuanp" internalId="_Z5yCW95oEe-h2M66THFW5w"/>
-    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="C:\\Users\\talend\\" internalId="_Z5yCXN5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="C:\talend\" internalId="_Z5yCXN5oEe-h2M66THFW5w"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="prod">
     <contextParameter comment="" name="apipython_AdditionalParams" prompt="apipython_AdditionalParams?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true" internalId="_Z5yCXd5oEe-h2M66THFW5w"/>
@@ -43,7 +43,7 @@
     <contextParameter comment="" name="mysql_prod_password" prompt="mysql_prod_password?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Password" value="enc:system.encryption.key.v1:ytfR5+kKW5MiGu4PCQk5tTdz4j5lbmIN828lGEnA9iBPPnAZM++CDlXf0Bk=" internalId="_Z5yCc95oEe-h2M66THFW5w"/>
     <contextParameter comment="" name="mysql_prod_port" prompt="mysql_prod_port?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_Integer" value="3306" internalId="_Z5yCdN5oEe-h2M66THFW5w"/>
     <contextParameter comment="" name="mysql_prod_user" prompt="mysql_prod_user?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="vsjuanp" internalId="_Z5yCdd5oEe-h2M66THFW5w"/>
-    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="C:\\Users\\talend\\" internalId="_Z5yCdt5oEe-h2M66THFW5w"/>
+    <contextParameter comment="" name="path" prompt="path?" promptNeeded="false" repositoryContextId="_FsdY8IGYEe-g-KCc-OKfsQ" type="id_String" value="C:\talend\" internalId="_Z5yCdt5oEe-h2M66THFW5w"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="prod_reports">
     <contextParameter comment="" name="apipython_AdditionalParams" prompt="apipython_AdditionalParams?" promptNeeded="false" repositoryContextId="_viddELNJEe-C1ZVD7fpTHA" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&amp;allowMultiQueries=true" internalId="_Z5yCd95oEe-h2M66THFW5w"/>
